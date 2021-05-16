@@ -1,0 +1,206 @@
+\documentclass[11pt]{book}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{tikz}
+\usepackage{physics}
+
+%%
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\usepgflibrary{shapes.geometric}
+\usetikzlibrary{calc}
+
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}, axis equal }}
+\pgfplotsset{my style-2/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}}}
+
+
+\usetikzlibrary{arrows, circuits.ee.IEC, positioning}
+\usepackage[american voltages, american currents,siunitx]{circuitikz}
+
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\usepackage[english]{babel}
+\usepackage[protrusion=true,expansion=true]{microtype}  
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\tcbuselibrary{theorems}
+\newtcbtheorem
+  []% init options
+  {definition}% name
+  {Definition}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {def}% prefix
+
+\newtcbtheorem
+  []% init options
+  {lemma}% name
+  {Lemma}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {lem}% prefix
+
+\newtcbtheorem
+  []% init options
+  {theorem}% name
+  {Theorem}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {thm}% prefix
+
+\newtcbtheorem
+  []% init options
+  {solution}% name
+  {Solution}% title
+  {%
+    colback=magenta!5,
+    colframe=magenta!150,
+    fonttitle=\bfseries,
+  }% options
+  {not}% prefix
+
+\newtcbtheorem
+  []% init options
+  {example}% name
+  {Example}% title
+  {%
+    colback=red!5,
+    colframe=red!100,
+    fonttitle=\bfseries,
+  }% options
+  {exm}% prefix
+
+
+\newtcbtheorem
+  []% init options
+  {algorithm}% name
+  {Algorithm} %title
+  {%
+    colback=blue!5,
+    colframe=blue!100,
+    fonttitle=\bfseries,
+  }% options
+  {alg}% prefix
+
+\newtcbtheorem
+  []% init options
+  {properties}% name
+  {Properties}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {pro}% prefix
+
+
+
+% Sets
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\F}{\ensuremath{\mathbb{F}}}
+\newcommand{\Mnn}{\ensuremath{M_{n \times n}}}
+\newcommand{\sym}{\mathbin{\triangle}}
+\newcommand{\stcomp}[1]{{#1}^\complement}
+
+% Operators
+\newcommand{\Rarr}{\Rightarrow}
+\newcommand{\Larr}{\Leftarrow}
+\newcommand{\Harr}{\Leftrightarrow}
+\newcommand{\harr}{\leftrightarrow}
+\newcommand{\dyx}{\dv{y}{x}}
+
+% Linear Algebra
+\newcommand{\vui}{\mathbf{\hat{\textnormal{\bfseries\i}}}}
+\newcommand{\vuj}{\mathbf{\hat{\textnormal{\bfseries\j}}}}
+\newcommand{\xto}{\xrightarrow} % \xto{R_1 \harr R_2}
+\newcommand{\cbm}[2]{\ensuremath{{}_{#1}[I]{}_{#2}}} % change of basis matrix
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\Perp}{Perp}
+\DeclareMathOperator{\Span}{Span}
+\DeclareMathOperator{\Col}{Col}
+\DeclareMathOperator{\adj}{adj}
+
+\newcommand{\QType}{Q}
+\newcounter{question}[subsection]
+\renewcommand{\thequestion}{\QType\ifnum\value{question}<10 0\fi\arabic{question}}
+\newcommand{\question}{\par\refstepcounter{question}\textbf{\thequestion}.\space}
+
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+A binary string $a_1\cdots a_n$ is a palindrome if it reads equivalently forward as backward, or in other words,
+$$a_n\cdots a_1 = a_1\cdots a_n$$
+We consider $\epsilon$ to be a palindrome. Let the $S$ be the set of all binary strings that are plaindromes. 
+\begin{enumerate}
+\item Find a formula for the number of $n$ length binary strings in the set $S$ with proof.
+\item Let $\omega(a_1\cdots a_n) = \sum_{i = 1}^n(a_i + 1)$. Let $H$ be the set of strings in $S$ with even length. Determine $\Phi_H(x)$ with repsect to $\omega$
+
+\end{enumerate}
+
+\textbf{\underline{Solution:}}
+\begin{enumerate}
+\item Let $T$ be the set of all length $\lceil n / 2 \rceil$ binary strings. Let $S_n$ be the set of all length $n$ binary strings. We claim a bijection $T \rightleftharpoons S_n$. Let $f \colon T \rightarrow S_n$ be a function by letting $\alpha = b_1\cdots b_{\lceil n / 2 \rceil} \in T$, be mapped to 
+
+$$f(\alpha) = b_1\cdots b_{\lfloor n / 2 \rfloor}b_{\lceil n / 2 \rceil}b_{\lfloor n / 2 \rfloor}b_{\lfloor n / 2 \rfloor - 1}\cdots b_1$$
+
+Clearly $l(f(\alpha)) = \lceil n / 2 \rceil + \lfloor n / 2 \rfloor = n$. Additionally, we observe that $f(\alpha)$ reads equivalently forward as backward and hence $f(\alpha) \in S_n$. Let $\gamma = b_1\cdots b_n \in S_n$, the we choose $\beta = b_1\cdots b_{\lceil n / 2 \rceil} \in T$ to construct the map $f(\beta) = \gamma$, hence $f$ is surjective. If $f(\gamma) = f(\beta)$ for $\gamma = a_1\cdots a_{\lceil n / 2}, \beta = b_1\cdots b_{\lceil n / 2 \rceil} \in T$, then $a_1\cdots a_n = b_1 \cdots b_n$, since two strings are equal if and only if each bit is equal, we have that $a_1\cdots a_{\lceil n / 2 \rceil} = b_1\cdots b_{\lceil n / 2 \rceil}$, which implies that $\gamma  = \beta$, hence $f$ is injective. Since $f$ is both sujrective and injective, we conclude that there exists a bijection between $S_n$ and $T$, and hence $|T| = |S_n| = 2^{\lceil n / 2 \rceil}$
+\item \begin{align*}
+\sum_{\alpha \in H}x^{\omega(\alpha)} &= \sum_{k \geq 0}\sum_{\beta\in T} x^{\left(2\sum_{i = 1}^k (b_i + 1)\right)}\\
+&= \sum_{k \geq 0}\sum_{\beta \in T}x^{\left(2(b_1 + 1 + \dots + b_k + 1) \right)}\\
+&= \sum_{k \geq 0}\sum_{\beta \in T}x^{2(b_1 + 1) + \dots + 2(b_k + 1)}\\
+&= \sum_{k \geq 0}\sum_{b_1 = 0}^1x^{2(b_1 + 1)}\sum_{b_2 = 0}^1x^{2(b_2 + 1)} \cdots  \sum_{b_k = 0}^1x^{2(b_k + 1)}\\
+&= \sum_{k \geq 0}\sum_{b_1 = 0}^1x^{2(b_1 + 1)}\sum_{b_2 = 0}^1x^{2(b_2 + 1)} \cdots  \sum_{b_k = 0}^1x^{2(b_k + 1)} \\
+&= \sum_{k \geq 0}\left(\sum_{b = 0}^1x^{2(b + 1)} \right)^k\\
+&= \sum_{k \geq 0}(x^2 + x^4)^k\\
+&= \frac{1}{1 - x^2 - x^4}
+\end{align*}
+
+\end{enumerate}
+\end{document}
