@@ -19,79 +19,39 @@ res += to_string(*e, coords...); l_v_l_v_l--; } res += "]"; if(l_v_l_v_l == 0) r
 typename... Tails> void dbgm(Heads H, Tails... T){ cout << to_string(H) << " | "; dbgm(T...); } 
 #define dbgm(...) cout << "[" << #__VA_ARGS__ << "]: "; dbgm(__VA_ARGS__); cout << endl
 
-void prims_algorithm(int n, vector<int> vertices, map<int, pair<int, int> > edges){
-		
-	vector<int> vertices_mintree(n);
-	vector< pair<int, int> > edges_mintree;
+void prims_algorithm(int n, vector<int> vertices, map<int, pair<int, int> > edges, set<int> *V_T, vector< pair<int, int> > *E_T){
 	
-	int min_sum = 0;
-	vector<int> induced;
-	induced.push_back(vertices[0]);
+	V_T->insert(vertices[0]);
 
-	while(true){
+	while(V_T->size() != n){
 		int least_weight = INT_MAX;
 		pair<int, int> least_edge;
 		int least_vertex;
 		vector<int> cut;
 
-		for(auto curr : edges){
-			for(auto vertex : induced){
-				if(curr.second.first == vertex && curr.second.second != vertex){
-					if(curr.first <= least_weight){
-						least_edge = curr.second;
-						least_weight = curr.first;
-						least_vertex = curr.second.first;
-						cut.push_back(curr.second.first);
-					}
-				} else if(curr.second.first != vertex && curr.second.second == vertex){
-					if(curr.first <= least_weight){
-						least_edge = curr.second;
-						least_weight = curr.first;
-						least_vertex = curr.second.first;
-						cut.push_back(curr.second.second);
-					
-					}
+		for(auto e : edges){
+			if(V_T->count(e.second.first) == 1 && V_T->count(e.second.second) == 0){
+				if(e.first <= least_weight){
+					least_weight = e.first;
+					least_edge = e.second;
+					least_vertex = e.second.second;
 				}
-
-
+			} else if(V_T->count(e.second.second) == 1 && V_T->count(e.second.first) == 0){
+				if(e.first <= least_weight){
+					least_weight = e.first;
+					least_edge = e.second;
+					least_vertex = e.second.first;
+				}
 			}
 		}
 
-		if(cut.empty()) break;
-		else{
-			vertices_mintree.push_back(least_vertex);
-			edges_mintree.push_back(least_edge);
-		}
+		V_T->insert(least_vertex);
+		E_T->push_back(least_edge);
 	}
-
-		for(auto x : vertices_mintree){
-			cout << x <<  " ";
-		}
-		for(auto x : edges_mintree){
-			cout << x.first << " " << x.second << endl;
-		}
-
 
 
 
 }
 
-
-
-int main(){
-	int n;
-	cin >> n;
-	vector<int> v;
-	for(int i = 0 ; i < n; i++){
-		int x;
-		cin >> x;
-		v.push_back(x);
-	}
-
-	map<int, pair<int, int> > edges;
-	
-
-
-}
 
 
