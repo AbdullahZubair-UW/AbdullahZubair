@@ -24,29 +24,28 @@ void prims_algorithm(int n, vector<int> vertices, map<int, pair<int, int> > edge
 	V_T->insert(vertices[0]);
 
 	while(V_T->size() != n){
-		int least_weight = INT_MAX;
-		pair<int, int> least_edge;
+		pair<int, pair<int, int> >least_edge;
+		least_edge.first = INT_MAX;
 		int least_vertex;
-		vector<int> cut;
 
 		for(auto e : edges){
 			if(V_T->count(e.second.first) == 1 && V_T->count(e.second.second) == 0){
-				if(e.first <= least_weight){
-					least_weight = e.first;
-					least_edge = e.second;
+				if(e.first <= least_edge.first){
+					least_edge.first = e.first;
+					least_edge.second = e.second;
 					least_vertex = e.second.second;
 				}
 			} else if(V_T->count(e.second.second) == 1 && V_T->count(e.second.first) == 0){
-				if(e.first <= least_weight){
-					least_weight = e.first;
-					least_edge = e.second;
+				if(e.first <= least_edge.first){
+					least_edge.first = e.first;
+					least_edge.second = e.second;
 					least_vertex = e.second.first;
 				}
 			}
 		}
 
 		V_T->insert(least_vertex);
-		E_T->push_back(least_edge);
+		E_T->push_back(least_edge.second);
 	}
 
 
