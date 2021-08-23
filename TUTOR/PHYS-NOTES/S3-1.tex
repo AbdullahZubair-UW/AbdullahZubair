@@ -345,8 +345,6 @@ Since we consider motion in a single direction, the average speed and the averag
 \subsection{Being fluent in proofs}
 I want to stress the importance of being fluent in proofs. Although this is rather mathematical, much of the concepts we will come across in physics are described mathematically and understanding them at a mathematical level will enable us to comprehend the material that much better, this is especially important for higher level physics and is why many mathematicians can grasp higher level physics that much easier. Now being able to prove your proposition not only demonstrates your understanding of such a concept, but allows you to unveil alternative observations that may be of use.
 
-Is this commited?
-
 
 
 \subsection{Types of motion from Position V. Time Plots}
@@ -431,6 +429,16 @@ In this course we will encounter common types of motion and hence it would be us
             ->
         ]
         {2*x};
+
+		\addplot[
+		domain=2:5,
+		thick,
+		blue,
+		dashdotted,
+		]
+		{4};
+
+		\draw [dashed, blue, thick] (2,0) -- (2,4);
     
         \fill[
             black
@@ -470,13 +478,6 @@ In this course we will encounter common types of motion and hence it would be us
 		]
 		{4};
 
-		\addplot[
-		domain=0:3,
-		thick,
-		blue,
-		dashdotted,
-		]
-		{4};
 		
 		\draw [dashed, blue, thick] (3,0) -- (3,4);
     
