@@ -1,0 +1,186 @@
+\documentclass[11pt]{book}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{tikz}
+\usepackage{physics}
+
+%%
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\usepgflibrary{shapes.geometric}
+\usetikzlibrary{calc}
+
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}, axis equal }}
+\pgfplotsset{my style-2/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}}}
+
+
+\usetikzlibrary{arrows, circuits.ee.IEC, positioning}
+\usepackage[american voltages, american currents,siunitx]{circuitikz}
+
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\usepackage[english]{babel}
+\usepackage[protrusion=true,expansion=true]{microtype}  
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\tcbuselibrary{theorems}
+\newtcbtheorem
+  []% init options
+  {definition}% name
+  {Definition}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {def}% prefix
+
+\newtcbtheorem
+  []% init options
+  {lemma}% name
+  {Lemma}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {lem}% prefix
+
+\newtcbtheorem
+  []% init options
+  {theorem}% name
+  {Theorem}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {thm}% prefix
+
+\newtcbtheorem
+  []% init options
+  {solution}% name
+  {Solution}% title
+  {%
+    colback=magenta!5,
+    colframe=magenta!150,
+    fonttitle=\bfseries,
+  }% options
+  {not}% prefix
+
+\newtcbtheorem
+  []% init options
+  {example}% name
+  {Example}% title
+  {%
+    colback=red!5,
+    colframe=red!100,
+    fonttitle=\bfseries,
+  }% options
+  {exm}% prefix
+
+
+\newtcbtheorem
+  []% init options
+  {algorithm}% name
+  {Algorithm} %title
+  {%
+    colback=blue!5,
+    colframe=blue!100,
+    fonttitle=\bfseries,
+  }% options
+  {alg}% prefix
+
+\newtcbtheorem
+  []% init options
+  {properties}% name
+  {Properties}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {pro}% prefix
+
+
+
+% Sets
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\F}{\ensuremath{\mathbb{F}}}
+\newcommand{\Mnn}{\ensuremath{M_{n \times n}}}
+\newcommand{\sym}{\mathbin{\triangle}}
+\newcommand{\stcomp}[1]{{#1}^\complement}
+
+% Operators
+\newcommand{\Rarr}{\Rightarrow}
+\newcommand{\Larr}{\Leftarrow}
+\newcommand{\Harr}{\Leftrightarrow}
+\newcommand{\harr}{\leftrightarrow}
+\newcommand{\dyx}{\dv{y}{x}}
+
+% Linear Algebra
+\newcommand{\vui}{\mathbf{\hat{\textnormal{\bfseries\i}}}}
+\newcommand{\vuj}{\mathbf{\hat{\textnormal{\bfseries\j}}}}
+\newcommand{\xto}{\xrightarrow} % \xto{R_1 \harr R_2}
+\newcommand{\cbm}[2]{\ensuremath{{}_{#1}[I]{}_{#2}}} % change of basis matrix
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\Perp}{Perp}
+\DeclareMathOperator{\Span}{Span}
+\DeclareMathOperator{\Col}{Col}
+\DeclareMathOperator{\adj}{adj}
+
+\newcommand{\QType}{Q}
+\newcounter{question}[subsection]
+\renewcommand{\thequestion}{\QType\ifnum\value{question}<10 0\fi\arabic{question}}
+\newcommand{\question}{\par\refstepcounter{question}\textbf{\thequestion}.\space}
+
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+
+(A-7-2a) MATH 239, Winter 2021) Let $G$ be a graph, let $u,v \in V(G)$, $u \neq v$. Let $P$ and $Q$ be paths from $u$ to $v$ with no edges in common (that is, no edge of $G$ appears in both $P$ and $Q$). Prove that there is no edge of $P$ that is a bridge. 
+
+\textbf{\underline{Solution:}}  Let $G = (V,E)$ denote a graph, let $u,v \in V(G)$. Let $P = (w_0,\dots,w_k)$ and $Q = (z_0, \dots, z_l)$ be distinct paths form vertices's $u = w_0 = z_0$ to $v = w_k = z_l$, such that no edges are shared between $P$ and $Q$. We let $0 < b \leq k$ denote the smallest index for which $w_b$ is on $Q$. Let $0 < c \leq l$ denote the index such that $w_b = v_c$. Note that the path $P' = (w_0, \dots, w_b)$ and $Q' = (z_0, \dots, z_c)$ are pairwise distinct since $P, Q$ were paths in $G$. Hence we denote the closed walk
+$$C = (w_0 \dots w_bz_{c-1}\dots z_0)$$
+Since all vertices's are distinct expect for $z_0 = w_0 = u$, and the cycle contains at least a cycle of length $3$ ($w_0 \neq w_b$) it follows that $C$ is a cycle. If $b \neq k$, then we may simply preform induction on the next smallest index $b'$ up to $k$ to show that each vertex of $P$ is contained within some cycle and hence has no bridges. (Proof used similar ideas used in the proof to proposition 6.7, New Notes).
+\qed
+\end{document}
+

@@ -1,0 +1,184 @@
+\documentclass[11pt]{book}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{tikz}
+\usepackage{physics}
+
+%%
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\usepgflibrary{shapes.geometric}
+\usetikzlibrary{calc}
+
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}, axis equal }}
+\pgfplotsset{my style-2/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}}}
+
+
+\usetikzlibrary{arrows, circuits.ee.IEC, positioning}
+\usepackage[american voltages, american currents,siunitx]{circuitikz}
+
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\usepackage[english]{babel}
+\usepackage[protrusion=true,expansion=true]{microtype}  
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\tcbuselibrary{theorems}
+\newtcbtheorem
+  []% init options
+  {definition}% name
+  {Definition}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {def}% prefix
+
+\newtcbtheorem
+  []% init options
+  {lemma}% name
+  {Lemma}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {lem}% prefix
+
+\newtcbtheorem
+  []% init options
+  {theorem}% name
+  {Theorem}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {thm}% prefix
+
+\newtcbtheorem
+  []% init options
+  {solution}% name
+  {Solution}% title
+  {%
+    colback=magenta!5,
+    colframe=magenta!150,
+    fonttitle=\bfseries,
+  }% options
+  {not}% prefix
+
+\newtcbtheorem
+  []% init options
+  {example}% name
+  {Example}% title
+  {%
+    colback=red!5,
+    colframe=red!100,
+    fonttitle=\bfseries,
+  }% options
+  {exm}% prefix
+
+
+\newtcbtheorem
+  []% init options
+  {algorithm}% name
+  {Algorithm} %title
+  {%
+    colback=blue!5,
+    colframe=blue!100,
+    fonttitle=\bfseries,
+  }% options
+  {alg}% prefix
+
+\newtcbtheorem
+  []% init options
+  {properties}% name
+  {Properties}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {pro}% prefix
+
+
+
+% Sets
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\F}{\ensuremath{\mathbb{F}}}
+\newcommand{\Mnn}{\ensuremath{M_{n \times n}}}
+\newcommand{\sym}{\mathbin{\triangle}}
+\newcommand{\stcomp}[1]{{#1}^\complement}
+
+% Operators
+\newcommand{\Rarr}{\Rightarrow}
+\newcommand{\Larr}{\Leftarrow}
+\newcommand{\Harr}{\Leftrightarrow}
+\newcommand{\harr}{\leftrightarrow}
+\newcommand{\dyx}{\dv{y}{x}}
+
+% Linear Algebra
+\newcommand{\vui}{\mathbf{\hat{\textnormal{\bfseries\i}}}}
+\newcommand{\vuj}{\mathbf{\hat{\textnormal{\bfseries\j}}}}
+\newcommand{\xto}{\xrightarrow} % \xto{R_1 \harr R_2}
+\newcommand{\cbm}[2]{\ensuremath{{}_{#1}[I]{}_{#2}}} % change of basis matrix
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\Perp}{Perp}
+\DeclareMathOperator{\Span}{Span}
+\DeclareMathOperator{\Col}{Col}
+\DeclareMathOperator{\adj}{adj}
+
+\newcommand{\QType}{Q}
+\newcounter{question}[subsection]
+\renewcommand{\thequestion}{\QType\ifnum\value{question}<10 0\fi\arabic{question}}
+\newcommand{\question}{\par\refstepcounter{question}\textbf{\thequestion}.\space}
+
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+
+(A-10-2 MATH 239, Winter 2021) Let $G$ be a bipartite graph with bipartition $(A,B)$ with $\deg (x) \geq 1$ for all $x\in A$, and with $\deg(x) \geq \deg(y)$ for every edge $xy$ with $x\in A$. Prove that $G$ has a matching that saturates $A$.
+
+\textbf{\underline{Solution:}} We prove by induction on the vertices's $V(A) = \{v_1,\dots,v_n\}$ that some matching $M$ saturates $A$. For the base case, since $\forall v\in V(G)$, $\deg(v) \geq 1$, it follows that $v_1$ has some neighbor in $w_1 \in V(B)$, such that $v_1w_1\in M$. We proceed by assuming that the vertices's $V' = \{v_1,\dots,v_k\} \in V(A)$, $k\geq 1$, are matched correctly to some neighbor's $ N = \{w_1,\dots,w_k\}\in V(B)$. We would like to show that $v_{k+1}$ can be matched correctly as well such that $v_{k+1}w_{k+1}\in M$, for some $w_{k+1}\in V(B)$. Since $\deg(v_{k+1})\geq 1$, $v_{k+1}$ has at least one neighbor $w_{k+1}$. If $w_{k+1} \not\in N$ then we simply construct the match $v_{k+1}w_{k+1}\in M$. Else $w_{k+1} = w_i$ for some $w_i \in N$, if $v_iw_{k+1} \in E(G)$, then we match $v_{k+1}w_i, v_iw_{k+1} \in M$. If not, since $\deg(v_{k+1})\geq \deg(w_i) \geq 2$, another neighbor $w_j\in N$ exists, then we simply repeat this algorithm until some vertex $v_r\in V'$ has $w_{k+1}$ as its neighbor, this is guaranteed to happen since $\forall vw\in E(G)$, $\deg(v) \geq \deg(w)$. Hence by induction $G$ saturates $A$.  
+\qed
+\end{document}
+

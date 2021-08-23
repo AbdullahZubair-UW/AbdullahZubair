@@ -1,0 +1,186 @@
+\documentclass[11pt]{book}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{tikz}
+\usepackage{physics}
+
+%%
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\usepgflibrary{shapes.geometric}
+\usetikzlibrary{calc}
+
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}, axis equal }}
+\pgfplotsset{my style-2/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}}}
+
+
+\usetikzlibrary{arrows, circuits.ee.IEC, positioning}
+\usepackage[american voltages, american currents,siunitx]{circuitikz}
+
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\usepackage[english]{babel}
+\usepackage[protrusion=true,expansion=true]{microtype}  
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\tcbuselibrary{theorems}
+\newtcbtheorem
+  []% init options
+  {definition}% name
+  {Definition}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {def}% prefix
+
+\newtcbtheorem
+  []% init options
+  {lemma}% name
+  {Lemma}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {lem}% prefix
+
+\newtcbtheorem
+  []% init options
+  {theorem}% name
+  {Theorem}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {thm}% prefix
+
+\newtcbtheorem
+  []% init options
+  {solution}% name
+  {Solution}% title
+  {%
+    colback=magenta!5,
+    colframe=magenta!150,
+    fonttitle=\bfseries,
+  }% options
+  {not}% prefix
+
+\newtcbtheorem
+  []% init options
+  {example}% name
+  {Example}% title
+  {%
+    colback=red!5,
+    colframe=red!100,
+    fonttitle=\bfseries,
+  }% options
+  {exm}% prefix
+
+
+\newtcbtheorem
+  []% init options
+  {algorithm}% name
+  {Algorithm} %title
+  {%
+    colback=blue!5,
+    colframe=blue!100,
+    fonttitle=\bfseries,
+  }% options
+  {alg}% prefix
+
+\newtcbtheorem
+  []% init options
+  {properties}% name
+  {Properties}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {pro}% prefix
+
+
+
+% Sets
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\F}{\ensuremath{\mathbb{F}}}
+\newcommand{\Mnn}{\ensuremath{M_{n \times n}}}
+\newcommand{\sym}{\mathbin{\triangle}}
+\newcommand{\stcomp}[1]{{#1}^\complement}
+
+% Operators
+\newcommand{\Rarr}{\Rightarrow}
+\newcommand{\Larr}{\Leftarrow}
+\newcommand{\Harr}{\Leftrightarrow}
+\newcommand{\harr}{\leftrightarrow}
+\newcommand{\dyx}{\dv{y}{x}}
+
+% Linear Algebra
+\newcommand{\vui}{\mathbf{\hat{\textnormal{\bfseries\i}}}}
+\newcommand{\vuj}{\mathbf{\hat{\textnormal{\bfseries\j}}}}
+\newcommand{\xto}{\xrightarrow} % \xto{R_1 \harr R_2}
+\newcommand{\cbm}[2]{\ensuremath{{}_{#1}[I]{}_{#2}}} % change of basis matrix
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\Perp}{Perp}
+\DeclareMathOperator{\Span}{Span}
+\DeclareMathOperator{\Col}{Col}
+\DeclareMathOperator{\adj}{adj}
+
+\newcommand{\QType}{Q}
+\newcounter{question}[subsection]
+\renewcommand{\thequestion}{\QType\ifnum\value{question}<10 0\fi\arabic{question}}
+\newcommand{\question}{\par\refstepcounter{question}\textbf{\thequestion}.\space}
+
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+
+(A-7-3 MATH 239, Winter 2021) Let $G$ be a graph with at least three vertices such that for all $v\in V(G)$, the graph arising from $G$ by deleting $v$ is a tree. Prove that $G$ is a cycle.
+
+\textbf{\underline{Solution:}}  Let $G = (V,E)$ denote the graph, since $|V(G)| \geq 3$, $G$ is not-empty. Let $v\in V(G)$, we denote $T$ as the tree arising from $G$ by deleting $v$. Since $T$ is a tree, it is minimally connected and hence has property $c(T) = 1$. Assume, for the purposes of a contradiction, that $e = vw \in E(G)$ is a bridge of $G$ where $w\in V(G)$ denotes the neighbour of $v$, it follows that $c(G \setminus e) > c(G)$ by definition of a bridge. However since $c(T) = 1$ and $c(G) \neq 0$, the deletion of all $vw_i \in E(G)$, where each $w_i \in V(G)$ denotes the neighbour of $v$, has no effect on the connectivity of $G$, and hence $c(G) = 1$. This would also imply that each edge of $G$ is not a bridge and is hence contained in a cycle.
+
+We now prove that $G$ is $2$-regular. Clearly there cannot exists a $v\in V(G)$ such that $\deg (v) <  2$, else this would imply the existence of a bridge, contradicting our proof above. Suppose that there exists a vertex $v_0\in V(G)$ such that $\deg (v_0) \geq 2$. We denote $C_1 = (v_0\cdots v_jv_0)$ to be the cycle that $v_0$ is contained within. Since $v_0$ has some neighbour outside of $C_1$, there must exist some distinct cycle $C_2 = (v_0 \cdots v_kv_0)$ in which $v_0$ is also contained within, this follows from our proof above, that being that all edges must be contained within a cycle. Since these cycles are distinct, there is some $w\in C_1, w\not\in C_2$, such that the deletion of $w$ will preserve adjacency on $C_1$. However since $C_1$ is a cycle, a tree $T$ does not arise. Hence $G$ is a connected $2$-regular graph, and is hence a cycle. 
+\qed
+\end{document}
+

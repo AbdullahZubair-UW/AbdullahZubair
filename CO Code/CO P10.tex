@@ -1,0 +1,185 @@
+\documentclass[11pt]{book}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{tikz}
+\usepackage{physics}
+
+%%
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\usepgflibrary{shapes.geometric}
+\usetikzlibrary{calc}
+
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}, axis equal }}
+\pgfplotsset{my style-2/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}}}
+
+
+\usetikzlibrary{arrows, circuits.ee.IEC, positioning}
+\usepackage[american voltages, american currents,siunitx]{circuitikz}
+
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\usepackage[english]{babel}
+\usepackage[protrusion=true,expansion=true]{microtype}  
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\tcbuselibrary{theorems}
+\newtcbtheorem
+  []% init options
+  {definition}% name
+  {Definition}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {def}% prefix
+
+\newtcbtheorem
+  []% init options
+  {lemma}% name
+  {Lemma}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {lem}% prefix
+
+\newtcbtheorem
+  []% init options
+  {theorem}% name
+  {Theorem}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {thm}% prefix
+
+\newtcbtheorem
+  []% init options
+  {solution}% name
+  {Solution}% title
+  {%
+    colback=magenta!5,
+    colframe=magenta!150,
+    fonttitle=\bfseries,
+  }% options
+  {not}% prefix
+
+\newtcbtheorem
+  []% init options
+  {example}% name
+  {Example}% title
+  {%
+    colback=red!5,
+    colframe=red!100,
+    fonttitle=\bfseries,
+  }% options
+  {exm}% prefix
+
+
+\newtcbtheorem
+  []% init options
+  {algorithm}% name
+  {Algorithm} %title
+  {%
+    colback=blue!5,
+    colframe=blue!100,
+    fonttitle=\bfseries,
+  }% options
+  {alg}% prefix
+
+\newtcbtheorem
+  []% init options
+  {properties}% name
+  {Properties}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {pro}% prefix
+
+
+
+% Sets
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\F}{\ensuremath{\mathbb{F}}}
+\newcommand{\Mnn}{\ensuremath{M_{n \times n}}}
+\newcommand{\sym}{\mathbin{\triangle}}
+\newcommand{\stcomp}[1]{{#1}^\complement}
+
+% Operators
+\newcommand{\Rarr}{\Rightarrow}
+\newcommand{\Larr}{\Leftarrow}
+\newcommand{\Harr}{\Leftrightarrow}
+\newcommand{\harr}{\leftrightarrow}
+\newcommand{\dyx}{\dv{y}{x}}
+
+% Linear Algebra
+\newcommand{\vui}{\mathbf{\hat{\textnormal{\bfseries\i}}}}
+\newcommand{\vuj}{\mathbf{\hat{\textnormal{\bfseries\j}}}}
+\newcommand{\xto}{\xrightarrow} % \xto{R_1 \harr R_2}
+\newcommand{\cbm}[2]{\ensuremath{{}_{#1}[I]{}_{#2}}} % change of basis matrix
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\Perp}{Perp}
+\DeclareMathOperator{\Span}{Span}
+\DeclareMathOperator{\Col}{Col}
+\DeclareMathOperator{\adj}{adj}
+
+\newcommand{\QType}{Q}
+\newcounter{question}[subsection]
+\renewcommand{\thequestion}{\QType\ifnum\value{question}<10 0\fi\arabic{question}}
+\newcommand{\question}{\par\refstepcounter{question}\textbf{\thequestion}.\space}
+
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+
+(A-10-1 MATH 239, Winter 2021) Let $G$ be a graph with a perfect matching, and such that all vertices in $G$ have degree at least $2$. 
+Prove that if $G$ is bipartite, then $G$ has at least two perfect matchings.
+
+\textbf{\underline{Solution:}} Assume that $G = (V, E)$ is a bipartite graph, let $(A,B)$ represent the bipartition, denote the perfect matching of $G$ as $M$. Since edges strictly connect between $A$ and $B$, the edge's of $M$ exist exclusivity between the two sets. Let $v_0\in A$, let $v_0w_0 \in M$ represent the matching edge, we show that $E(G) \setminus \{v_0,w_0\}$ has a perfect matching. Let $S \subseteq V(G)$, since for each $v\in S, v\neq v_0$,$\exists w\in V$, $vw\in M$, each vertex $v$ has at least one unique neighbor, since $\deg(v) \geq 2$, it follows that for any pair of vertices's $v_i, v_j\in S$, $|N(v_i) \setminus N(v_j)| \geq 2$. Hence we conclude that since $G$ is bipartite, $|N(S)| = \bigcup_{v\in S} |N(v)| \geq |S|$, by Hall's Theorem there exists an alternative perfect matching $M'$.
+\qed
+\end{document}
+

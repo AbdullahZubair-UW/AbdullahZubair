@@ -1,0 +1,191 @@
+\documentclass[11pt]{book}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{tikz}
+\usepackage{physics}
+
+%%
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\usepgflibrary{shapes.geometric}
+\usetikzlibrary{calc}
+
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}, axis equal }}
+\pgfplotsset{my style-2/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$x$}, ylabel={$y$}}}
+
+
+\usetikzlibrary{arrows, circuits.ee.IEC, positioning}
+\usepackage[american voltages, american currents,siunitx]{circuitikz}
+
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\usepackage[english]{babel}
+\usepackage[protrusion=true,expansion=true]{microtype}  
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\tcbuselibrary{theorems}
+\newtcbtheorem
+  []% init options
+  {definition}% name
+  {Definition}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {def}% prefix
+
+\newtcbtheorem
+  []% init options
+  {lemma}% name
+  {Lemma}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {lem}% prefix
+
+\newtcbtheorem
+  []% init options
+  {theorem}% name
+  {Theorem}% title
+  {%
+    colback=yellow!5,
+    colframe=orange!110,
+    fonttitle=\bfseries,
+  }% options
+  {thm}% prefix
+
+\newtcbtheorem
+  []% init options
+  {solution}% name
+  {Solution}% title
+  {%
+    colback=magenta!5,
+    colframe=magenta!150,
+    fonttitle=\bfseries,
+  }% options
+  {not}% prefix
+
+\newtcbtheorem
+  []% init options
+  {example}% name
+  {Example}% title
+  {%
+    colback=red!5,
+    colframe=red!100,
+    fonttitle=\bfseries,
+  }% options
+  {exm}% prefix
+
+
+\newtcbtheorem
+  []% init options
+  {algorithm}% name
+  {Algorithm} %title
+  {%
+    colback=blue!5,
+    colframe=blue!100,
+    fonttitle=\bfseries,
+  }% options
+  {alg}% prefix
+
+\newtcbtheorem
+  []% init options
+  {properties}% name
+  {Properties}% title
+  {%
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  }% options
+  {pro}% prefix
+
+
+
+% Sets
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\F}{\ensuremath{\mathbb{F}}}
+\newcommand{\Mnn}{\ensuremath{M_{n \times n}}}
+\newcommand{\sym}{\mathbin{\triangle}}
+\newcommand{\stcomp}[1]{{#1}^\complement}
+
+% Operators
+\newcommand{\Rarr}{\Rightarrow}
+\newcommand{\Larr}{\Leftarrow}
+\newcommand{\Harr}{\Leftrightarrow}
+\newcommand{\harr}{\leftrightarrow}
+\newcommand{\dyx}{\dv{y}{x}}
+
+% Linear Algebra
+\newcommand{\vui}{\mathbf{\hat{\textnormal{\bfseries\i}}}}
+\newcommand{\vuj}{\mathbf{\hat{\textnormal{\bfseries\j}}}}
+\newcommand{\xto}{\xrightarrow} % \xto{R_1 \harr R_2}
+\newcommand{\cbm}[2]{\ensuremath{{}_{#1}[I]{}_{#2}}} % change of basis matrix
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\Perp}{Perp}
+\DeclareMathOperator{\Span}{Span}
+\DeclareMathOperator{\Col}{Col}
+\DeclareMathOperator{\adj}{adj}
+
+\newcommand{\QType}{Q}
+\newcounter{question}[subsection]
+\renewcommand{\thequestion}{\QType\ifnum\value{question}<10 0\fi\arabic{question}}
+\newcommand{\question}{\par\refstepcounter{question}\textbf{\thequestion}.\space}
+
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+
+(A-5-4 MATH 239, Winter 2021) Let $G$ be a graph such that the edge set does not cotain three distinct vertices $x,y,z$ such that $xy, yz \in E(G)$ and $xz\not\in E(G)$. Prove that there exists $k\in \N$ and sets $V_1,\dots,V_k$ such that:
+\begin{itemize}
+\item $V_1\cup \cdots \cup V_k = V(G)$
+\item $V_i \cap V_j = \emptyset$ for all $i \neq j$
+\item For all $i$, we have $xy\in E(G)$ for all distinct $x,y\in V_i$
+\item For all $i\neq j$, we have $xy\in E(G)$ for all $x\in V_i$ and $y\in V_j$.
+\end{itemize}
+
+\textbf{\underline{Solution:}} Note that for any given subgraph $G'$, $|V(G')| = 3$, the corrosponding edge set will have size $|E(G)| = 3,1,0$. If $|E(G)| = 2$, then for some $i,j,k$ $\{v_i,v_j\}, \{v_j,v_k\} \in E(G')$ and $v_iv_k\not\in E(G')$, which violates properties of $G$. We construct sets $V_1,\dots,V_k$ using the following algorithm, let $|V(G)| = n$, for each vertex $v_i\in V(G)$, let $U = N(v_i) \cup v_i$, then preform $V_j = V_j \cup U$ for some set $V_j$. Repeat the algorithm for the next vertex $v_r$, $r\geq i$, such that $v_r\not N(v_i)$ and for the next set $V_{j + 1}$. This will give us $k-subgraphs$, $V_1,\dots,v_k$, $k\leq n$.
+
+Clearly $V_1\cup \cdots \cup V_k = V(G)$ since we consider all vertices $v_i \in V(G)$ and their corrosponding neighbours. Also, note that $V_i\cap V_j = \emptyset$ for all $i\neq j$, if we let $V_i,V_j$ repersent the neighbourhood of $v_i,v_j$ and if there existed some $v\in V(G)$ such that $v\in V_j$ and $v\in V_i$, $i\neq j$, then the subgraph $G'$ conataing vertices $v_i,v_j,v$ would contain an edge set $v_iv, vv_j$, however $v_iv_j\not\in E(G')$, a violation. Observe that each distinct $x,y\in V_i$ implies that $xy\in E(G)$, this follows from the fact that $V_i$ is the neighbourhood of some vertex $v$, hence $xv, vy\in E(G)$, however from properties of $G$, if $xv,vy\in E(G)$ then $xy\in E(G)$. Also for each $i\neq j$, if $x\in V_i$ and $y\in V_j$, then $xy\not\in E(G)$. This follows from the previous argument, $V_i$ repersents the neighbourhood of some vertex $v$, if $x = v$, then clearly $xy\not\in E(G)$, since $V_i\neq V_j$. Else, if we assume that $xy \in E(G)$, the the triplet $x,y,v$ would produce an edge set $vx, xy\in E(G)$ and $vy\not\in E(G)$, a violation of properites of $G$. \qed
+\end{document}
+
