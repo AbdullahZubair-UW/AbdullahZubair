@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 AUG 2021 21:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  23 AUG 2021 07:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.tex
-(/Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.tex
+**/Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.tex
+(/Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -1402,7 +1402,7 @@ Package caption Info: listings package is loaded.
 \c@defn=\count488
 \c@currpropctr=\count489
 \c@endpropctr=\count490
- (/Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.aux)
+ (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.aux)
 \openout1 = `S3-1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 208.
@@ -1589,34 +1589,34 @@ Package hyperref Info: bookmark level for unknown prop defaults to 0 on input li
 Package hyperref Info: bookmark level for unknown pf defaults to 0 on input line 335.
  [5] [6]
 
-Package pgfplots Warning: Axis range for axis y is approximately empty; enlarging it (it is [2.0000000000:2.0000000000]) on input line 370.
+Package pgfplots Warning: Axis range for axis y is approximately empty; enlarging it (it is [2.0000000000:2.0000000000]) on input line 374.
 
  [warning /pgfplots/warning/approx empty range enlarged]
 
-Overfull \hbox (18.96536pt too wide) in paragraph at lines 371--372
+Overfull \hbox (18.96536pt too wide) in paragraph at lines 375--376
 [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 375.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 379.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-Package pgfplots Warning: Axis range for axis y is approximately empty; enlarging it (it is [-2.0000000000:-2.0000000000]) on input line 402.
+Package pgfplots Warning: Axis range for axis y is approximately empty; enlarging it (it is [-2.0000000000:-2.0000000000]) on input line 406.
 
  [warning /pgfplots/warning/approx empty range enlarged]
 
-Overfull \hbox (26.74316pt too wide) in paragraph at lines 403--404
+Overfull \hbox (26.74316pt too wide) in paragraph at lines 407--408
 [][] 
  []
 
 
-Overfull \hbox (16.18759pt too wide) in paragraph at lines 434--435
+Overfull \hbox (16.18759pt too wide) in paragraph at lines 438--439
 [][] 
  []
 
 [7]
-Overfull \hbox (16.18759pt too wide) in paragraph at lines 482--483
+Overfull \hbox (16.18759pt too wide) in paragraph at lines 486--487
 [][] 
  []
 
@@ -1624,26 +1624,26 @@ Overfull \hbox (16.18759pt too wide) in paragraph at lines 482--483
 \openout6 = `S3-1.thm'.
 
 [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 495.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 495.
- (/Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 495.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 495.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 495.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 499.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 499.
+ (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 499.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 499.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 499.
  ) 
 Here is how much of TeX's memory you used:
- 47365 strings out of 480608
- 1072814 string characters out of 5903631
- 1609484 words of memory out of 5000000
- 62329 multiletter control sequences out of 15000+600000
+ 47367 strings out of 480608
+ 1072878 string characters out of 5903631
+ 1609492 words of memory out of 5000000
+ 62330 multiletter control sequences out of 15000+600000
  631414 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,16n,127p,1014b,2214s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,16n,127p,1019b,2214s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.pdf (8 pages, 198249 bytes).
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.pdf (8 pages, 199798 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 31941 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 31949 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -1,9 +1,9 @@
-PWD /Users/abdullah/Documents/TUTOR/PHYS-NOTES
+PWD /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.tex
-OUTPUT /Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.log
+INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.tex
+OUTPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.log
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo
@@ -240,7 +240,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libr
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT /Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.pdf
+OUTPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ntheorem/ntheorem.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ntheorem/ntheorem.sty
@@ -377,9 +377,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
-INPUT /Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.aux
-INPUT /Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.aux
-OUTPUT /Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.aux
+INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.aux
+INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.aux
+OUTPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.aux
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -501,8 +501,8 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmbx6.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm
-OUTPUT /Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.thm
-INPUT /Users/abdullah/Documents/TUTOR/PHYS-NOTES/S3-1.aux
+OUTPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.thm
+INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S3-1.aux
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
