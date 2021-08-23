@@ -1,0 +1,183 @@
+\documentclass[12pt]{article} 
+
+\usepackage{fullpage}
+\usepackage{bookmark}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref} % for the URL
+\usepackage[shortlabels]{enumitem}
+\usepackage{mathtools}
+\usepackage[most]{tcolorbox}
+\usepackage[amsmath,standard,thmmarks]{ntheorem} 
+\usepackage{physics}
+\usepackage{pst-tree} % for the trees
+\usepackage{verbatim} % for comments, for version control
+\usepackage{tabu}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{physunits}
+
+\newcommand{\tx}[1]{\text{#1}}
+
+
+% floor, ceiling, set
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\set}{\lbrace}{\rbrace}
+\DeclarePairedDelimiter{\iprod}{\langle}{\rangle}
+
+\DeclareMathOperator{\Int}{int}
+\DeclareMathOperator{\mean}{mean}
+
+% commonly used sets
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Nat}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\renewcommand{\P}{\mathbb{P}}
+
+\newcommand{\sset}{\subseteq}
+
+
+\theoremstyle{break}
+\theorembodyfont{\upshape}
+
+\newtheorem{thm}{Theorem}[subsection]
+\tcolorboxenvironment{thm}{
+enhanced jigsaw,
+colframe=Dandelion,
+colback=White!90!Dandelion,
+drop fuzzy shadow east,
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{cor}{Corollary}[thm]
+\tcolorboxenvironment{cor}{
+boxrule=0pt,
+boxsep=0pt,
+colback={White!90!RoyalPurple},
+enhanced jigsaw,
+borderline west={2pt}{0pt}{RoyalPurple},
+sharp corners,
+before skip=10pt,
+after skip=10pt,
+breakable
+}
+
+\newtheorem{algo}[thm]{Algorithm}
+\tcolorboxenvironment{algo}{
+enhanced jigsaw,
+colframe=Red,
+colback={White!95!Red},
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{ex}[thm]{Example}
+\tcolorboxenvironment{ex}{% from ntheorem
+blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{Green}
+}
+
+\newtheorem*{pf}{Proof}
+\tcolorboxenvironment{pf}{% from ntheorem
+breakable,blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{NavyBlue!80!white}
+}
+
+
+\newtheorem*{soln}{Solution}
+\tcolorboxenvironment{soln}{% from ntheorem
+breakable,blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{NavyBlue!80!white}
+}
+
+\newtheorem{defn}{Definition}[subsection]
+\tcolorboxenvironment{defn}{
+enhanced jigsaw,
+colframe=Cerulean,
+colback=White!90!Cerulean,
+drop fuzzy shadow east,
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{prop}[thm]{Proposition}
+\tcolorboxenvironment{prop}{
+boxrule=0pt,
+boxsep=0pt,
+colback={White!90!Green},
+enhanced jigsaw,
+borderline west={2pt}{0pt}{Green},
+sharp corners,
+before skip=10pt,
+after skip=10pt,
+breakable
+}
+
+\setlength\parindent{0pt}
+\setlength{\parskip}{2pt}
+
+
+\begin{document}
+\let\ref\Cref
+\subsection{(S2 continued) Cartesian coordinate system}
+Eariler I hinted to the idea of using the standard $x-y$ coordinate system and how sometimes this choice of coordinate system is the easiest and most convenient choice. The way we setup this coordinate system is to first identify the dimension (or dimensions) that we are working with, if it is horizontal motion we choose the $x-$ dimension, else we choose the $y-$dimension (In latter chapters we will work with both). Next we specify the direction we "call" positive. For example, consider constructing this coordinate system in a simple case of a ball rolling across a road. (IPAD)
+\vspace*{5cm}
+
+\subsection{Relative position vectors}
+Sometimes we may encounter position vectors with different reference points. For example I may give you a position vector $\vec d_{BA}$ which means the position vector at location $B$ relative to $A$ (Often I will use $\vec d_{B \tx{rel} A}$ instead). However consider the problem where I give you the position vector $\vec d_{CB}$ ($\vec d_{\tx{C rel B}}$) and ask you to tell me the position vector $\vec d_{CA}$, in other words the position vector at $C$ relative to $A$. I claim that $\vec d_{CA} = \vec d_{CB} + \vec d_{BA}$. We prove this claim by demonstrating the sum geometrically.
+\begin{prop}
+   For reference points $A,B,C$, $$\vec d_{CA} = \vec d_{CB} + \vec d_{BA}$$ 
+\end{prop}
+\begin{pf}
+    
+\end{pf}
+
+\newpage
+
+\subsection{Solving Displacement Problems}
+In this section we will discuss the general approach for solving displacement related problems.
+\begin{algo}
+    \begin{enumerate}
+        \item Identify the Reference point.
+        \item Setup your coordinate system of choice \emph{and} choose your positive direction of motion.
+        \item Setup all equations, and all vectors relative to the \emph{reference point}
+        \item Solve
+    \end{enumerate}
+\end{algo}
+
+\subsection{Problems}
+\begin{enumerate}
+    \item On an afternoon, I walked 500m[East] to the store relative to my school, from there I continued
+        600m[West], compute my \emph{displacement} as well as \emph{distance} traveled.
+        \vspace*{4cm}
+    \item Starting from my home, I took a trip to the University of Waterloo the other day. Below I have listed all my position vectors 
+            \textbf{realtive} to my house along my trip. Compute my \emph{net} displacement relative to my home.
+        \begin{itemize}
+            \item $\vec d_{OSH}= 20\km[\tx{East}]$
+            \item $\vec d_{TOR} = 40\km[\tx{East}]$
+            \item $\vec d_{KTC} = 60\km[\tx{East}]$
+            \item $\vec d_{UW} = 10\m $[\tx{West}]
+        \end{itemize}
+        \vspace*{5cm}
+    \item If student $X$ flies $750\km[\tx{E}]$ from Canada to Russia and then proceeds $400\tx{m}[\tx{E}]$ by car
+        to Moscow what was his \emph{displacement} as well as \emph{distance} traveled \textbf{relative} to Canada.
+        \vspace*{4cm}
+    \item On a soccer filed I kick a ball in the air and after a brief period of time it lands on
+        the ground. What was the balls \emph{vertical displacement}?. 
+\end{enumerate}
+
+
+\end{document}

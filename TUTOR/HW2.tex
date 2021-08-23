@@ -1,0 +1,129 @@
+% Prepared by Calvin Kent
+%
+% Assignment Template v19.02
+%
+%%% 20xx0x/MATHxxx/Crowdmark/Ax
+%
+\documentclass[12pt]{article} %
+\usepackage{CKpreamble}
+\usepackage{CKassignment}
+\usepackage{tkz-euclide}
+\usepackage{physunits}
+\usepackage{physics}
+
+\newcommand{\tx}[1]{\text{#1}}
+
+\begin{document}
+    \pagenumbering{arabic}
+    % Start of class settings ...
+    \renewcommand*{\coursecode}{Physics Homework} % renew course code
+    \renewcommand*{\assgnnumber}{2} % renew assignment number
+    \renewcommand*{\submdate}{August 16, 2021} % renew the date
+    \renewcommand*{\studentfname}{Abdullah} % Student first name
+    \renewcommand*{\studentlname}{Zubair} % Student last name
+    %\renewcommand*{\studentnum}{SNumber} % Student number
+
+    \renewcommand\qedsymbol{$\blacksquare$}
+    \setfigpath
+    % End of class settings 
+    \pagestyle{crowdmark}
+    \newgeometry{left=18mm, right=18mm, top=22mm, bottom=22mm} % page is set to default values
+    \fancyhfoffset[L,O]{0pt} % header orientation fixed
+    % End of class settings
+    %%% Note to user:
+    % CTRL + F <CHANGE ME:> (without the angular brackets) in CKpreamble to specify graphics paths accordingly.
+    % The command \circled[]{} accepts one optional and one mandatory argument.
+    % Optional argument is for the size of the circle and mandatory argument is for its contents.
+    % \circled{A} produces circled A, with size drawn for letter A. \circled[TT]{A} produces circled A with size drawn for TT.
+    % https://github.com/CalvinKent/My-LaTeX
+    %%%
+    % Crowdmark assignment start
+\begin{qstn}[1] % qnumber, qname, qpoints
+True/False, are the following quantities vectors?
+    \begin{enumerate}[label=(\alph*)]
+        \item $500 \m$ (T / F)
+        \item $500 \kg$ (T / F)
+        \item $600 \tx{\m} [\tx{East}]$ (T / F)
+        \item $600\tx{\m} [\tx{East}] - 500\tx{\m}[\tx{North}]$ (T / F)
+        \item $603 \times 50$ (T / F)
+        \item $-52^\circ C$ (T / F)
+    \end{enumerate}
+
+
+ \end{qstn}
+
+
+ \begin{qstn}[2]
+    Compute the \textbf{displacement} (or \emph{net} displacement) given the position vectors. Assume that the reference point is $(0,0)$ for \emph{all} vectors.
+    \begin{enumerate}[label=(\alph*)]
+        \item $\vec d_1 = 500 \tx{\m}[\tx{East}]$, $\vec d_2 = 500 \tx{\m}[\tx{East}]$
+         \vspace*{4cm}
+        \item $\vec d_1 = +500\km$, $\vec d_2 = -801\km$, $\vec d_3 = -120\km$, $\vec d_4 = +61\km$, $\vec d_5 = +400\km$, $\vec d_6 = -742\km$.
+        \vspace*{12cm}
+        \item $\vec d_i = 601\tx{\m}[\tx{Left}]$, $\vec d_f = 234\tx{\m}[\tx{Right}]$
+    \end{enumerate}
+\end{qstn}
+
+
+
+\begin{qstn}[3]
+    Determine the sum/difference of the following vectors \textbf{\emph{geometrically}}. Use the $x-$dimensional coordinate system.
+\begin{enumerate}[label=(\alph*)]
+    \item $\vec A = +30$, $\vec B = -30$ $$\vec A + \vec B$$
+    \vspace*{7cm}
+    \item $\vec A = +40$, $\vec B = +38$, $\vec C = -20$, $\vec D = +12$   $$\vec A + \vec B - (\vec C + \vec D)$$
+    \newpage
+    \item $\vec A = +2$, $\vec B = +18$, $\vec C = -12$, $\vec D = -8$, $\vec E = +7$  $$\vec A  + \vec B + \vec C + \vec D - \vec E$$
+    \vspace*{7cm}
+\end{enumerate}
+
+
+\end{qstn}
+
+
+\begin{qstn}[4]
+An amazon driver had to make a round of package deliveries to the following cities; Oshawa, Pickering, Waterloo, London(\emph{Starting} form AMZ headquarters). Given below are all of his position vectors along the trip (All relative to his AMZ headquarters). Compute his \emph{net} \textbf{displacement} relative to AMZ headquarters as well as his \emph{total} \textbf{distance} traveled (Assume that the driver strictly drives from location to location).
+\begin{itemize}
+\item $\vec d_{OSH} = 400 \km$[East]
+\item $\vec d_{PKR} = 350\km$[West]
+\item $\vec d_{WTL} = 84000\m$ [East]
+\item $\vec d_{LND} = 712\km$[West]
+\end{itemize}
+
+\end{qstn}
+
+\begin{qstn}[5]
+    A bird traverses $600\km[\tx{N}]$ to London starting from Waterloo. From London, he traverses $312\km[\tx{N}]$ to Clinton. Finally, he traverses $98\km$[\tx{S}] to a nearby forest relative to Clinton. Compute his \emph{net} displacement relative to Waterloo as well as his \emph{total} \textbf{distance} traveled. 
+    
+\end{qstn}
+
+
+\begin{qstn}[6]
+Student $X$ was travelling around UW campus the other day to get to all of classes. He was curious what his net displacement always was at the end of his tour so he decided to record his position vectors along his tour, however all of his position vectors are recorded \emph{relative} to the previous building. Assuming that $X$ \emph{starts} at his residence, help him compute his \emph{net} displacement \emph{relative} to his residence (Abbreviated as RES). 
+
+\begin{itemize}
+    \item $\vec d_{\tx{MC rel RES}} = 400\m$[East]
+    \item $\vec d_{\tx{RCH rel MC}} = 312\m$[West]
+    \item $\vec d_{\tx{QNC rel RCH}} = 600\m$[East]
+    \item $\vec d_{\tx{BIO rel QNC}} = 256\m$[West]
+\end{itemize}
+Note : The notation $\vec d_{\tx{A rel B}}$ represents the position vector at location $B$ relative to $A$. 
+    
+\end{qstn}
+
+\begin{qstn}[7]
+    I throw a rock in the air and after a brief period of time it returns to my hand. Prove that the rocks vertical displacement relative to my hand was zero.
+\end{qstn}
+
+\begin{qstn}[8]
+   \textbf{(BONUS)} I throw a rock straight up into the air from a cliff $400\m$[\tx{N}] from the ground. After a brief period of time it lands on the ground. What was the balls vertical displacement relative to the cliff? 
+\end{qstn}
+
+
+\end{document}
+%   \begin{figure}[H]
+%   \centering
+%   \includegraphics[width=0.75\linewidth]{p}
+%   \caption{caption.\label{fig:}}
+%   \end{figure}
+

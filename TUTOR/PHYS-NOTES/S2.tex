@@ -1,0 +1,343 @@
+\documentclass[12pt]{article} 
+
+\usepackage{fullpage}
+\usepackage{bookmark}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref} % for the URL
+\usepackage[shortlabels]{enumitem}
+\usepackage{mathtools}
+\usepackage[most]{tcolorbox}
+\usepackage[amsmath,standard,thmmarks]{ntheorem} 
+\usepackage{physics}
+\usepackage{pst-tree} % for the trees
+\usepackage{verbatim} % for comments, for version control
+\usepackage{tabu}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{physunits}
+
+\newcommand{\tx}[1]{\text{#1}}
+
+
+% floor, ceiling, set
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\set}{\lbrace}{\rbrace}
+\DeclarePairedDelimiter{\iprod}{\langle}{\rangle}
+
+\DeclareMathOperator{\Int}{int}
+\DeclareMathOperator{\mean}{mean}
+
+% commonly used sets
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Nat}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\renewcommand{\P}{\mathbb{P}}
+
+\newcommand{\sset}{\subseteq}
+
+
+\theoremstyle{break}
+\theorembodyfont{\upshape}
+
+\newtheorem{thm}{Theorem}[subsection]
+\tcolorboxenvironment{thm}{
+enhanced jigsaw,
+colframe=Dandelion,
+colback=White!90!Dandelion,
+drop fuzzy shadow east,
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{cor}{Corollary}[thm]
+\tcolorboxenvironment{cor}{
+boxrule=0pt,
+boxsep=0pt,
+colback={White!90!RoyalPurple},
+enhanced jigsaw,
+borderline west={2pt}{0pt}{RoyalPurple},
+sharp corners,
+before skip=10pt,
+after skip=10pt,
+breakable
+}
+
+\newtheorem{algo}[thm]{Algorithm}
+\tcolorboxenvironment{algo}{
+enhanced jigsaw,
+colframe=Red,
+colback={White!95!Red},
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{ex}[thm]{Example}
+\tcolorboxenvironment{ex}{% from ntheorem
+blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{Green}
+}
+
+\newtheorem*{pf}{Proof}
+\tcolorboxenvironment{pf}{% from ntheorem
+breakable,blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{NavyBlue!80!white}
+}
+
+
+\newtheorem*{soln}{Solution}
+\tcolorboxenvironment{soln}{% from ntheorem
+breakable,blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{NavyBlue!80!white}
+}
+
+\newtheorem{defn}{Definition}[subsection]
+\tcolorboxenvironment{defn}{
+enhanced jigsaw,
+colframe=Cerulean,
+colback=White!90!Cerulean,
+drop fuzzy shadow east,
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{prop}[thm]{Proposition}
+\tcolorboxenvironment{prop}{
+boxrule=0pt,
+boxsep=0pt,
+colback={White!90!Green},
+enhanced jigsaw,
+borderline west={2pt}{0pt}{Green},
+sharp corners,
+before skip=10pt,
+after skip=10pt,
+breakable
+}
+
+\setlength\parindent{0pt}
+\setlength{\parskip}{2pt}
+
+
+\begin{document}
+\let\ref\Cref
+
+
+\section{Distance, Position, Displacement}
+\begin{defn}
+\textbf{Kinematics} is the study of the motion of an object.
+\end{defn}
+The term motion refers to relative change of location of a body. By relative positioning, we mean in accordance to some reference frame. A reference frame is a perspective chosen arbitrarily and whereby all measurements are conducted from. For example, someone moving in a train could argue that the outside is moving and he is standing still whereas a person standing outside could argue of course that the train is moving not him.
+\begin{defn}
+The \textbf{distance} traveled by an object is the total length of the path it traversed.
+\end{defn}
+\begin{defn}
+The \textbf{direction} of an object is an indication of its location according to some system.
+\end{defn}
+Throughout this course we will often encounter the compass system $\{N, S, E, W \}$, or simply $\{\text{Right}, \text{Left}, \text{Down}, \text{Up} \}$.
+\subsection{Scalars and Vectors}
+\begin{defn}
+A \textbf{scalar} is a quantity that has a magnitude (size) \emph{only}.
+\end{defn}
+In other words scalar quantity's have no associated direction, but are merely quantities which describe the mass, distance, speed, energy, etc. For example the following are scalar quantities ; $500 \m, 200 \kg, 5 \J, 20 \frac{\km}{\h}$.
+
+\begin{defn}
+A \textbf{vector} is a quantity that has a magnitude as well an associated direction. We denote a variable who represents a vector with an arrow, $\rightarrow$.
+\end{defn}
+
+\subsection{Position and Displacement}
+\begin{defn}
+\textbf{Position}, $\vec d$, is the distance and direction of an object from a particular \emph{reference point}.
+\end{defn}
+We can conclude of course that position must be a vector quantity. What we mean by a reference point is a
+location where all measurements are taken relative to. For example, if we take the University of Waterloo to be the reference
+point, then my position vector may be $\vec d_{A} = 500\km [\text{East}]$ and your position vector is
+$\vec d_{Y} = 300\km [\text{North}]$.
+\begin{defn}
+    The \textbf{displacement} of an object is the change in its position. $$\Delta \vec d = \vec d_{f} - \vec
+    d_{i}$$
+\end{defn}
+\begin{cor}
+    If an object changes its position more than once, the \emph{net} or \emph{total}  displacement of the
+    object is computed as, $$\Delta \vec d_T = \vec d_F - \vec d_I$$
+    Where $\vec d_F$, $\vec d_I$ are the final and initial position vectors respectively.
+\end{cor}
+\textbf{Explanation : } Recall that when it comes to displacement, we are only concerned about the \emph{final} and {initial} position vectors relative to our reference point. Hence even if we were given a set of hundred position vectors over some tour, we care only about the initial and final vectors.
+\vspace*{8cm}
+\newpage
+\begin{thm}
+The \textbf{distance} covered by an object is the sum of all displacements along its path
+$$ d = \sum_i |\overrightarrow{\Delta d_i}|$$
+\end{thm}
+\textbf{Explanation : } $|\overrightarrow{\Delta d_i}|$ refers to the absolute value of the vector $\overrightarrow{\Delta d_i}$, or in other words just the magnitude of the the vector (Recall that a vector has a magnitude and a direction). For example if $\overrightarrow{\Delta d_i} = 600\m$[Right], then $|\overrightarrow{\Delta d_i}| = 600$. The distance is computed by taking the sum of all displacements along the path taken by the body, the summand is a short way of describing this computation mathematically.
+
+\newpage
+
+\subsection{The Idea of a Coordinate system}
+Earlier I mentioned that in Physics we use a coordinate system for describing the direction of an object, we
+mentioned two common systems that will be used abundantly throughout the course, that being $\{\text{Right},
+\text{Left}, \text{Down}, \text{Up} \}$ and $\{\text{N, S, W, E}\}$. However we need to be able to preform
+basic arithmetic on vectors, hence along with our coordinate system we \textbf{ALWAYS} denote the positive and
+negative directions, for example, (IPAD)
+\newpage
+
+
+\subsection{Vector Operations}
+Before we proceed, we must learn how to work with vectors as they are slightly different objects than regular
+numbers. To start, sometimes it is helpful to think of vectors \emph{geometrically}  as arrows (IPAD),
+\vspace*{1cm}\\
+It is not necessary to think of vectors like this but it helps when solving problems, and \emph{especially}
+when doing arithmetic on vectors.
+\begin{defn}
+    To add two vectors, $\vec A + \vec B$, \emph{Geometrically}, we place the \emph{tail} of $\vec B$ to the
+    \emph{tip} of $\vec A$.
+\end{defn}
+
+For example,
+\vspace*{5cm}
+\begin{defn}
+    For a vector $\vec A$, we define $\overrightarrow {-A}$ to be the vector such that $\vec A +
+    (\overrightarrow{-A}) = \vec 0$.
+\end{defn}
+It helps to interpret this definition geometrically,
+
+\newpage 
+\subsection{Cartesian coordinate system}
+Earlier I hinted to the idea of using the standard $x-y$ coordinate system and how sometimes this choice of coordinate system is the easiest and most convenient choice. The way we setup this coordinate system is to first identify the dimension (or dimensions) that we are working with, if it is horizontal motion we choose the $x-$ dimension, else we choose the $y-$dimension (In latter chapters we will work with both). Next we specify the direction we "call" positive. For example, consider constructing this coordinate system in a simple case of a ball rolling across a road. (IPAD)
+\vspace*{5cm}
+
+\subsection{Relative position vectors}
+Sometimes we may encounter position vectors with different reference points. For example I may give you a position vector $\vec d_{BA}$ which means the position vector at location $B$ relative to $A$ (Often I will use $\vec d_{B \tx{rel} A}$ instead). However consider the problem where I give you the position vector $\vec d_{CB}$ ($\vec d_{\tx{C rel B}}$) and ask you to tell me the position vector $\vec d_{CA}$, in other words the position vector at $C$ relative to $A$. I claim that $\vec d_{CA} = \vec d_{CB} + \vec d_{BA}$. We prove this claim by demonstrating the sum geometrically.
+\begin{prop}
+   For reference points $A,B,C$, $$\vec d_{CA} = \vec d_{CB} + \vec d_{BA}$$ 
+\end{prop}
+\begin{pf}
+    
+\end{pf}
+
+\newpage
+
+\subsection{Solving Displacement Problems}
+In this section we will discuss the general approach for solving displacement related problems.
+\begin{algo}
+    \begin{enumerate}
+        \item Identify the Reference point.
+        \item Setup your coordinate system of choice \emph{and} choose your positive direction of motion.
+        \item Setup all equations, and all vectors relative to the \emph{reference point}
+        \item Solve
+    \end{enumerate}
+\end{algo}
+
+\subsection{Problems}
+\begin{enumerate}
+    \item On an afternoon, I walked 500m[East] to the store relative to my school, from there I continued
+        600m[West], compute my \emph{displacement} as well as \emph{distance} traveled.
+        \vspace*{4cm}
+    \item \emph{Starting} from my home, I took a trip to the University of Waterloo the other day. Below I have listed all my position vectors 
+            \textbf{realtive} to my house along my trip. Compute my \emph{net} displacement relative to my home as well as \emph{total} \textbf{distance} traveled.
+        \begin{itemize}
+            \item $\vec d_{OSH}= 20\km[\tx{East}]$
+            \item $\vec d_{TOR} = 40\km[\tx{East}]$
+            \item $\vec d_{KTC} = 60\km[\tx{East}]$
+            \item $\vec d_{UW} = 10\m $[\tx{West}]
+        \end{itemize}
+        \vspace*{5cm}
+    \item If student $X$ flies $750\km[\tx{E}]$ from Canada to Russia and then proceeds $400\tx{m}[\tx{E}]$ by car
+        to Moscow what was his \emph{displacement} as well as \emph{distance} traveled \textbf{relative} to Canada.
+        \vspace*{4cm}
+
+    \item Compute the sum of the following vectors \emph{geometrically}, use the $x-$dimensional coordinate system. $\vec A = +3, \vec B = -7, \vec C = +10, D = -15$. $$\vec A + \vec B - (\vec C + \vec D)$$
+    \newpage 
+    \item On a soccer filed I kick a ball in the air and after a brief period of time it lands on
+        the ground. What was the balls \emph{vertical displacement}?.
+\end{enumerate}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+       
+   
+
+
+
+
+\end{document}

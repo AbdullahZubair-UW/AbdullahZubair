@@ -1,0 +1,241 @@
+% Prepared by Calvin Kent
+%
+% Assignment Template v19.02
+%
+%%% 20xx0x/MATHxxx/Crowdmark/Ax
+%
+\documentclass[11pt]{article} %
+\usepackage{CKpreamble}
+\usepackage{CKassignment}
+\usepackage{tkz-euclide}
+
+
+\begin{document}
+    \pagenumbering{arabic}
+    % Start of class settings ...
+    \renewcommand*{\coursecode}{Physics Diagnostic} % renew course code
+    \renewcommand*{\assgnnumber}{1} % renew assignment number
+    \renewcommand*{\submdate}{August 13, 2021} % renew the date
+    \renewcommand*{\studentfname}{Abdullah} % Student first name
+    \renewcommand*{\studentlname}{Zubair} % Student last name
+    %\renewcommand*{\studentnum}{SNumber} % Student number
+
+    \renewcommand\qedsymbol{$\blacksquare$}
+    \setfigpath
+    % End of class settings 
+    \pagestyle{crowdmark}
+    \newgeometry{left=18mm, right=18mm, top=22mm, bottom=22mm} % page is set to default values
+    \fancyhfoffset[L,O]{0pt} % header orientation fixed
+    % End of class settings
+    %%% Note to user:
+    % CTRL + F <CHANGE ME:> (without the angular brackets) in CKpreamble to specify graphics paths accordingly.
+    % The command \circled[]{} accepts one optional and one mandatory argument.
+    % Optional argument is for the size of the circle and mandatory argument is for its contents.
+    % \circled{A} produces circled A, with size drawn for letter A. \circled[TT]{A} produces circled A with size drawn for TT.
+    % https://github.com/CalvinKent/My-LaTeX
+    %%%
+    % Crowdmark assignment start
+\begin{qstn}[1] % qnumber, qname, qpoints
+Solve the following equations
+\begin{enumerate}
+\item $2x + 4 = 12$
+
+\begin{soln}
+\begin{align*}
+2x + 4 &= 12\\
+2x &= 12 - 4\\
+2x &= 8\\
+x &= 4
+\end{align*}
+\end{soln}
+
+\item $2x^2 + 3x + 6 = 12$
+\begin{soln}
+\begin{align*}
+2x^2 + 3x + 6 &= 12\\
+2x^2 + 3x + 6 - 12 &= 0\\
+2x^2 + 3x - 6 &= 0\\
+x &= \frac{-3 \pm \sqrt{(3)^2 - 4(2)(-6)}}{2(2)} \tag{\text{Quadratic Formula}}\\
+x &=  \frac{-3 \pm \sqrt{57}}{4}\\
+\implies x &= \frac{-3 + \sqrt{57}}{4}, \frac{-3 - \sqrt{57}}{4}\\
+\text{(OR in decimal)} x &= -2.6375, 1.137
+\end{align*}
+\end{soln}
+
+\item $\sin(30)\cdot \cos(60) = \frac{3}{x}$
+
+\begin{soln}
+\begin{align*}
+\sin(30)\cdot \cos(60) &= \frac{3}{x}\\
+(\frac{1}{2})\cdot(\frac{1}{2}) &= \frac{3}{x}\\
+\frac{1}{4} &= \frac{3}{x}\\
+x &= 12
+\end{align*}
+\end{soln}
+
+\item $10x^2 - 20x + 12 = 8x^2 + 16x + 4$
+
+\begin{soln}
+\begin{align*}
+10x^2 - 20x - 12 &= 8x^2 + 16x + 4 \\
+10x^2 - 8x^2 - 20x - 16x + 12 - 4 &= 0\\
+2x^2 -36x + 8 &= 0 \\
+2(x^2 - 18x + 4) &= 0\\
+x^2 - 18x + 4 &= 0\\
+x &= \frac{-(-18) \pm \sqrt{(-18)^2 - 4(1)(4)}}{2(1)}\\
+x &= \frac{18 \pm \sqrt{240}}{2}\\
+\implies x &= \frac{18 + \sqrt{308}}{2}, \frac{18 - \sqrt{308}}{2}\\
+\text{(OR in decimal)} x &= 0.2250, 17.775
+\end{align*}
+
+\end{soln}
+
+
+
+\end{enumerate}
+  \end{qstn}
+
+\begin{qstn}[2]
+Each question below will ask you to solve for a given variable.
+
+\begin{enumerate}
+\item Solve for $a$ $$F = ma$$
+
+\begin{soln}
+
+$$a = \frac{F}{m}$$
+
+\end{soln}
+
+
+\item Solve for $T$ $$PV = NRT$$
+\begin{soln}
+\begin{align*}
+PV &= NRT\\
+T &= \frac{PV}{NR}
+\end{align*}
+\end{soln}
+
+
+
+\item Solve for $t$ $$ d = \left(\frac{v_f + v_i}{2}\right)t$$
+
+\begin{soln}
+\begin{align*}
+d &= \left(\frac{v_f + v_i}{2}\right)t \\
+d &= \frac{\left(v_f + v_i \right)t}{2} \\
+2d &= (v_f + v_i)t\\
+t& = \frac{2d}{v_f + v_i}
+\end{align*}
+
+\end{soln}
+
+\newpage
+\item Solve for $a$ $$\Delta d = v_it + \frac{1}{2}at^2$$
+
+\begin{soln}
+\begin{align*}
+\Delta d &= v_it + \frac{1}{2}at^2\\
+\Delta d - v_it &= \frac{1}{2}at^2 \\
+2(\Delta d - v_it) &= at^2 \\
+a &= \frac{2(\Delta d - v_it)}{t^2}
+\end{align*}
+
+\end{soln}
+
+
+\item Solve for $v_f$ $$v_f^2 = v_i^2 + 2a\Delta d$$
+
+\begin{soln}
+\begin{align*}
+v_f &= \pm \sqrt{v_i^2 + 2a\Delta d} \tag{\text{$\pm$ IMPORTANT}}
+\end{align*}
+
+\end{soln}
+
+
+
+\end{enumerate}
+\end{qstn}
+
+
+\begin{qstn}[2]
+Determine the length of the unkown side $X$ for the triangle below
+
+\begin{center}
+\begin{tikzpicture}[thick]
+\coordinate (O) at (0,0);
+\coordinate (A) at (14,0);
+\coordinate (B) at (14,5);
+\draw (O)--(A)--(B)--cycle;
+
+\tkzLabelSegment[below=2pt](O,A){$16$}
+\tkzLabelSegment[left=12pt](O,B){\textit{$32$}}
+\tkzLabelSegment[right=2pt](A,B){\textit{$X$}}
+
+\tkzLabelAngle[pos = 1.5](A,O,B){$\gamma$}
+
+
+\end{tikzpicture}
+\end{center}
+
+
+\begin{soln}
+We proceed with the Pythagorean Theorem,
+\begin{align*}
+X^2 + 16^2 &= 32^2\\
+X^2 &= 32^2 - 16^2\\
+X^2 &= 768 \\ 
+X &= +\sqrt{768} \tag{\text{Negative side is illogical}}
+\end{align*}
+
+
+
+\end{soln}
+
+
+
+\end{qstn}
+
+\begin{qstn}[3] Determine the angle $\gamma$
+
+\begin{center}
+\begin{tikzpicture}[thick]
+\coordinate (O) at (0,0);
+\coordinate (A) at (14,0);
+\coordinate (B) at (14,5);
+\draw (O)--(A)--(B)--cycle;
+
+\tkzLabelSegment[below=2pt](O,A){$16$}
+\tkzLabelSegment[left=12pt](O,B){\textit{$32$}}
+
+\tkzLabelAngle[pos = 1.5](A,O,B){$\gamma$}
+
+
+\end{tikzpicture}
+\end{center}
+
+
+
+\begin{soln}
+
+\begin{align*}
+\cos (\gamma) &= \frac{16}{32}\\
+\cos (\gamma) &= \frac{1}{2}\\
+\implies \gamma &= 60
+\end{align*}
+
+\end{soln}
+
+
+
+
+\end{qstn}
+
+
+\end{document}
+%   \begin{figure}[H]
+%   \centering
+%   \includegraphics[width=0.75\linewidth]{p}
+%   \caption{caption.\label{fig:}}
+%   \end{figure}

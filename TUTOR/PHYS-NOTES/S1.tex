@@ -1,0 +1,187 @@
+\documentclass[12pt]{article} 
+
+\usepackage{fullpage}
+\usepackage{bookmark}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref} % for the URL
+\usepackage[shortlabels]{enumitem}
+\usepackage{mathtools}
+\usepackage[most]{tcolorbox}
+\usepackage[amsmath,standard,thmmarks]{ntheorem} 
+\usepackage{physics}
+\usepackage{pst-tree} % for the trees
+\usepackage{verbatim} % for comments, for version control
+\usepackage{tabu}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{physunits}
+
+
+
+% floor, ceiling, set
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\set}{\lbrace}{\rbrace}
+\DeclarePairedDelimiter{\iprod}{\langle}{\rangle}
+
+\DeclareMathOperator{\Int}{int}
+\DeclareMathOperator{\mean}{mean}
+
+% commonly used sets
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Nat}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\renewcommand{\P}{\mathbb{P}}
+
+\newcommand{\sset}{\subseteq}
+
+
+\theoremstyle{break}
+\theorembodyfont{\upshape}
+
+\newtheorem{thm}{Theorem}[subsection]
+\tcolorboxenvironment{thm}{
+enhanced jigsaw,
+colframe=Dandelion,
+colback=White!90!Dandelion,
+drop fuzzy shadow east,
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{cor}{Corollary}[thm]
+\tcolorboxenvironment{cor}{
+boxrule=0pt,
+boxsep=0pt,
+colback={White!90!RoyalPurple},
+enhanced jigsaw,
+borderline west={2pt}{0pt}{RoyalPurple},
+sharp corners,
+before skip=10pt,
+after skip=10pt,
+breakable
+}
+
+\newtheorem{lem}[thm]{Lemma}
+\tcolorboxenvironment{lem}{
+enhanced jigsaw,
+colframe=Red,
+colback={White!95!Red},
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{ex}[thm]{Example}
+\tcolorboxenvironment{ex}{% from ntheorem
+blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{Green}
+}
+
+\newtheorem*{pf}{Proof}
+\tcolorboxenvironment{pf}{% from ntheorem
+breakable,blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{NavyBlue!80!white}
+}
+
+
+\newtheorem*{soln}{Solution}
+\tcolorboxenvironment{soln}{% from ntheorem
+breakable,blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{NavyBlue!80!white}
+}
+
+\newtheorem{defn}{Definition}[subsection]
+\tcolorboxenvironment{defn}{
+enhanced jigsaw,
+colframe=Cerulean,
+colback=White!90!Cerulean,
+drop fuzzy shadow east,
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{prop}[thm]{Proposition}
+\tcolorboxenvironment{prop}{
+boxrule=0pt,
+boxsep=0pt,
+colback={White!90!Green},
+enhanced jigsaw,
+borderline west={2pt}{0pt}{Green},
+sharp corners,
+before skip=10pt,
+after skip=10pt,
+breakable
+}
+
+\setlength\parindent{0pt}
+\setlength{\parskip}{2pt}
+
+
+\begin{document}
+\let\ref\Cref
+
+\title{\bf{Physics 11 : Course Notes}}
+\date{\today}
+\author{Abdullah Zubair}
+
+\maketitle
+\newpage
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+
+\section{Introduction}
+This course will provide students with a very brief introduction to Newtonian mechanics, a branch of physics
+which explains the motion of moving bodies. Throughout this course students will encounter concepts such as
+Newtons laws, Energy conservation, Nuclear physics, Sounds and waves as well as Electromagnetic induction.
+Students are expected to have a developed background in mathematics as math is the concepts, ideas and relations in physics are described mathematically. Hence, students should be given an
+language of physics, all
+appropriate math pre-assessment testing basic concepts from algebra and trigonometry.
+
+
+\newpage
+
+\section{Units}
+Unlike mathematics, almost all quantities in physics are expressed in some units in a manner to which which
+allows us to make comparisons and understand the magnitude of a given quantity. For example in mathematics if
+I tell you that object $A = 50$ and $B = 20$, then you may immediately conclude that $A > B$, however in
+physics you may be skeptical about $A > B$ because what if $A = 50 \si{g}$ and $B = 20 \si{kg}$. While solving problems throughout this course, you may encounter situations which require you to convert a quantity in a particular unit to another. For example, we almost always work in $\si{kg}$ units in this course and therefore you may need to preform some sort of conversion operation to obtain a final quantity in $\si{kg}$. We will discuss below the general technique for approaching such problems, remember to always refer to the \textbf{Conversion Table} whenever solving such problems.
+
+\begin{ex}
+I have a box weighing at $1250\si{g}$. How much does this box weight in $\si{kg}$?
+\end{ex}
+\begin{soln}
+We proceed by cancelling units,
+$$1250\gm\cdot\left(\frac{1\kg}{1000\gm} \right) = \left(\frac{1250}{1000}\right)\kg = 1.250\kg$$
+\end{soln}
+
+
+\begin{ex}
+My vehicle is currently driving at a speed of $\text{speed} = 60\frac{\km}{\h}$, what is my speed in $\frac{\m}{\s}$?
+\end{ex}
+\begin{soln}
+We proceed by cancelling units,
+	$$ 60\frac{\km}{\h} \cdot \left(\frac{1000\m}{1\km}\right) \cdot \left(\frac{1\h}{3600\s} \right) = 16.667 \frac{\m}{\s}$$
+\end{soln}
+
+
+
+
+
+
+
+
+\end{document}

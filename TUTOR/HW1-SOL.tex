@@ -1,0 +1,178 @@
+% Prepared by Calvin Kent
+%
+% Assignment Template v19.02
+%
+%%% 20xx0x/MATHxxx/Crowdmark/Ax
+%
+\documentclass[11pt]{article} %
+\usepackage{CKpreamble}
+\usepackage{CKassignment}
+\usepackage{tkz-euclide}
+\usepackage{physunits}
+
+
+\begin{document}
+    \pagenumbering{arabic}
+    % Start of class settings ...
+    \renewcommand*{\coursecode}{Physics Homework} % renew course code
+    \renewcommand*{\assgnnumber}{2} % renew assignment number
+    \renewcommand*{\submdate}{August 14, 2021} % renew the date
+    \renewcommand*{\studentfname}{Abdullah} % Student first name
+    \renewcommand*{\studentlname}{Zubair} % Student last name
+    %\renewcommand*{\studentnum}{SNumber} % Student number
+
+    \renewcommand\qedsymbol{$\blacksquare$}
+    \setfigpath
+    % End of class settings 
+    \pagestyle{crowdmark}
+    \newgeometry{left=18mm, right=18mm, top=22mm, bottom=22mm} % page is set to default values
+    \fancyhfoffset[L,O]{0pt} % header orientation fixed
+    % End of class settings
+    %%% Note to user:
+    % CTRL + F <CHANGE ME:> (without the angular brackets) in CKpreamble to specify graphics paths accordingly.
+    % The command \circled[]{} accepts one optional and one mandatory argument.
+    % Optional argument is for the size of the circle and mandatory argument is for its contents.
+    % \circled{A} produces circled A, with size drawn for letter A. \circled[TT]{A} produces circled A with size drawn for TT.
+    % https://github.com/CalvinKent/My-LaTeX
+    %%%
+    % Crowdmark assignment start
+\begin{qstn}[1] % qnumber, qname, qpoints
+ Convert the following quantities to $\frac{\m}{\s}$ (Remember to refer to the conversion table)
+ \begin{enumerate}
+ \item $6004 \frac{\ft}{\h}$
+
+
+\begin{soln}
+$$6004 \frac{\ft}{\h} \left(\frac{1\m}{3.28084 \ft} \right) \left( \frac{1 \h}{3600\s} \right)$$
+$$6004 \frac{\cancel{\ft}}{\cancel{\h}} \left(\frac{1\m}{3.28084 \cancel{\ft}} \right) \left( \frac{1 \cancel{\h}}{3600 \s} \right) = \left (\frac{6004}{3.28084 \cdot 3600} \right) \frac{\m}{\s} = 0.5083 \frac{\m}{\s}$$
+
+\end{soln}
+
+
+ \item $312300 \frac{\cm}{\h}$
+
+\begin{soln}
+$$3123 \frac{\cm}{\h}  \left(\frac{1\m}{100 \cm} \right) \left(\frac{1\h}{3600 \s} \right)$$
+$$3123 \frac{\cancel{\cm}}{\cancel{\h}}  \left(\frac{1\m}{100 \cancel{\cm}} \right) \left(\frac{1 \cancel{\h}}{3600 \s} \right) =  \left (\frac{3123}{100 \cdot 3600} \right) \frac{\m}{\s} = 0.8675 \frac{\m}{\s}$$ 
+\end{soln}
+
+
+ \item $5 \frac{\km}{\h}$
+
+
+\begin{soln}
+$$5 \frac{\km}{\h}  \left(\frac{1000 \m}{1 \km} \right)\left(\frac{1 \h}{3600 \s} \right)$$
+$$ 5 \frac{\cancel{\km}}{\cancel{\h}}  \left(\frac{1000 \m}{1 \cancel{\km}} \right)\left(\frac{1 \cancel{\h}}{3600 \s} \right) = \left(\frac{5 \cdot 1000}{3600} \right) \frac{\m}{\s} = 1.389 \frac{\m}{\s}$$
+
+
+\end{soln}
+
+
+
+
+ \item $10^3 \frac{\mi}{\h}$
+
+ \begin{soln}
+$$1000 \frac{\mi}{\h}  \left(\frac{1 \m}{6.21371 \times 10^{-4} \mi} \right)\left(\frac{1 \h}{3600 \s} \right)$$
+$$1000 \frac{\cancel{\mi}}{\cancel{\h}} \left(\frac{1 \m}{6.21371 \times 10^{-4} \cancel{\mi}} \right)\left(\frac{1 \cancel{\h}}{3600 \s} \right) = \left(\frac{1000}{6.21371 \cdot 3600} \right) \frac{\m}{\s} = 447.04 \frac{\m}{\s}$$
+
+ \end{soln}
+
+
+
+
+
+ \item $566 \frac{\inch}{\Min}$
+
+
+\begin{soln}
+$$ 566 \frac{\cancel{\inch}}{\cancel{\Min}} \left(\frac{1 \m}{39.370 \cancel{\inch}} \right) \left(\frac{1 \cancel{\Min}}{60 \s} \right) = \left(\frac{566}{39.370 \cdot 60} \right) \frac{\m}{\s} = 0.239 \frac{\m}{\s}$$
+
+\end{soln}
+
+
+ \end{enumerate}
+ \end{qstn}
+
+
+ \begin{qstn}[2]
+At the University of Waterloo, students may begin to feel nervous if during an exam, someone manages to complete it after $5$ minutes. Lets say the fastest problem solver in the exam room is student $X$, who solves problems at a rate of $60 \frac{\text{problems}}{\h}$ and that the exam has $10$ questions. Determine weather or not the students in the exam room will feel nervous or not, completely justify your answer.
+
+
+\begin{soln}
+We begin by determining the number of problems he solves per minute and then multiply the result by $5$ in order to determine the number of problems he solves after $5$ minutes,
+$$120 \frac{\text{problems}}{\cancel{\h}}\left(\frac{1 \cancel{\h}}{60 \Min} \right) = \left(\frac{120}{60} \right) \frac{\text{problems}}{\Min} = 2 \frac{\text{problems}}{\Min} $$
+Therefore $X$ will solve $2 \cdot 5 = 10$ problems after $5$ minutes, meaning he will complete the exam, and leave the students in a nervous condition.
+
+\end{soln}
+
+
+\end{qstn}
+
+
+\begin{qstn}[3]
+Daniel has recently ran into a potentially lucrative opportunity, he happened to come across $60$ carrots of gold. He wants to know how many coffees he can order. He knows the following information, 
+\begin{itemize}
+\item $1$ carrot of gold = $0.5$ brits
+\item $1$ brit = $6000$ USD
+\item $1$ USD = $1.25$ CAD
+\item $1$ coffee = $2$ CAD
+\end{itemize}
+Help him determine the number of coffees he can order.
+
+
+\begin{soln}
+We setup a product of the correct conversion factors in order to get from $ \text{carrot of gold} \rightarrow \text{coffees}$
+\begin{align*}
+ 60 \cancel{\text{ carrot of gold}} \left(\frac{0.5 \cancel{\text{ brits}}}{1 \cancel{\text{ carrot of gold}}} \right)\left(\frac{6000 \cancel{\text{ USD}}}{1 \cancel{\text{ brit}}} \right) \left(\frac{1.25 \cancel{\text{ CAD}}}{1 \cancel{\text{ USD}}} \right) \left(\frac{1 \text{ coffee}}{2 \cancel{\text{ CAD}}} \right) &= \left(\frac{60 \cdot 6000 \cdot 1.25}{2} \right)\text{ coffees} \\ &= 112500 \text{ coffees}
+\end{align*}
+
+
+
+\end{soln}
+
+
+
+\end{qstn}
+
+
+\begin{qstn}[4]
+    \textbf{(CHALLENGE WARNING)} A mechanical engineering student over at the University of Waterloo wants to
+    know the amount of energy he will need in order to weld a $6$ rods of steel. He knows that each rod of
+    steel has a density of $650 \kg / \m^3$ and a Calorific Value of $6 \text{ kWh} / \kg$. Determine the
+    amount of energy \textbf{(In Kila Jouls)} $6$ rods of steel will require. Make note of the following,
+    \begin{itemize}
+        \item $1$ rod of steel has a volume of $100 \ft^3$
+        \item $1$ BTU $= 2.931 \times 10^{-4} \text{kWh}$
+        \item $1 \J = 9.4782 \times 10^{-4} \text{ BTU}$
+        \item $1 \text{ k}\J = 1000 \J$
+    \end{itemize}
+
+
+\begin{soln}
+Our goal is to determine the total energy nessessary to weld all 6 rods, to do so we must go from $(\text{steel} \rightarrow \text{k}\J)$. To do so we setup the appropriate product of conversion factors.
+
+\begin{align*}
+6\cancel{\text{ steel rod}}&\left(\frac{100\cancel{\ft^3}}{1 \cancel{\text{ steel rod}}} \right)\left(\frac{1 \cancel{\m^3}}{35.31467 \cancel{\ft^3}} \right) \left(\frac{650 \cancel{\kg}}{1 \cancel{\m^3}} \right) \left(\frac{6 \cancel{\text{ kWh}}}{1 \cancel{\kg}} \right) \left(\frac{1 \cancel{\text{ BTU}}}{2.931 \times 10^{-4}\cancel{\text{ kWh}}} \right) \left(\frac{1 \cancel{\J}}{9.4782 \times 10^{-4} \cancel{\text{ BTU}}} \right) \left(\frac{1 \text{ k}\J}{1000 \cancel{\J}}\right) \\
+&= \left(\frac{6 \cdot 100 \cdot 650 \cdot 6}{35.31467 \cdot 2.931 \times 10^{-4} \times 9.4782 \times 10^{-4}} \right) \text{ k}\J\\
+&= 2.385 \times 10^{9} \text{ k}\J
+\end{align*}
+
+% \begin{align*}
+% % 6\cancel{\text{ steel rod}}\left(\frac{100\cancel{\ft^3}}{1 \cancel{\text{ steel rod}}} \right) \left(\frac{1 \cancel{\m^3}}{35.31467 \cancel{\ft^3}} \right) \left(\frac{650 \cancel{\kg}}{1 \cancel{\m^3}} \right) \left(\frac{6 \cancel{\text{ kWh}}}{1 \cancel{\kg}} \right) \left(\frac{1 \cancel{\text{ BTU}}}{2.931 \times 10^{-4}\cancel{\text{ kWh}}} \right) \left(\frac{1 \cancel{\J}}{9.4782 \times 10^{-4} \cancel{\text{ BTU}}} \right) \left(\frac{1 \cancel{\text{ k}\J}}{1000 \cancel{\J}}\right) \\
+
+% &= \left(\frac{6 \cdot 100 \cdot 650 \cdot 6}{35.31467 \cdot 2.931 \times 10^{-4} \times 9.4782 \times 10^{-4}} \right)\\
+% \end{align*}
+
+\end{soln}
+
+
+
+\end{qstn}
+
+\end{document}
+%   \begin{figure}[H]
+%   \centering
+%   \includegraphics[width=0.75\linewidth]{p}
+%   \caption{caption.\label{fig:}}
+%   \end{figure}

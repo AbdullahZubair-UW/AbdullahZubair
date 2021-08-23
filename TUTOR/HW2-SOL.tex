@@ -1,0 +1,271 @@
+% Prepared by Calvin Kent
+%
+% Assignment Template v19.02
+%
+%%% 20xx0x/MATHxxx/Crowdmark/Ax
+%
+\documentclass[12pt]{article} %
+\usepackage{CKpreamble}
+\usepackage{CKassignment}
+\usepackage{tkz-euclide}
+\usepackage{physunits}
+\usepackage{physics}
+
+\newcommand{\tx}[1]{\text{#1}}
+
+\begin{document}
+    \pagenumbering{arabic}
+    % Start of class settings ...
+    \renewcommand*{\coursecode}{Physics Homework} % renew course code
+    \renewcommand*{\assgnnumber}{2} % renew assignment number
+    \renewcommand*{\submdate}{August 16, 2021} % renew the date
+    \renewcommand*{\studentfname}{Abdullah} % Student first name
+    \renewcommand*{\studentlname}{Zubair} % Student last name
+    %\renewcommand*{\studentnum}{SNumber} % Student number
+
+    \renewcommand\qedsymbol{$\blacksquare$}
+    \setfigpath
+    % End of class settings 
+    \pagestyle{crowdmark}
+    \newgeometry{left=18mm, right=18mm, top=22mm, bottom=22mm} % page is set to default values
+    \fancyhfoffset[L,O]{0pt} % header orientation fixed
+    % End of class settings
+    %%% Note to user:
+    % CTRL + F <CHANGE ME:> (without the angular brackets) in CKpreamble to specify graphics paths accordingly.
+    % The command \circled[]{} accepts one optional and one mandatory argument.
+    % Optional argument is for the size of the circle and mandatory argument is for its contents.
+    % \circled{A} produces circled A, with size drawn for letter A. \circled[TT]{A} produces circled A with size drawn for TT.
+    % https://github.com/CalvinKent/My-LaTeX
+    %%%
+    % Crowdmark assignment start
+\begin{qstn}[1] % qnumber, qname, qpoints
+True/False, are the following quantities vectors?
+    \begin{enumerate}[label=(\alph*)]
+        \item $500 \m$ (T / F) $\colon \textcolor{blue}{F}$
+        \item $500 \kg$ (T / F) $\colon \textcolor{blue}{F}$
+        \item $600 \tx{\m} [\tx{East}]$ (T / F) $\colon \textcolor{blue}{T}$
+        \item $600\tx{\m} [\tx{East}] - 500\tx{\m}[\tx{North}]$ (T / F) $\colon \textcolor{blue}{T}$
+        \item $603 \times 50$ (T / F) $\colon \textcolor{blue}{F}$
+        \item $-52^\circ C$ (T / F) $\colon \textcolor{blue}{F}$
+    \end{enumerate}
+
+
+ \end{qstn}
+
+ \begin{qstn}[2]
+    Compute the \textbf{displacement} (or \emph{net} displacement) given the position vectors. Assume that the reference point is $(0,0)$ for \emph{all} vectors.
+    \begin{enumerate}[label=(\alph*)]
+        \item $\vec d_1 = 500 \tx{\m}[\tx{East}]$, $\vec d_2 = 500 \tx{\m}[\tx{East}]$
+        
+
+        \begin{soln}
+            We start by assigning [East] as the + direction, this means that $\vec d_1 = +500$ and $\vec d_2 = +500$. Then we compute the displacement using the displacement equation. 
+            \begin{align*}
+                \Delta \vec d &= \vec d_2 - \vec d_1\\
+                &= +500\m - (+500\m)\\
+                &= +0\km
+            \end{align*}
+            Hence $\Delta \vec d = 0$[East] (Remember that $0$ belongs to the non-negative integers so $-0$ doesn't make sense).
+
+        \end{soln}
+
+
+
+        
+        \item $\vec d_1 = +500\km$, $\vec d_2 = -801\km$, $\vec d_3 = -120\km$, $\vec d_4 = +61\km$, $\vec d_5 = +400\km$, $\vec d_6 = -742\km$.
+
+        \begin{soln}
+            \textbf{Solution 1: }We choose the $x-$dimension as our coordinate system and assign $(x \rightarrow)$ as our positive direction. By Corollary 1.2.0.1, when we have more than two position vectors we are only concerned with the \emph{final} and \emph{initial} position vectors. Hence,
+            $$\Delta \vec d_T = \vec d_F - \vec d_I = \vec d_6 - \vec d_1 = -742\km - (+500\km) = -1242\km$$
+            Hence $\Delta \vec d_T = -1242\km$
+        \end{soln}
+
+
+
+        \item $\vec d_i = 601\tx{\m}[\tx{Left}]$, $\vec d_f = 234\tx{\m}[\tx{Right}]$
+
+
+        \begin{soln}
+            We start by assigning [Right] to be the positive direction of motion, this means that $\vec d_i = -601, \vec d_f = +234$. Next we simply use the displacement equation to compute the displacement.
+            \begin{align*}
+                \Delta \vec d &= \vec d_f - \vec d_i\\
+                &= +234\m - (-601\m)\\
+                &= +832\m
+            \end{align*}
+            Hence $\Delta \vec d = 832\m[\tx{Right}]$ (Or $\Delta \vec d = +832\m$, both are acceptable).
+        \end{soln}
+        
+
+
+    \end{enumerate}
+\end{qstn}
+
+
+
+\begin{qstn}[3]
+    Determine the sum/difference of the following vectors \textbf{\emph{geometrically}}. Use the $x-$dimensional coordinate system.
+\begin{enumerate}[label=(\alph*)]
+    \item $\vec A = +30$, $\vec B = -30$ $$\vec A + \vec B$$
+
+        \begin{soln}
+            We start by choosing $(x \rightarrow)$ as the positive direction.
+            \vspace*{5cm}
+        \end{soln}
+
+
+
+
+
+    \item $\vec A = +40$, $\vec B = +38$, $\vec C = -20$, $\vec D = +12$   $$\vec A + \vec B - (\vec C + \vec D)$$
+
+
+    
+      \begin{soln}
+           We start by choosing $(x \rightarrow)$ as the positive direction.
+            \newpage
+      \end{soln} 
+
+
+
+
+    \item $\vec A = +2$, $\vec B = +18$, $\vec C = -12$, $\vec D = -8$, $\vec E = +7$  $$\vec A  + \vec B + \vec C + \vec D - \vec E$$
+
+
+
+    \begin{soln}
+        We start by choosing $(x \rightarrow)$ as the positive direction.
+        \vspace*{17cm}
+   \end{soln} 
+
+
+
+\end{enumerate}
+
+
+\end{qstn}
+
+
+\begin{qstn}[4]
+An amazon driver had to make a round of package deliveries to the following cities; Oshawa, Pickering, Waterloo, London (\emph{Starting} form AMZ headquarters). Given below are all of his position vectors along the trip (All relative to his AMZ headquarters). Compute his \emph{net} \textbf{displacement} relative to AMZ headquarters as well as his \emph{total} \textbf{distance} traveled (Assume that the driver strictly drives from location to location).
+\begin{itemize}
+\item $\vec d_{OSH} = 400 \km$[East]
+\item $\vec d_{PKR} = 350\km$[West]
+\item $\vec d_{WTL} = 84000\m$ [East]
+\item $\vec d_{LND} = 712\km$[West]
+\end{itemize}
+
+
+
+\begin{soln}
+    We start by choosing [East] as the positive(+) direction motion. Since the driver started at AMZ headquarters his initial position vector is $\vec d_I = +0\km$ (Or $\vec d_{AMZ} = +0\km$). Since the final position vector is simply $\vec d_F = \vec d_{LND} = -712\km$ we can simply compute the \emph{net} displacement.
+    $$\Delta \vec d_T = \vec d_F - \vec d_I = -712\km - 0\km = -712 \km $$
+    Hence $\Delta \vec d_T = 712\km [\tx{West}]$. To compute the \emph{total} distance traveled we must compute each 
+    displacement from the following pairs of cities ; $(AMZ \rightarrow OSH)$, $(OSH \rightarrow PKR)$, $(PKR \rightarrow WTL)$, $(WTL \rightarrow LND)$. We can label these pairs $\Delta \vec d_0, \Delta \vec d_1, \Delta \vec d_2, \Delta \vec d_3$.
+    \begin{align*}
+        \Delta \vec d_0 &= \vec d_{OSH} - \vec d_{AMZ} \tag{\tx{Recall} $\vec d_{AMZ} = \vec d_I = +0\km$}\\
+        &= +400\km - (0\km)\\
+        &= +400\km\\
+        \Delta \vec d_1 &= \vec d_{PKR} - \vec d_{OSH}\\
+        &= -350\km - (+400\km)\\
+        &= -750\km\\
+        \Delta \vec d_2 &= \vec d_{WTL} - \vec d_{PKR}\\
+        &= +84\km - (-350\km)\\
+        &= +434\km\\
+        \Delta \vec d_3 &= \vec d_{LND} - \vec d_{WTL}\\
+        &= -712\km - (+84\km)\\
+        &= -796 \km
+    \end{align*}
+    Hence the total distance traveled, $d$, is just the sum of the absolute values of the displacement vectors,
+    \begin{align*}
+    d &= \sum_i |\overrightarrow{\Delta d_i}|\\
+     &= |\overrightarrow{\Delta d_0}| + |\overrightarrow{\Delta d_1}| + |\overrightarrow{\Delta d_2}| + |\overrightarrow{\Delta d_3}|\\
+     &= |+400 \km| + |-750 \km| + |434 \km| + |-796|\\
+     &= 2380 \km
+    \end{align*}
+\end{soln}
+
+
+
+
+\end{qstn}
+
+\begin{qstn}[5]
+    A bird traverses $600\km[\tx{N}]$ to London \emph{starting} from Waterloo. From London, he traverses $312\km[\tx{N}]$ to Clinton. Finally, he traverses $98\km$[\tx{S}] to a nearby forest relative to Clinton. Compute his \emph{net} displacement relative to Waterloo as well as his \emph{total} \textbf{distance} traveled
+
+    \begin{soln}
+        Let us choose $[\tx{N}]$ as the positive(+) direction of motion. The bird \emph{starts} at Waterloo, so his initial position vector is $d_{I} = 0\km[\tx{N}]$. Afterwards he traverses to London, hence his position vector at London relative to Waterloo is $\vec d_{LW} = +600\km$. If afterwards he traverses $312\km[\tx{N}]$ to Clinton relative to London, his position vector relative to London is $\vec d_{CL} = +312\km$. Hence, his position vector at Clinton \emph{relative} to Waterloo is, $$\vec d_{CW} = \vec d_{CL} + \vec d_{LW} = +312\km +  600\km = +912\km$$
+        Afterwards if he continues $98\km$[\tx{S}] to a forest relative to Clinton, his position vector at the forest relative to Clinton is $\vec d_{FC} = -98\km$. Hence his position vector at the forest relative to Waterloo is $$\vec d_{FW} = \vec d_{FC} + \vec d_{CW} = -98\km + (+912\km) = +814\km$$
+        Hence our final position vector is $\vec d_F = \vec d_{FW} = +814 \km$, since our initial position vector was $\vec d_I = +0\km$, we can compute,
+        $$\Delta \vec d_T = \vec d_F - \vec d_I = +814\km - 0\km = +814\km = 814\km[\tx{N}]$$
+        To compute the total distance, notice that each time he "traverses", he displaces. Total distance is concerned about the sum of the magnitudes of the displacement vectors and \textbf{ignores} the direction of travel. Hence we can simply add up all the displacements (or traversals) to get $d$.
+        \begin{align*}
+            d &= \sum_i |\overrightarrow{\Delta d}|\\
+            &= |\overrightarrow{\Delta d_{LW}}| + |\overrightarrow{\Delta d_{CL}}| + |\overrightarrow{\Delta d_{FC}}|\\
+            &= |600\km| + |312\km| + |-98\km|\\
+            &= 1010\km
+        \end{align*}
+        
+
+    \end{soln}
+    
+\end{qstn}
+
+
+\begin{qstn}[6]
+Student $X$ was travelling around UW campus the other day to get to all of classes. He was curious what his net displacement always was at the end of his tour so he decided to record his position vectors along his tour, however all of his position vectors are recorded \emph{relative} to the previous building. Assuming that $X$ \emph{starts} at his residence, help him compute his \emph{net} displacement relative to his residence (Abbreviated as RES). 
+
+\begin{itemize}
+    \item $\vec d_{\tx{MC rel RES}} = 400\m$[East]
+    \item $\vec d_{\tx{RCH rel MC}} = 312\m$[West]
+    \item $\vec d_{\tx{QNC rel RCH}} = 600\m$[East]
+    \item $\vec d_{\tx{BIO rel QNC}} = 256\m$[West]
+\end{itemize}
+Note : The notation $\vec d_{\tx{A rel B}}$ represents the position vector at location $B$ relative to $A$. 
+\begin{soln}
+    We start by choosing [East] as our positive(+) direction of motion. Since $X$ starts at his residence, his initial position vector is $\vec d_I = +0\m$. We need to obtain our final position vector $\vec d_F$, which will be our final location relative to RES, or in other words, we need $\vec d_{\tx{BIO rel RES}}$. Here we will make repeated use of Proposition 1.2.1 which states that, $$\vec d_{\tx{B rel A}} = \vec d_{\tx{B rel C}} + \vec d_{\tx{C rel A}}$$
+    We preform the following operations,
+    \begin{align*}
+        \vec d_{\tx{BIO rel RCH}} &= \vec d_{\tx{BIO rel QNC}} + \vec d_{\tx{QNC rel RCH}}\\
+        &= -256 \m + (+600\m)\\
+        &= +344\m\\
+        \vec d_{\tx{BIO rel MC}} &= \vec d_{\tx{BIO rel RCH}} + \vec d_{\tx{RCH rel MC}}\\
+        &= +344\m + (-312\m)\\
+        &= +32\m\\
+        \vec d_{\tx{BIO rel RES}} &= \vec d_{\tx{BIO rel MC}} + \vec d_{\tx{MC rel RES}} \\
+        &= +32\m + (+400\m)\\
+        &= +432\m
+    \end{align*}
+    Hence our final position vector is $\vec d_F = \vec d_{\tx{BIO rel RES}} = +432\m$, we are now ready to compute the \emph{net} displacement,
+    $$\Delta \vec d_T = \vec d_F - \vec d_I = +432 \m - 0\m = +432\m = 432\m\tx{[East]}$$
+\end{soln}
+    
+\end{qstn}
+
+\begin{qstn}[7]
+    I throw a rock in the air and after a brief period of time it returns to my hand. Prove that the rocks vertical displacement relative to my hand was zero.
+    \begin{soln}
+        \begin{proof}
+            We choose the y-dimension as our coordinate system and choose $(y \uparrow)$ as our positive direction. Since the initial position vector ($\vec d_i = +0\m$) relative to my hand is equivalent to the final position vector relative to my hand ($\vec d_i = +0\m$), the displacement must be zero. In other words, since $\vec d_i = \vec d_f = +0\m$, $\Delta \vec d = \vec d_f - \vec d_i = +0 - 0 = +0\m$.
+        \end{proof}
+        \vspace*{13cm}
+    \end{soln} 
+\end{qstn}
+
+\begin{qstn}[8]
+   \textbf{(BONUS)} I throw a rock straight up into the air from a cliff $400\m$[\tx{N}] from the ground. After a brief period of time it lands on the ground. What was the balls vertical displacement relative to the cliff?
+   \begin{soln}
+           We choose the y-dimension as our coordinate system and choose $(y \uparrow)$ as our positive direction. Since the initial position vector of the rock relative to my hand is $\vec d_i = +0\m$, and the final position vector of the rock relative to my hand was $\vec d_f = -400\m$ we can compute the displacement vector,
+           $$\Delta \vec d = \vec d_f - \vec d_i = -400\m - 0 = -400\m = 400\m\tx{[S]}$$
+           \textbf{Explanation using a Diagram: }
+        \vspace*{13cm}
+   \end{soln} 
+\end{qstn}
+
+
+\end{document}
+%   \begin{figure}[H]
+%   \centering
+%   \includegraphics[width=0.75\linewidth]{p}
+%   \caption{caption.\label{fig:}}
+%   \end{figure}
+
