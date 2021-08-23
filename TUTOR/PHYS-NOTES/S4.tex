@@ -68,8 +68,8 @@
 				anchor=west,
 				font=\footnotesize,
 			},
-			xlabel=$X$,
-			ylabel=$Y$
+			xlabel=$t$,
+			ylabel=$\vec v (\m \tx{[East]})$
 		},
 	}
 	\tikzset{
@@ -219,7 +219,21 @@ First we note that acceleration is a vector quantity because $\Delta \vec v$ is 
 \begin{defn}
 A \textbf{velocity-time graph} is a plot describing the motion of an object, with velocity on the vertical axis and time on the horizontal axes.
 \end{defn}
-Similar to the analogy of how a Pos V. Time plot helps us understand velocity better, a Velocity V. Time plot will help us understand acceleration better. Again we mention some basic properties, again we take the reference point to be $(0,0)$. Also we take the positive direction of motion to be above the vertical axes.
+Similar to the analogy of how a Pos V. Time plot helps us understand velocity better, a Velocity v. Time plot will help us understand acceleration better. Again we mention some basic properties, again we take the reference point to be $(0,0)$. Also we take the positive direction of motion to be above the vertical axes. We now mention a proposition similar to a one we have seen earlier.
+\begin{prop}
+Given a \textbf{Linear} Velocity v. Time plot of a moving body, the slope $m$ of the plot represents the average acceleration, $\vec a_{av}$, of the body.
+\end{prop}
+\begin{pf}
+We prove the result similar to the method we used in the previous section. Let the slope of the Velocity v. Time graph be $m$, let us compute this slope by using the slope formula, namely,
+$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+Since the $y-$coordinates on a Velocity v. Time graph are velocity vectors $\vec v$, and the $x-$coordinates are time points, $t$, we can translate this slope formula to the equivalent,
+$$m = \frac{\vec v_2 - \vec v_1}{t_2 - t_1}$$
+At this point we are free to choose any two coordinate pairs $(\vec v_1,t_1)$, $(\vec v_2, t_2)$, let us choose $(\vec v_f, t_f)$, $(\vec v_i, t_i)$, the final and initial coordinate pairs of the moving body. This gives,
+$$m = \frac{\vec v_f - \vec v_i}{t_f - t_i} = \vec a_{av}$$ 
+Since we consider motion in a single direction, the average speed and the average velocity only differ in direction.$\qed$
+\end{pf}
+\subsection{Types of motion from Velocity v. Time Plots}
+Similar to before, we will encounter common types of motion and hence it would be useful to make mention of their plots and what they look like.
 \begin{enumerate}[label = (\alph*)]
 	\item 
         \begin{tikzpicture}
@@ -244,12 +258,11 @@ Similar to the analogy of how a Pos V. Time plot helps us understand velocity be
         \end{axis}
         \end{tikzpicture}
 
-		\newpage 
 		\textbf{\large{Properties of type (a):}}
 		\begin{itemize}
-			\item The slope of the graph is zero, hence $\vec a_{av} = +0\m / \s$.
-			\item The item is at \textbf{rest}.
-			\item The object is [East] relative to the reference point (0,0).
+			\item The slope of the graph is zero, hence $\vec a_{av} = +0\m / \s^2$.
+			\item The object is experiencing \textbf{uniform motion}.
+			\item The object is moving [East] relative to the reference point (0,0).
 		\end{itemize}
 
 
@@ -279,9 +292,9 @@ Similar to the analogy of how a Pos V. Time plot helps us understand velocity be
 		
 		\textbf{\large{Properties of type (b):}}
 		\begin{itemize}
-			\item The slope of the graph is zero, hence $\vec v_{av} = +0\m / \s$.
-			\item The item is at \textbf{rest}.
-			\item The object is [West] relative to the reference point (0,0).
+			\item The slope of the graph is zero, hence $\vec a_{av} = +0\m / \s^2$.
+			\item The object is experiencing \textbf{uniform motion}.
+			\item The object is moving [West] relative to the reference point (0,0).
 		\end{itemize}
 
 
@@ -302,7 +315,7 @@ Similar to the analogy of how a Pos V. Time plot helps us understand velocity be
         {2*x};
 
 		\addplot[
-		domain=2:5,
+		domain=0:2,
 		thick,
 		blue,
 		dashdotted,
@@ -320,8 +333,8 @@ Similar to the analogy of how a Pos V. Time plot helps us understand velocity be
 		
 		\textbf{\large{Properties of type (c):}}
 		\begin{itemize}
-			\item The slope of the graph is $m = +2$, hence $\vec v_{av} = +2\m / \s$.
-			\item The item experiencing \textbf{uniform motion} or \textbf{constant velocity}.
+			\item The slope of the graph is $m = +2$, hence $\vec a_{av} = +2\m / \s^2$.
+			\item the item experiencing \textbf{uniform acceleration}.
 			\item The object is traveling in the [East] direction.
 		\end{itemize}
 
@@ -359,15 +372,22 @@ Similar to the analogy of how a Pos V. Time plot helps us understand velocity be
         \end{axis}
         \end{tikzpicture}
 		
-		\textbf{\large{Properties of type (c):}}
+		\textbf{\large{Properties of type (d):}}
 		\begin{itemize}
-			\item The slope of the graph is $m = -2$, hence $\vec v_{av} = -2\m / \s$.
-			\item The item experiencing \textbf{uniform motion} or \textbf{constant velocity}.
+			\item The slope of the graph is $m = -2$, hence $\vec a_{av} = -2\m / \s^2$.
+			\item The item experiencing \textbf{uniform acceleration}.
 			\item The object is traveling in the [West] direction.
 		\end{itemize}
 
-\end{enumerate}
+	\end{enumerate}
+	
+\subsection{Non-Linear Position v. Time plots}
+We have analyzed plots of Linear Velocity v. Time plots, we can now ask the question; how would the corresponding Position V. time plots look like for that same body in motion? Well if you have a background in Calculus it would be much easier for me to explain this to you using the idea of \emph{ordered derivatives}, however since the reader of these notes is assumed to have at most a sophomore (or Junior) background in mathematics, I will explain it to the best of my ability.
 
+Recall the proposition where we stated that when we take the slope of a Pos v. Time plot we get the corresponding average velocity, granted that the original pos v. Time plot was \emph{linear}. However in the case where the pos v. time plot is \emph{non-linear}, the equation for the average velocity will at best give us the average velocity over 
+
+
+	
 
 
 \end{document}
