@@ -498,5 +498,102 @@ In this course we will encounter common types of motion and hence it would be us
 \end{enumerate}
 
 
+\begin{ex}
+    Given the position v. time plot below, determine the following,
+
+    \begin{enumerate} [label = (\alph*)]
+        \item Determine the average velocity and the average speed from over the first $4$ seconds.
+        \item Are the results from the (a) the same if instead I asked you to compute the result from $t_1 = 2 \rightarrow t_2 = 4$
+    \end{enumerate}
+
+    \begin{center}
+    \begin{tikzpicture}
+    \begin{axis}[my style]
+         \addplot[domain=0:4] {x};
+    \end{axis}
+    \end{tikzpicture}
+    \end{center}
+
+\end{ex}
+
+\begin{soln}
+$\implies$
+\vspace*{7cm}
+
+\end{soln}
+\textbf{\large{1.5 \hspace*{0.2cm} Plots with equations}}\\
+Sometimes it is more convenient to represent the equation of a position v. time plot by a standard mathematical equation, $y = 2x$ for example. However since we are almost always dealing with the variable $t$ along the horizontal axes we are unable to use $x$, instead we must replace $x \rightarrow t$. Since $y$ always corresponds to vertical motion, we would like to preserve the fact that $x$ represents horizontal motion, hence when plotting pos v.time plots we represent the position vector by the variable $x$. Hence the equation $y = x$ translated to a pos v. time plot would be $x = t$. 
+
+\textbf{Remark: }All motion above the horizontal axes is called the positive direction direction of motion, we also assume that we are working with the $x-$dimensional coordinate system.
+\begin{ex} 
+	Three runners compete in a race, Dave, Thomas and Ryan. Listed below are their equations of motion, if the race lasted $5$ minutes, determine who won the race.
+	\begin{itemize}
+		\item \textcolor{orange}{Ryan} $\colon x_R = 2t$
+		\item \textcolor{blue}{Dave} $\colon x_D = 3t$
+		\item \textcolor{red}{Thomas} $\colon x_T = t$
+	\end{itemize}
+\end{ex}
+\begin{soln}
+	$\implies$
+	\begin{center}
+		\begin{tikzpicture}
+			\begin{axis}[
+				my axis style,
+				width=\textwidth,
+				height=.5\textwidth,
+				legend entries={
+					$x = 2t$,
+					$x = t$,
+					$x = 3t$
+				},
+				legend pos=north west
+			]
+			
+			\addplot[
+				domain=0:5,
+				thick,
+				orange,
+				->
+			]
+			{2*x};
+		
+			\addplot[
+				domain=0:5,
+				thick,
+				red,
+				->
+			]
+			{(x)};
+		
+			\addplot[
+				domain=0:5,
+				thick,
+				blue,
+				->
+			]
+			{3*(x)};
+			
+			\fill[
+				black
+			];
+			
+			\end{axis}
+		\end{tikzpicture}
+		\end{center}
+		(continued)
+\vspace*{15cm}
+\end{soln}
+\textbf{\large{1.6 An important note about Calculations}}\\
+Unlike mathematics, in physics we care about the units in our calculations. This is because during operations of arithmetic with numbers from physics, we must ensure that the units are compatible. For example, if we are preforming arithmetic with two distance values, we must ensure that they share the same units. When it comes to operations with velocity or acceleration values, then we must ensure that both the [time] units as well as the units of [distance] are compatible.
+\newpage 
+\begin{ex}
+	A racecar clears a $1\km$ track at speed of $500 \m / \s$. Compute the time he took to clear the track in seconds. 
+\end{ex}
+\begin{soln}
+$\implies$
+\vspace*{4cm}
+\end{soln}
+
+
 
 \end{document}
