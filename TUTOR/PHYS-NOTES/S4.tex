@@ -210,11 +210,21 @@ breakable
 \section{Acceleration}
 \begin{defn}
 \textbf{Acceleration}, $\vec a_{av}$, refers to the rate of change of velocity, or in other words the ratio of the change of velocity to the time elapsed. (\textbf{Units:} $m / \s^2$)
-$$\vec a_{av} = \frac{\Delta \vec v}{\Delta t}$$
+$$\vec a_{av} = \frac{\Delta \vec v}{\Delta t} = \frac{\vec v_f - \vec v_i}{t_f - t_i}$$
 \end{defn}
-First we note that acceleration is a vector quantity because $\Delta \vec v$ is a vector quantity. Acceleration is experienced any time an object is increasing or decreasing its velocity, \emph{any} change in velocity results in acceleration. For example, you must initially accelerate your vehicle in order for it to reach the desired velocity, similarly you must first \emph{accelerate} your vehicle in order to come to a stop and change your velocity to $(+0\m / \s)$.  
+First we note that acceleration is a vector quantity because $\Delta \vec v$ is a vector quantity. Acceleration is experienced any time an object is increasing or decreasing its velocity, \emph{any} change in velocity results in acceleration. For example, you must initially accelerate your vehicle in order for it to reach the desired velocity, similarly you must first \emph{accelerate} your vehicle in order to come to a stop and change your velocity to $(+0\m / \s)$. In this course we will consider ony the average acceleration of a moving body and avoid situations where the acceleration a given body is non-uniform.
 
-\textbf{Remark :} It is common to hear the term \emph{de-accelerate}, however this term is rather redundant because the term acceleration refers to any change in velocity, regardless of weather you would like to increase your velocity or bring yourself to a holt $(\vec v = +0\m / \s)$. 
+\textbf{Remark :} It is common to hear the term \emph{de-accelerate}, however this term is rather redundant because the term acceleration refers to any change in velocity, regardless of weather you would like to increase your velocity or bring yourself to a holt $(\vec v = +0\m / \s)$. \\
+
+\textbf{Remark :} If you are wondering why we are no longer working with $\vec v_{av}$, it is because when we were working with average velocity, we were not concerned with the precise velocity of the moving body at a given point in time but rather the "most common" velocity over a time interval. Average acceleration is concerned with changes in \emph{exact} velocities, we will discuss these differences in a latter subsection.
+
+\begin{ex}
+A vehicle on the highway changes his velocity from $\vec v_i = 500 \m / \s $[\tx{East}] to $\vec v_f = 612 \m / \s$ [\tx{West}] in $\Delta t = 2\Min$. Compute his average acceleration,
+\end{ex}
+\begin{soln}
+	$\implies$
+\vspace*{4cm}
+\end{soln}
 
 \begin{defn}
 A \textbf{velocity-time graph} is a plot describing the motion of an object, with velocity on the vertical axis and time on the horizontal axes.
@@ -334,7 +344,7 @@ Similar to before, we will encounter common types of motion and hence it would b
 		\textbf{\large{Properties of type (c):}}
 		\begin{itemize}
 			\item The slope of the graph is $m = +2$, hence $\vec a_{av} = +2\m / \s^2$.
-			\item the item experiencing \textbf{uniform acceleration}.
+			\item The object experiencing \textbf{uniform acceleration}.
 			\item The object is traveling in the [East] direction.
 		\end{itemize}
 
@@ -375,7 +385,7 @@ Similar to before, we will encounter common types of motion and hence it would b
 		\textbf{\large{Properties of type (d):}}
 		\begin{itemize}
 			\item The slope of the graph is $m = -2$, hence $\vec a_{av} = -2\m / \s^2$.
-			\item The item experiencing \textbf{uniform acceleration}.
+			\item The object experiencing \textbf{uniform acceleration}.
 			\item The object is traveling in the [West] direction.
 		\end{itemize}
 
@@ -387,7 +397,7 @@ Similar to before, we will encounter common types of motion and hence it would b
 \end{defn}
 
 \begin{defn}
-The \textbf{instantaneous velocity}$\vec v_{inst}$, of an object is the \emph{exact} velocity of an object at a given time $t$
+The \textbf{instantaneous velocity}, $\vec v$ , of an object is the \emph{exact} velocity of an object at a given time $t$
 \end{defn}
 
 	
