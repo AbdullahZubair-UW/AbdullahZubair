@@ -212,7 +212,7 @@ breakable
 \textbf{Average Acceleration}, $\vec a_{av}$, refers to the rate of change of velocity, or in other words the ratio of the change of velocity to the time elapsed. (\textbf{Units:} $m / \s^2$)
 $$\vec a_{av} = \frac{\Delta \vec v}{\Delta t} = \frac{\vec v_f - \vec v_i}{t_f - t_i}$$
 \end{defn}
-First we note that acceleration is a vector quantity because $\Delta \vec v$ is a vector quantity. Acceleration is experienced any time an object is increasing or decreasing its velocity, \emph{any} change in velocity results in acceleration. For example, you must initially accelerate your vehicle in order for it to reach the desired velocity, similarly you must first \emph{accelerate} your vehicle in order to come to a stop and change your velocity to $(+0\m / \s)$. In this course we will consider ony the average acceleration of a moving body and avoid situations where the acceleration a given body is non-uniform.
+First we note that acceleration is a vector quantity because $\Delta \vec v$ is a vector quantity. Acceleration is experienced any time an object is increasing or decreasing its velocity, \emph{any} change in velocity results in acceleration. For example, you must initially accelerate your vehicle in order for it to reach the desired velocity, similarly you must first \emph{accelerate} your vehicle in order to come to a stop and change your velocity to $(+0\m / \s)$. In this course we will consider only uniform acceleration of a moving body and avoid situations where the acceleration a given body is non-uniform.
 
 \textbf{Remark :} It is common to hear the term \emph{de-accelerate}, however this term is rather redundant because the term acceleration refers to any change in velocity, regardless of weather you would like to increase your velocity or bring yourself to a holt $(\vec v = +0\m / \s)$. \\
 
@@ -401,7 +401,7 @@ The \textbf{instantaneous velocity}, $\vec v$ , of an object is the \emph{exact}
 
 It remains to ask how we can compute the instantaneous velocity of an object at a given time $t$. To answer this question requires knowledge of basic Calculus, however we can still introduce the idea of secant and tangent lines.
 \begin{defn}
-A \textbf{secant line} is a line segment connecting two points on a graph. 
+A \textbf{secant line} is a line segment connecting two points, $(x_1,y_1)$ and $(x_2,y_2)$, on a graph. 
 \end{defn}
 It helps to understand the idea of a secant line using an illustration,
 
@@ -411,6 +411,8 @@ It helps to understand the idea of a secant line using an illustration,
             my axis style,
             width=\textwidth,
             height=0.55\textwidth,
+			ylabel = $y$,
+			xlabel = $x$,
         ]
         
         \addplot[
@@ -430,8 +432,8 @@ It helps to understand the idea of a secant line using an illustration,
         {0.5*x + 7.5};
 
   		\draw[fill=black] (0.1188,7.5599) circle(1mm);
-		\addplot[mark=*] coordinates {(0.1188,7.5599)} node[pin=150:{$(x_1,y_1)$}]{} ;
-
+		\node[label={80:{($x_1,y_1$)}},circle,fill,inner sep=2pt] at (0.1188,7.5599) {};
+		\node[label={-10:{($x_2,y_2$)}},circle,fill,inner sep=2pt] at (1,8) {};
 		%-2x^{4\ }+4x^{3}+2x^{2}-4x+1
     
         \fill[
@@ -441,6 +443,22 @@ It helps to understand the idea of a secant line using an illustration,
         \end{axis}
         \end{tikzpicture}
 \end{center}
+
+The slope of the secant line would be computed as,
+$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+If we replaced the $y-$coordinates with position vectors and the $x-$coordinates with time points, the slope of the secant line would represent the average velocity within the interval $[t_1,t_2]$.
+
+\begin{thm}
+Given a Pos v. Time graph of a moving body, the slope of a secant line in the interval $[t_1,t_2]$ represents the average velocity between $[t_1,t_2]$.
+\end{thm}
+\begin{pf}
+	We proceed with similar reasoning from above, the slope of the secant line would be given as,
+	$$m = \frac{\vec d_2 - \vec d_1}{t_2 - t_1} = \vec v_{av}$$
+\end{pf}
+\begin{defn}
+A \textbf{tangent line} is a secant line, with the property that $x_2$ and $x_1$ are infinitesimally close apart.
+\end{defn}
+If $x_2$ and $x_1$ are infinitesimally close apart, then of course $y_2$ and $y_1$ must also be infinestesmly apart as well (How $y$ changes with respect to $x$ wouldn't matter at the infinitesimal level)). As a result of this restriction, the tangent line to a graph would look as if it merely touches the graph at a single point, but in fact it does not, if we were to zoom infinestesmly we would indeed observe that the tangent line touches the graph at two distinct points. Aggain
 
 	
 % \subsection{Non-Linear Position v. Time plots}
