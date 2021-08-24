@@ -395,16 +395,52 @@ Similar to before, we will encounter common types of motion and hence it would b
 \textbf{Uniform acceleration} is motion where the acceleration of the body is fixed.
 \end{defn}
 
-\begin{cor}
-I will give the proof merely for completness, I do not expect much of the audience to understand it. Assume that the given body is experiencning unfirom acceleration, 
-\end{cor}
-\begin{pf}
-Assume for a contradiction that the velocity is changing at a non-linear rate, that is assume that the velocity is changing 
-\end{pf}
-
 \begin{defn}
 The \textbf{instantaneous velocity}, $\vec v$ , of an object is the \emph{exact} velocity of an object at a given time $t$
 \end{defn}
+
+It remains to ask how we can compute the instantaneous velocity of an object at a given time $t$. To answer this question requires knowledge of basic Calculus, however we can still introduce the idea of secant and tangent lines.
+\begin{defn}
+A \textbf{secant line} is a line segment connecting two points on a graph. 
+\end{defn}
+It helps to understand the idea of a secant line using an illustration,
+
+\begin{center}
+	\begin{tikzpicture}
+        \begin{axis}[
+            my axis style,
+            width=\textwidth,
+            height=0.55\textwidth,
+        ]
+        
+        \addplot[
+            domain=0:1.8,
+            thick,
+            purple,
+            ->
+        ]
+        {-2*x*x*x*x + 4*x*x*x + 2*x*x - 4*x + 8};
+
+		\addplot[
+            domain=0.05:1.7,
+            thick,
+            blue,
+            -
+        ]
+        {0.5*x + 7.5};
+
+  		\draw[fill=black] (0.1188,7.5599) circle(1mm);
+		\addplot[mark=*] coordinates {(0.1188,7.5599)} node[pin=150:{$(x_1,y_1)$}]{} ;
+
+		%-2x^{4\ }+4x^{3}+2x^{2}-4x+1
+    
+        \fill[
+            black
+        ];
+        
+        \end{axis}
+        \end{tikzpicture}
+\end{center}
 
 	
 % \subsection{Non-Linear Position v. Time plots}
