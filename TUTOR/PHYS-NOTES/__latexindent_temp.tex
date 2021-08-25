@@ -403,7 +403,7 @@ It remains to ask how we can compute the instantaneous velocity of an object at 
 \begin{defn}
 A \textbf{secant line} is a line segment connecting two points, $(x_1,y_1)$ and $(x_2,y_2)$, on a graph. 
 \end{defn}
-The Slope of the Secant line helps us understand the "average" \emph{slope} of a graph over an interval $[x_1,x_2]$. This is why we say that the slope of the secant line corresponds to average velocity. It helps to understand the idea of a secant line using an illustration,
+It helps to understand the idea of a secant line using an illustration,
 
 \begin{center}
 	\begin{tikzpicture}
@@ -455,10 +455,11 @@ Given a Pos v. Time graph of a moving body, the slope of a secant line in the in
 	We proceed with similar reasoning from above, the slope of the secant line would be given as,
 	$$m = \frac{\vec d_2 - \vec d_1}{t_2 - t_1} = \vec v_{av}$$
 \end{pf}
+The Slope of the Secant line helps us understand the "average" \emph{slope} of a graph over an interval $[x_1,x_2]$. This is why we say that the slope of the secant line corresponds to average velocity.
 \begin{defn}
-A \textbf{tangent line} is a secant line, with the property that $x_2$ and $x_1$ are infinitesimally close apart.
+A \textbf{tangent line} is a secant line with the property that $x_2$ and $x_1$ are infinitesimally close apart.
 \end{defn}
-If $x_2$ and $x_1$ are infinitesimally close apart, then of course $y_2$ and $y_1$ must also be infinestesmly apart as well (How $y$ changes with respect to $x$ wouldn't matter at the infinitesimal level). As a result of this restriction, the tangent line to a graph would look as if it merely touches the graph at a single point, but in fact it does not, if we were to zoom in infinestesmly we would indeed observe that the tangent line touches the graph at two distinct points. Again it helps to provide an illustration,
+If $x_2$ and $x_1$ are infinitesimally close apart, then of course $y_2$ and $y_1$ must also be infinestesmly apart as well (How $y$ changes with respect to $x$ wouldn't matter at the infinitesimal level). As a result of this restriction, the tangent line to a graph would look as if it merely touches the graph at a single point, but in fact it does not, if we were to zoom infinestesmly we would indeed observe that the tangent line touches the graph at two distinct points. Again it helps to provide an illustration,
 
 
 \begin{center}
@@ -508,298 +509,14 @@ If $x_2$ and $x_1$ are infinitesimally close apart, then of course $y_2$ and $y_
         \end{axis}
         \end{tikzpicture}
 \end{center}
-
-This illustration provides \textbf{two} tangent lines, one at point $(x,y)$ and another at point $(x',y')$. Now if tangent lines are secant lines with property that the two intersected points are infinitesimally close apart, then we like to say that the $\emph{slope}$ of the tangent line provides us with the \textbf{exact} slope of the graph at any given point.
-
-\begin{thm}
-	Let the slope of a graph at some point $(x,y)$ be $m$. Let the tangent line to this graph at $(x,y)$ be $L$, then the slope of the tangent line $m_L = m$.
-\end{thm}
-\begin{pf}
-At this stage, I am unable to prove this theorem as it would require knowledge of Calculus.
-\end{pf}
-At this point we can bridge the connection between the instantaneous velocity, $\vec v$ , and the idea of the tangent line. Since the slope of the tangent line provides us with the exact slope of the graph at a given point $(x,y)$, then we say that on a Pos v. Time graph, the slope of the tangent line at a given time $t$ provides us with the \emph{instantaneous} velocity. 
-\begin{thm}
-Given a Pos v. Time graph, let the tangent line at some point $(t, \vec d)$ be $L$. Then the slope of the tangent line $m_L$, is the instantaneous velocity $\vec v$ at time $t$.
-\end{thm}
-\begin{pf}
-Again, at this stage, I am unable to prove this theorem as it would require knowledge of Calculus.
-\end{pf}
-\begin{ex}
-Given the Pos v. Time graph below as well as a tangent line at time $t = 5$, compute the instantaneous velocity at time $t = 5$.
-\begin{center}
-	\begin{tikzpicture}
-        \begin{axis}[
-            my axis style,
-            width=\textwidth,
-            height=0.4\textwidth,
-			ylabel = $\vec d (\m \tx{[East]})$,
-			xlabel = $t$,
-			yticklabels={,,},
-			xticklabels={,,},
-			legend entries={
-					$ $,
-					$x = 4t + 3$
-				},
-			legend pos=north west
-        ]
-        
-        \addplot[
-            domain=0:1,
-            thick,
-            purple,
-            ->
-        ]
-        {-1*x*x*x*x + 4*x*x*x + 2*x*x - 4*x + 8};
-
-		\addplot[
-            domain=0.05:1,
-            thick,
-            Green,
-            -
-        ]
-        {1.856*x + 5.9404};
-
-
-  		\draw[fill=black] (0.6,7.054) circle(1mm);
-		\node[label={90:{($5,6$)}},circle,fill,inner sep=2pt] at (0.6,7.054) {};
-		%-2x^{4\ }+4x^{3}+2x^{2}-4x+1
-    
-        \fill[
-            black
-        ];
-        
-        \end{axis}
-        \end{tikzpicture}
-\end{center}
-\end{ex}
-\begin{soln}
-$\implies$
-
-\vspace*{4cm}
-\end{soln}
-\subsection{Extending concept to Acceleration}
-Given a Pos v. Time plot, we have stated that the slope of the secant line over the interval $[t_1,t_2]$ gives us the average velocity over that time interval and that the slope of the tangent line at some time $t$ gives us the instantaneous velocity at that time $t$. However this concept can be extended over to acceleration as well, that is, if we are given the \emph{Velocity v. Time} plot, we can extract the average and instantaneous acceleration. We state their theorems below (Without proofs).
-\begin{thm}
-	Given a Velocity v. Time graph of a moving body, the slope of a secant line in the interval $[t_1,t_2]$ represents the average acceleration between $[t_1,t_2]$.
-\end{thm}
-
-\begin{thm}
-	Given a Velocity v. Time graph, let the tangent line at some point $(t, \vec v)$ be $L$. Then the slope of the tangent line $m_L$, is the instantaneous acceleration $\vec a$ at time $t$.
-\end{thm}
-
-\begin{ex}
-	Given the Velocity v. Time graph below as well as a tangent line at time $t = 5$, compute the instantaneous acceleration at time $t = 5$.
-	\begin{center}
-		\begin{tikzpicture}
-			\begin{axis}[
-				my axis style,
-				width=\textwidth,
-				height=0.4\textwidth,
-				ylabel = $\vec d (\m \tx{[East]})$,
-				xlabel = $t$,
-				yticklabels={,,},
-				xticklabels={,,},
-				legend entries={
-						$ $,
-						$x = \frac{5}{3}t + 3$
-					},
-				legend pos=north west
-			]
-			
-			\addplot[
-				domain=0:1,
-				thick,
-				purple,
-				->
-			]
-			{-1*x*x*x*x + 4*x*x*x + 2*x*x - 4*x + 8};
-	
-			\addplot[
-				domain=0.05:1,
-				thick,
-				Green,
-				-
-			]
-			{1.856*x + 5.9404};
-	
-	
-			  \draw[fill=black] (0.6,7.054) circle(1mm);
-			\node[label={90:{($5,6$)}},circle,fill,inner sep=2pt] at (0.6,7.054) {};
-			%-2x^{4\ }+4x^{3}+2x^{2}-4x+1
-		
-			\fill[
-				black
-			];
-			
-			\end{axis}
-			\end{tikzpicture}
-	\end{center}
-	\end{ex}
-	\begin{soln}
-	$\implies$
-	
-	\vspace*{4cm}
-\end{soln}
-\begin{ex}
-A horse had a forward velocity of $\vec v_i = 500 \m / \s \tx{[East]}$ and then began to accelerate at an average acceleration of $\vec a_{av} = 54 \m / \s^2 \tx{[West]}$ over a duration of $\Delta t = 24 \s$. Compute his final velocity.
-\end{ex}
-\begin{soln}
-$\implies$
-\vspace*{5cm}
-\end{soln}
+% This illustration provides \textbf{two} tangent lines, one at point $(x,y)$ and another at point $(x',y')$. Now if the 
 
 	
-\subsection{Non-Linear Position v. Time plots}
-\begin{enumerate}[label = (\alph*)]
-	\item 
-        \begin{tikzpicture}
-        \begin{axis}[
-            my axis style,
-            width=\textwidth,
-            height=.5\textwidth,
-			ylabel = $\vec d (\m)$,
-			xlabel = $t$,
-        ]
-        
-        \addplot[
-            domain=0:5,
-            thick,
-            purple,
-            ->
-        ]
-        {2};
-    
-        \fill[
-            black
-        ];
-        
-        \end{axis}
-        \end{tikzpicture}
-
-		\textbf{\large{Properties of type (a):}}
-		\begin{itemize}
-			\item The slope of the graph is zero, hence $\vec a_{av} = +0\m / \s^2$.
-			\item The object is experiencing \textbf{uniform motion}.
-			\item The object is moving [East] relative to the reference point (0,0).
-		\end{itemize}
+% \subsection{Non-Linear Position v. Time plots}
+% We have analyzed plots of Linear Velocity v. Time plots, we can now ask the question; how would the corresponding Position V. time plots look like for that same body in motion? Well if you have a background in Calculus it would be much easier for me to explain this to you using the idea of \emph{ordered derivatives}, however since the reader of these notes is assumed to have at most a sophomore (or Junior) background in mathematics, I will explain it to the best of my ability.\\
 
 
-	\item 
-	\begin{tikzpicture}
-        \begin{axis}[
-            my axis style,
-            width=\textwidth,
-            height=.5\textwidth,
-			ylabel = $ $,
-        ]
-        
-        \addplot[
-            domain=0:5,
-            thick,
-            purple,
-            ->
-        ]
-        {-2};
-    
-        \fill[
-            black
-        ];
-        
-        \end{axis}
-        \end{tikzpicture}
-		
-		\textbf{\large{Properties of type (b):}}
-		\begin{itemize}
-			\item The slope of the graph is zero, hence $\vec a_{av} = +0\m / \s^2$.
-			\item The object is experiencing \textbf{uniform motion}.
-			\item The object is moving [West] relative to the reference point (0,0).
-		\end{itemize}
-
-
-	\item 
-	\begin{tikzpicture}
-        \begin{axis}[
-            my axis style,
-            width=\textwidth,
-            height=.5\textwidth,
-        ]
-        
-        \addplot[
-            domain=0:5,
-            thick,
-            purple,
-            ->
-        ]
-        {2*x};
-
-		\addplot[
-		domain=0:2,
-		thick,
-		blue,
-		dashdotted,
-		]
-		{4};
-
-		\draw [dashed, blue, thick] (2,0) -- (2,4);
-    
-        \fill[
-            black
-        ];
-        
-        \end{axis}
-        \end{tikzpicture}
-		
-		\textbf{\large{Properties of type (c):}}
-		\begin{itemize}
-			\item The slope of the graph is $m = +2$, hence $\vec a_{av} = +2\m / \s^2$.
-			\item The object experiencing \textbf{uniform acceleration}.
-			\item The object is traveling in the [East] direction.
-		\end{itemize}
-
-	\item 
-	\begin{tikzpicture}
-        \begin{axis}[
-            my axis style,
-            width=\textwidth,
-            height=.5\textwidth,
-        ]
-        
-        \addplot[
-            domain=0:5,
-            thick,
-            purple,
-            ->
-        ]
-        {-2*x + 10};
-
-		\addplot[
-		domain=0:3,
-		thick,
-		blue,
-		dashdotted,
-		]
-		{4};
-
-		
-		\draw [dashed, blue, thick] (3,0) -- (3,4);
-    
-        \fill[
-            black
-        ];
-        
-        \end{axis}
-        \end{tikzpicture}
-		
-		\textbf{\large{Properties of type (d):}}
-		\begin{itemize}
-			\item The slope of the graph is $m = -2$, hence $\vec a_{av} = -2\m / \s^2$.
-			\item The object experiencing \textbf{uniform acceleration}.
-			\item The object is traveling in the [West] direction.
-		\end{itemize}
-
-	\end{enumerate}
-
-
+% The proposition from the previous section states that for any given any Pos v. Time plot, its slope represents the average velocity of the body in motion at any given time interval, granted that this Pos v. Time plot was \emph{linear}. However in the case where the pos v. time plot is \emph{non-linear}, the slope of the graph is no longer the same everywhere and hence the average velocity varies for different time intervals. 
 
 
 	
