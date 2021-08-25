@@ -18,6 +18,7 @@
 \usepackage{float}
 \usepackage{siunitx}
 \usepackage{physunits}
+\usepackage{pgfplots}
 
 % From the Plot video
 
@@ -657,7 +658,7 @@ $\implies$
             my axis style,
             width=\textwidth,
             height=.5\textwidth,
-			ylabel = $\vec d (\m)$,
+			ylabel = $\vec d (\tx{m [East]})$,
 			xlabel = $t$,
         ]
         
@@ -667,7 +668,7 @@ $\implies$
             purple,
             ->
         ]
-        {2};
+        {x*x};
     
         \fill[
             black
@@ -678,8 +679,8 @@ $\implies$
 
 		\textbf{\large{Properties of type (a):}}
 		\begin{itemize}
-			\item The slope of the graph is zero, hence $\vec a_{av} = +0\m / \s^2$.
-			\item The object is experiencing \textbf{uniform motion}.
+			\item The object is experiencing \textbf{non-uniform motion}.
+			\item The object is \textbf{speeding up}
 			\item The object is moving [East] relative to the reference point (0,0).
 		\end{itemize}
 
@@ -691,6 +692,7 @@ $\implies$
             width=\textwidth,
             height=.5\textwidth,
 			ylabel = $ $,
+			xlabel = $t$,
         ]
         
         \addplot[
@@ -699,7 +701,7 @@ $\implies$
             purple,
             ->
         ]
-        {-2};
+        {-1*x*x};
     
         \fill[
             black
@@ -707,11 +709,11 @@ $\implies$
         
         \end{axis}
         \end{tikzpicture}
-		
+
 		\textbf{\large{Properties of type (b):}}
 		\begin{itemize}
-			\item The slope of the graph is zero, hence $\vec a_{av} = +0\m / \s^2$.
-			\item The object is experiencing \textbf{uniform motion}.
+			\item The object is experiencing \textbf{non-uniform motion}.
+			\item The object is \textbf{speeding up}
 			\item The object is moving [West] relative to the reference point (0,0).
 		\end{itemize}
 
@@ -722,25 +724,17 @@ $\implies$
             my axis style,
             width=\textwidth,
             height=.5\textwidth,
+			ylabel = $\vec d (\tx{m [East]})$,
+			xlabel = $t$,
         ]
         
         \addplot[
-            domain=0:5,
+            domain=0:2.2,
             thick,
             purple,
             ->
         ]
-        {2*x};
-
-		\addplot[
-		domain=0:2,
-		thick,
-		blue,
-		dashdotted,
-		]
-		{4};
-
-		\draw [dashed, blue, thick] (2,0) -- (2,4);
+        {-1*x*x + 4*x};
     
         \fill[
             black
@@ -748,12 +742,12 @@ $\implies$
         
         \end{axis}
         \end{tikzpicture}
-		
+
 		\textbf{\large{Properties of type (c):}}
 		\begin{itemize}
-			\item The slope of the graph is $m = +2$, hence $\vec a_{av} = +2\m / \s^2$.
-			\item The object experiencing \textbf{uniform acceleration}.
-			\item The object is traveling in the [East] direction.
+			\item The object is experiencing \textbf{non-uniform motion}.
+			\item The object is \textbf{slowing down}
+			\item The object is moving [East] relative to the reference point (0,0).
 		\end{itemize}
 
 	\item 
@@ -762,26 +756,17 @@ $\implies$
             my axis style,
             width=\textwidth,
             height=.5\textwidth,
+			ylabel = $ $,
+			xlabel = $t$,
         ]
         
         \addplot[
-            domain=0:5,
+            domain=0:2.2,
             thick,
             purple,
             ->
         ]
-        {-2*x + 10};
-
-		\addplot[
-		domain=0:3,
-		thick,
-		blue,
-		dashdotted,
-		]
-		{4};
-
-		
-		\draw [dashed, blue, thick] (3,0) -- (3,4);
+        {x*x - 4*x};
     
         \fill[
             black
@@ -789,15 +774,18 @@ $\implies$
         
         \end{axis}
         \end{tikzpicture}
-		
+
 		\textbf{\large{Properties of type (d):}}
 		\begin{itemize}
-			\item The slope of the graph is $m = -2$, hence $\vec a_{av} = -2\m / \s^2$.
-			\item The object experiencing \textbf{uniform acceleration}.
-			\item The object is traveling in the [West] direction.
+			\item The object is experiencing \textbf{non-uniform motion}.
+			\item The object is \textbf{slowing down}
+			\item The object is moving [West] relative to the reference point (0,0).
 		\end{itemize}
 
-	\end{enumerate}
+\end{enumerate}
+
+\newpage
+\subsection{Going from Velocity to displacement}
 
 
 

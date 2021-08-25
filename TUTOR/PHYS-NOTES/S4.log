@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  25 AUG 2021 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  25 AUG 2021 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -892,7 +892,46 @@ Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/physunits/physunits.sty
 Package: physunits 2020/03/26 v1.0.4 Physical units package
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks65
+\t@pgfplots@tokb=\toks66
+\t@pgfplots@tokc=\toks67
+\pgfplots@tmpa=\dimen330
+\c@pgfplots@coordindex=\count458
+\c@pgfplots@scanlineindex=\count459
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count460
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count461
+\t@pgfplotstable@a=\toks68
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count462
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen331
+\pgfdecoratedremainingdistance=\dimen332
+\pgfdecoratedinputsegmentcompleteddistance=\dimen333
+\pgfdecoratedinputsegmentremainingdistance=\dimen334
+\pgf@decorate@distancetomove=\dimen335
+\pgf@decorate@repeatstate=\count463
+\pgfdecorationsegmentamplitude=\dimen336
+\pgfdecorationsegmentlength=\dimen337
+)
+\tikz@lib@dec@box=\box96
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count464
+\pgfplots@xmin@reg=\dimen338
+\pgfplots@xmax@reg=\dimen339
+\pgfplots@ymin@reg=\dimen340
+\pgfplots@ymax@reg=\dimen341
+\pgfplots@zmin@reg=\dimen342
+\pgfplots@zmax@reg=\dimen343
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
  (/usr/local/texlive/2020/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
 File: lgrenc.def 2019/07/09 v0.13.3 LGR Greek font encoding definitions
@@ -1252,8 +1291,8 @@ File: lgrenc.dfu 2019/07/11 1.7 UTF-8 support for Greek
 File: greek-fontenc.def 2015/08/04 v0.13.4 Common Greek font encoding definitions
 ))) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks65
-\inpenc@posthook=\toks66
+\inpenc@prehook=\toks69
+\inpenc@posthook=\toks70
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -1290,12 +1329,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks67
-\MT@count=\count458
+\MT@toks=\toks71
+\MT@count=\count465
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen330
+\MT@outer@kern=\dimen344
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count459
+\MT@listname@count=\count466
  (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 914.
@@ -1313,47 +1352,8 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/ifsym/ifsym.sty
 Package: ifsym 2000/04/18 I.Kloeckl
-\c@ifsymcnt=\count460
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks68
-\t@pgfplots@tokb=\toks69
-\t@pgfplots@tokc=\toks70
-\pgfplots@tmpa=\dimen331
-\c@pgfplots@coordindex=\count461
-\c@pgfplots@scanlineindex=\count462
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count463
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count464
-\t@pgfplotstable@a=\toks71
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count465
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen332
-\pgfdecoratedremainingdistance=\dimen333
-\pgfdecoratedinputsegmentcompleteddistance=\dimen334
-\pgfdecoratedinputsegmentremainingdistance=\dimen335
-\pgf@decorate@distancetomove=\dimen336
-\pgf@decorate@repeatstate=\count466
-\pgfdecorationsegmentamplitude=\dimen337
-\pgfdecorationsegmentlength=\dimen338
-)
-\tikz@lib@dec@box=\box96
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count467
-\pgfplots@xmin@reg=\dimen339
-\pgfplots@xmax@reg=\dimen340
-\pgfplots@ymin@reg=\dimen341
-\pgfplots@ymax@reg=\dimen342
-\pgfplots@zmin@reg=\dimen343
-\pgfplots@zmax@reg=\dimen344
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+\c@ifsymcnt=\count467
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -1405,34 +1405,34 @@ Package caption Info: listings package is loaded.
  (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S4.aux)
 \openout1 = `S4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 208.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 208.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 209.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 208.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box97
-Package hyperref Info: Link coloring OFF on input line 208.
+Package hyperref Info: Link coloring OFF on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1442,9 +1442,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count491
 )
-LaTeX Info: Redefining \ref on input line 208.
-LaTeX Info: Redefining \pageref on input line 208.
-LaTeX Info: Redefining \nameref on input line 208.
+LaTeX Info: Redefining \ref on input line 209.
+LaTeX Info: Redefining \pageref on input line 209.
+LaTeX Info: Redefining \nameref on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count492
@@ -1470,65 +1470,65 @@ Dictionary: translator-basic-dictionary, Language: English
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \microtypecontext on input line 208.
+Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.17} (current compat level: 1.16).
+
+LaTeX Info: Redefining \microtypecontext on input line 209.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 208.
+LaTeX Info: Redefining \showhyphens on input line 209.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.17} (current compat level: 1.16).
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 208.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 209.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 208.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 208.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 208.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 208.
+(Font)              <12> on input line 209.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 208.
+(Font)              <8> on input line 209.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 208.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 208.
+(Font)              <6> on input line 209.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 208.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 208.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 208.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1536,7 +1536,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 208.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 209.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1544,14 +1544,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: bookmark level for unknown defn defaults to 0 on input line 212.
+Package hyperref Info: bookmark level for unknown defn defaults to 0 on input line 213.
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
-Package hyperref Info: bookmark level for unknown ex defaults to 0 on input line 222.
-Package hyperref Info: bookmark level for unknown soln defaults to 0 on input line 225.
+Package hyperref Info: bookmark level for unknown ex defaults to 0 on input line 223.
+Package hyperref Info: bookmark level for unknown soln defaults to 0 on input line 226.
 [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
@@ -1573,108 +1573,99 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package hyperref Info: bookmark level for unknown prop defaults to 0 on input line 234.
-Package hyperref Info: bookmark level for unknown pf defaults to 0 on input line 237.
+Package hyperref Info: bookmark level for unknown prop defaults to 0 on input line 235.
+Package hyperref Info: bookmark level for unknown pf defaults to 0 on input line 238.
 
 
-Package pgfplots Warning: Axis range for axis y is approximately empty; enlarging it (it is [2.0000000000:2.0000000000]) on input line 267.
+Package pgfplots Warning: Axis range for axis y is approximately empty; enlarging it (it is [2.0000000000:2.0000000000]) on input line 268.
 
  [warning /pgfplots/warning/approx empty range enlarged]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 267.
+(Font)              <10> on input line 268.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 267.
+(Font)              <7> on input line 268.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 267.
+(Font)              <5> on input line 268.
 
-Overfull \hbox (18.96536pt too wide) in paragraph at lines 268--269
+Overfull \hbox (18.96536pt too wide) in paragraph at lines 269--270
 [][] 
  []
 
 [2]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 272.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 273.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-Package pgfplots Warning: Axis range for axis y is approximately empty; enlarging it (it is [-2.0000000000:-2.0000000000]) on input line 299.
+Package pgfplots Warning: Axis range for axis y is approximately empty; enlarging it (it is [-2.0000000000:-2.0000000000]) on input line 300.
 
  [warning /pgfplots/warning/approx empty range enlarged]
 
-Overfull \hbox (26.74316pt too wide) in paragraph at lines 300--301
+Overfull \hbox (26.74316pt too wide) in paragraph at lines 301--302
 [][] 
  []
 
 
-Overfull \hbox (16.18759pt too wide) in paragraph at lines 341--342
+Overfull \hbox (16.18759pt too wide) in paragraph at lines 342--343
 [][] 
  []
 
 [3]
-Overfull \hbox (16.18759pt too wide) in paragraph at lines 382--383
+Overfull \hbox (16.18759pt too wide) in paragraph at lines 383--384
 [][] 
  []
 
 [4] [5]
-Package hyperref Info: bookmark level for unknown thm defaults to 0 on input line 452.
+Package hyperref Info: bookmark level for unknown thm defaults to 0 on input line 453.
  [6]
 
-Package tcolorbox Warning: Discard zero height first box part due to break problems (possible loss of zero height content) on input line 579.
+Package tcolorbox Warning: Discard zero height first box part due to break problems (possible loss of zero height content) on input line 580.
 
 [7] [8]
-
-Package pgfplots Warning: Axis range for axis y is approximately empty; enlarging it (it is [2.0000000000:2.0000000000]) on input line 676.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-
-Overfull \hbox (18.96536pt too wide) in paragraph at lines 677--678
+Overfull \hbox (16.18759pt too wide) in paragraph at lines 678--679
 [][] 
  []
 
 [9]
-
-Package pgfplots Warning: Axis range for axis y is approximately empty; enlarging it (it is [-2.0000000000:-2.0000000000]) on input line 708.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-
-Overfull \hbox (26.74316pt too wide) in paragraph at lines 709--710
+Overfull \hbox (23.9654pt too wide) in paragraph at lines 711--712
 [][] 
  []
 
 
-Overfull \hbox (16.18759pt too wide) in paragraph at lines 750--751
+Overfull \hbox (11.18314pt too wide) in paragraph at lines 744--745
 [][] 
  []
 
 [10]
-Overfull \hbox (16.18759pt too wide) in paragraph at lines 791--792
+Overfull \hbox (18.96094pt too wide) in paragraph at lines 776--777
 [][] 
  []
 
+[11]
 \tf@thm=\write6
 \openout6 = `S4.thm'.
 
-[11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 808.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 808.
+ [12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 796.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 796.
  (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 808.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 808.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 808.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 796.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 796.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 796.
  ) 
 Here is how much of TeX's memory you used:
- 47538 strings out of 480608
- 1075804 string characters out of 5903631
+ 47544 strings out of 480608
+ 1075895 string characters out of 5903631
  1617829 words of memory out of 5000000
- 62468 multiletter control sequences out of 15000+600000
+ 62472 multiletter control sequences out of 15000+600000
  629010 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,19n,127p,1017b,2669s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S4.pdf (11 pages, 229841 bytes).
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S4.pdf (12 pages, 231236 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
- 29381 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 29389 words of extra memory for PDF output out of 29859 (max. 10000000)
 
