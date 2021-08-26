@@ -285,9 +285,9 @@
                 \textcolor{purple}{Racer X} \colon x &= t \\
                 &= (5) \m \\
                 &= 5\m \\
-                \textcolor{blue}{Racer Z} \colon x &= 3t\\
-                &= 3(5) \m \\
-                &= 15 \m
+                \textcolor{blue}{Racer Z} \colon x &= 5t\\
+                &= 5(5) \m \\
+                &= 25 \m
             \end{align*}
             Since the distance traveled by \textcolor{blue}{Racer $Z$} is greater than the distance traveled by the other racers by the end of the race, we can conclude that he must of won the race.
         \end{proof}
@@ -310,14 +310,19 @@ A ball is dropped from a cliff $20\m$[North] relative to the ground. The ball bo
 
 \begin{soln}
     \begin{enumerate}[label = (\alph*)]
-        \item To determine the average velocity of the ball we must compute $\Delta \vec d$. First we must agree on a reference point to take our measurements from, I will choose the ground. Next I will assign the upwards direction as the positive direction of motion. The initial position vector of the ball relative to the ground is $\vec d_I = +20\m$. To determine the final position vector of the ball will require some relative vector operations, we know the final position of the ball relative to cliff is $\vec d_{\tx{BALL rel CLIFF}} = -15\m$, and we also know $\vec d_{\tx{CLIFF rel GRND}}$. Knowledge of these two position vectors allows us to use proposition 1.6.1, 
+        \item \textbf{\underline{Solution 1:}} To determine the average velocity of the ball we must compute $\Delta \vec d$. First we must agree on a reference point to take our measurements from, I will choose the ground. Next I will assign [North] as the positive direction of motion. The initial position vector of the ball relative to the ground is $\vec d_I = +20\m$. To determine the final position vector of the ball will require some relative vector operations, we know the final position of the ball relative to cliff is $\vec d_{\tx{BALL rel CLIFF}} = -15\m$, and we also know $\vec d_{\tx{CLIFF rel GRND}}$. Knowledge of these two position vectors allows us to use proposition 1.6.1, 
         \begin{align*}
             \vec d_{\tx{BALL rel GRND}} &= \vec d_{\tx{BALL rel CLIFF}} + \vec d_{\tx{CLIFF rel GRND}}\\
             &= -15\m + (+20\m)\\
             &= +5\m\\
         \end{align*}
         We can now deduce the average velocity of the ball,
-            $$\vec v_{av} = \frac{\Delta \vec d}{\Delta t} = +\frac{5}{12} \m / \s = \frac{5}{12} \m / \s \tx{[North]}$$
+            $$\vec v_{av} = \frac{\Delta \vec d}{\Delta t} = \frac{\vec d_F - \vec d_I}{\Delta t} = \frac{+5 - (+20)}{12} = -\frac{15}{12} \m / \s = \frac{5}{4} \m / \s \tx{[South]}$$\\
+
+
+        \textbf{\underline{Solution 2:}} In this solution I will only change my reference point and choose the cliff instead, we will continue to call [North] the positive direction of motion. Initally the ball is $\vec d_I = +0 \m$ relative to the cliff and finally the ball is $\vec d_F = -15\m$ relative to the cliff, hence
+        $$\vec v_{av} = \frac{\Delta \vec d}{\Delta t} = \frac{-15 - (+0)}{12} = -\frac{5}{4} \m / \s = \frac{5}{4} \m / \s \tx{[South]}$$
+        \textbf{(THIS SOLUTION IS WAY EASIER, ALWAYS CHOOSE SMART REF POINT)}
             
         \item To determine the average speed of the ball, we need to compute the total distance traveled by the ball by summing over its displacements. Its first displacement was $\Delta \vec d_1 = 20\m$[S]. Afterwards it traveled from the ground to a position $\vec d_{\tx{BALL rel GRND}} = 5\m$[N] (From (a)), hence its second displacement was $\Delta d_2 = 5\m$ [N]. We apply Corollary 1.2.0.1 to determine the distance traveled,
         \begin{align*}
