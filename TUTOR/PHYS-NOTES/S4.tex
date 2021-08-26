@@ -790,6 +790,7 @@ If I give you a Velocity v. Time plot, could you reconstruct the Position V. Tim
 \begin{thm}
 Given a Velocity V. Time graph, the area under the graph from $[t_1,t_2]$ is the displacement of the body from $[t_1,t_2]$.
 \end{thm}
+\textbf{Remark :} Any portion of the graph below the vertical axes has $\textbf{NEGATIVE AREA}$. (This makes sense due to the definition of displacement).\\
 Now using this theorem we can construct an accurate reconstruction of the corresponding Position V. Time plot by taking the area of each consecutive interval $[0,1]$, $[1,2]$, $\cdots$. 
 \begin{ex}
 	Given the Velocity V. Time graph below, determine the following,
@@ -804,7 +805,7 @@ Now using this theorem we can construct an accurate reconstruction of the corres
 			grid,
             my axis style,
             width=\textwidth,
-            height=0.7\textwidth,
+            height=0.6\textwidth,
 			ylabel = $\vec v (\tx{m/s [East]})$,
 			xlabel = $t$,
         ]
