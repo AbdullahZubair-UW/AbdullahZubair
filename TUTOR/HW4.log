@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  26 AUG 2021 09:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  26 AUG 2021 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1601,10 +1601,10 @@ This may cause the page layout to be inconsistent, however.
 [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] 
+] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [2] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [3] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 164.
 \c@pagesLTS.arabic.1.local.count=\count447
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -1616,22 +1616,22 @@ Package pageslts Info: Total number of pages is odd.
 
 
 (/Users/abdullah/AbdullahZubair/TUTOR/HW4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
  ) 
 Here is how much of TeX's memory you used:
- 53059 strings out of 480608
- 1153584 string characters out of 5903631
- 1695344 words of memory out of 5000000
- 67808 multiletter control sequences out of 15000+600000
- 569115 words of font info for 82 fonts, out of 8000000 for 9000
+ 53085 strings out of 480608
+ 1153848 string characters out of 5903631
+ 1698344 words of memory out of 5000000
+ 67816 multiletter control sequences out of 15000+600000
+ 569384 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,11n,127p,1229b,2450s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on /Users/abdullah/AbdullahZubair/TUTOR/HW4.pdf (1 page, 112223 bytes).
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/HW4.pdf (3 pages, 118225 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 13941 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
+ 31 named destinations out of 1000 (max. 500000)
+ 13957 words of extra memory for PDF output out of 14400 (max. 10000000)
 
