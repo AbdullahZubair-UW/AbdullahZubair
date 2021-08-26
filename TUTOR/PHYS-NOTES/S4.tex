@@ -786,6 +786,59 @@ $\implies$
 
 \newpage
 \subsection{Going from Velocity to displacement}
+If I give you a Velocity v. Time plot, could you reconstruct the Position V. Time plot for that corresponding body in motion? The answer is yes you can, the way we do so is by taking the area under of the Velocity V. Time plot at different instances in time. Suppose I wanted to know by displacement from time $[t_1,t_2]$, then I would compute the are of the Velocity V. Time graph from $[t_1,t_2]$ and then result would give me the corresponding displacement. We state this in a theorem,
+\begin{thm}
+Given a Velocity V. Time graph, the area under the graph from $[t_1,t_2]$ is the displacement of the body from $[t_1,t_2]$.
+\end{thm}
+Now using this theorem we can construct an accurate reconstruction of the corresponding Position V. Time plot by taking the area of each consecutive interval $[0,1]$, $[1,2]$, $\cdots$. 
+\begin{ex}
+	Given the Velocity V. Time graph below, determine the following,
+	\begin{enumerate}[label = (\alph*)]
+		\item The displacement from time $t=2 \rightarrow t=4$.
+		\item The displacement from time $t = 0 \rightarrow t = 10$
+	\end{enumerate}
+
+
+	\begin{tikzpicture}
+        \begin{axis}[
+			grid,
+            my axis style,
+            width=\textwidth,
+            height=0.7\textwidth,
+			ylabel = $\vec v (\tx{m/s [East]})$,
+			xlabel = $t$,
+        ]
+        
+        \addplot[
+            domain=0:5,
+            thick,
+            purple,
+            -
+        ]
+        {x};
+
+		\addplot[
+            domain=5:10,
+            thick,
+            purple,
+            -
+        ]
+        {5};
+    
+        \fill[
+            black
+        ];
+        
+        \end{axis}
+        \end{tikzpicture}
+
+
+\end{ex}
+
+\begin{soln}
+$\implies$
+\vspace*{15cm}
+\end{soln}
 
 
 
