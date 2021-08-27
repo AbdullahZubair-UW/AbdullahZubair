@@ -127,7 +127,55 @@ Answer the followiing True / False questions \textbf{(Assume [North],[East] is p
 		\item The rocket experienced an average velocity of $\vec v_{av} = -10 \m / \s$. (T / F)
 		\item The rocket was initially [West] relative to the reference point. (T / F)
 	\end{enumerate}
+\item Suppose that a frisbee has an average speed of $v_{av}$ and that it takes $\Delta t$ seconds to reach the end of the room. 
+	\begin{enumerate}[label = (\alph*)]
+		\item Doubling the average speed of the frisbee will triple the distance it can travel. (T / F)
+		\item If I want the frisbee to reach the end of the room in $\frac{\Delta t}{3}$ seconds then I must triple the average speed. (T / F)
+	\end{enumerate}
+\item Consider the Position V. Time graph for a body in motion below
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+	\begin{axis}[
+		my axis style,
+		width=\textwidth,
+		height=.5\textwidth,
+		grid
+	]
+	
+	\addplot[
+		domain=0:2,
+		thick,
+		purple,
+		-
+	]
+	{2*x};
+
+	\addplot[
+		domain=2:3,
+		thick,
+		purple,
+		-
+	]
+	{4};
+	
+	\fill[
+		black
+	];
+	
+	\end{axis}
+	\end{tikzpicture}
+\end{figure}
+	\begin{enumerate}[label = (\alph*)]
+		\item The body had an average velocity of $\vec v_{av} = +2 \m / \s$. (T / F)
+		\item The body continued to move in the positive direction after $t = 2\s$. (T / F)
+	\end{enumerate}
+
+\item (Relative vector problem)
+
+
 \end{enumerate}
+
 
 \end{qstn}
 
