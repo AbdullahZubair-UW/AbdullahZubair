@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1630149041 "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.tex" "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.pdf" "REVIEW-1" 1630149043
-  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.aux" 1630149043 5235 d3f3d0caa9850f747ceb43fc071f7a51 ""
-  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.tex" 1630149039 9291 f6906daa07c46e213ba7cf1ad748f782 ""
+["pdflatex"] 1630156316 "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.tex" "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.pdf" "REVIEW-1" 1630156349
+  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.aux" 1630156318 5619 4daa51d6564910ac6736e30d7cfe1fda ""
+  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.tex" 1630156314 9808 8a7b334995be179bb51fedfc15fb5b27 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -432,11 +432,12 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "CKassignment.sty" 1626955440 10134 0f8b756b71f2dc1f4d3fc61532a0e002 ""
   "CKpreamble.sty" 1629150557 29705 b7f2e429fed000f08618f59385cb95f5 ""
-  "REVIEW-1.aux" 1630149043 5235 d3f3d0caa9850f747ceb43fc071f7a51 "pdflatex"
-  "REVIEW-1.tex" 1630149039 9291 f6906daa07c46e213ba7cf1ad748f782 ""
+  "REVIEW-1.aux" 1630156318 5619 4daa51d6564910ac6736e30d7cfe1fda "pdflatex"
+  "REVIEW-1.tex" 1630156314 9808 8a7b334995be179bb51fedfc15fb5b27 ""
+  "ramp.jpg" 1630156026 330479 5ac8341807aaee922e784d143c849206 ""
   (generated)
-  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.log"
   "REVIEW-1.pdf"
-  "REVIEW-1.aux"
   "REVIEW-1.log"
+  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.log"
+  "REVIEW-1.aux"
   "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.pdf"
