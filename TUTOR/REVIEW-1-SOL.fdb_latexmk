@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1630157615 "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.tex" "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.pdf" "REVIEW-1" 1630157618
-  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.aux" 1630157617 5619 8e9e363c6efd4b40e38cf43633ff2e21 ""
-  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.tex" 1630157612 9832 3ed21145af2c7c128d8541b65cd74489 ""
+["pdflatex"] 1630170209 "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.tex" "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.pdf" "REVIEW-1-SOL" 1630170211
+  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.aux" 1630170211 6000 8c983706067a2dcb8bf7b68f74f29e00 ""
+  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.tex" 1630170205 11791 1afb69b01c04009f82778f1832d16b97 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -432,12 +432,12 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "CKassignment.sty" 1626955440 10134 0f8b756b71f2dc1f4d3fc61532a0e002 ""
   "CKpreamble.sty" 1629150557 29705 b7f2e429fed000f08618f59385cb95f5 ""
-  "REVIEW-1.aux" 1630157617 5619 8e9e363c6efd4b40e38cf43633ff2e21 "pdflatex"
-  "REVIEW-1.tex" 1630157612 9832 3ed21145af2c7c128d8541b65cd74489 ""
+  "REVIEW-1-SOL.aux" 1630170211 6000 8c983706067a2dcb8bf7b68f74f29e00 "pdflatex"
+  "REVIEW-1-SOL.tex" 1630170205 11791 1afb69b01c04009f82778f1832d16b97 ""
   "ramp.jpg" 1630156026 330479 5ac8341807aaee922e784d143c849206 ""
   (generated)
-  "REVIEW-1.log"
-  "REVIEW-1.pdf"
-  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.pdf"
-  "REVIEW-1.aux"
-  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.log"
+  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.log"
+  "REVIEW-1-SOL.log"
+  "REVIEW-1-SOL.pdf"
+  "/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.pdf"
+  "REVIEW-1-SOL.aux"

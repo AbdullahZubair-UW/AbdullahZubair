@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 AUG 2021 09:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 AUG 2021 13:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.tex
-(/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.tex
+**/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.tex
+(/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -1356,10 +1356,10 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count435
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-) (/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.aux
+) (/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.aux
 \c@pagesLTS.arabic.1.local.cnt=\count436
 )
-\openout1 = `REVIEW-1.aux'.
+\openout1 = `REVIEW-1-SOL.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
@@ -1607,25 +1607,35 @@ This may cause the page layout to be inconsistent, however.
 [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] [2] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [3] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [4] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [5] [6] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 246.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [7] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+] [2] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [3] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 
  []
 
-[8] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
-<ramp.jpg, id=117, 2000.47375pt x 1436.36626pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+
+ []
+
+[4] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [5] [6] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [7] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 291.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [8] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
+
+Package pgfplots Warning: You have an axis with empty range (in direction y). Replacing it with a default range and clearing all plots. on input line 320.
+
+ [warning /pgfplots/warning/empty range cleared axis]
+[9] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
+<ramp.jpg, id=128, 2000.47375pt x 1436.36626pt>
 File: ramp.jpg Graphic file (type jpg)
 <use ramp.jpg>
-Package pdftex.def Info: ramp.jpg  used on input line 267.
-(pdftex.def)             Requested size: 511.8651pt x 367.50687pt.
- [9 </Users/abdullah/AbdullahZubair/TUTOR/ramp.jpg>] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [10] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [11] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [12] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [13] 
+Package pdftex.def Info: ramp.jpg  used on input line 331.
+(pdftex.def)             Requested size: 369.86818pt x 284.52852pt.
+ [10 </Users/abdullah/AbdullahZubair/TUTOR/ramp.jpg>] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [11] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [12] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [13] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [14] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 291.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 356.
 \c@pagesLTS.arabic.1.local.count=\count447
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -1633,26 +1643,26 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is odd.
+Package pageslts Info: Total number of pages is even.
 
 
-(/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
+(/Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
  ) 
 Here is how much of TeX's memory you used:
- 53762 strings out of 480608
- 1170184 string characters out of 5903631
- 1769662 words of memory out of 5000000
- 68405 multiletter control sequences out of 15000+600000
- 611376 words of font info for 144 fonts, out of 8000000 for 9000
+ 53792 strings out of 480608
+ 1170583 string characters out of 5903631
+ 1769973 words of memory out of 5000000
+ 68417 multiletter control sequences out of 15000+600000
+ 611823 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,12n,127p,1234b,2668s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,12n,127p,1238b,2668s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on /Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.pdf (13 pages, 503347 bytes).
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1-SOL.pdf (14 pages, 508684 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 59 named destinations out of 1000 (max. 500000)
- 27850 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 27858 words of extra memory for PDF output out of 29859 (max. 10000000)
 
