@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  27 AUG 2021 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 AUG 2021 07:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1636,14 +1636,14 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
  ) 
 Here is how much of TeX's memory you used:
  53746 strings out of 480608
- 1170011 string characters out of 5903631
- 1769571 words of memory out of 5000000
+ 1170007 string characters out of 5903631
+ 1769570 words of memory out of 5000000
  68396 multiletter control sequences out of 15000+600000
  611285 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,12n,127p,1234b,2668s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on /Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.pdf (12 pages, 170901 bytes).
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/REVIEW-1.pdf (12 pages, 170905 bytes).
 PDF statistics:
  220 PDF objects out of 1000 (max. 8388607)
  179 compressed objects within 2 object streams
