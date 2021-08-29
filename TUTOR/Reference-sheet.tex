@@ -1,0 +1,321 @@
+\documentclass[12pt]{article} 
+
+\usepackage{fullpage}
+\usepackage{bookmark}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref} % for the URL
+\usepackage[shortlabels]{enumitem}
+\usepackage{mathtools}
+\usepackage[most]{tcolorbox}
+\usepackage[amsmath,standard,thmmarks]{ntheorem} 
+\usepackage{physics}
+\usepackage{pst-tree} % for the trees
+\usepackage{verbatim} % for comments, for version control
+\usepackage{tabu}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{physunits}
+\usepackage{pgfplots}
+
+% From the Plot video
+
+\usepackage[LGR,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{upgreek}
+\usepackage[misc]{ifsym}
+
+\usepackage{pgfplots}
+	\usetikzlibrary{
+		calc,
+		patterns,
+		positioning
+	}
+	\pgfplotsset{
+		compat=1.16,
+		samples=200,
+		clip=false,
+		my axis style/.style={
+			axis x line=middle,
+			axis y line=middle,
+			legend pos=outer north east,
+			axis line style={
+				->,
+			},
+			legend style={
+				font=\footnotesize
+			},
+			label style={
+				font=\footnotesize
+			},
+			tick label style={
+				font=\footnotesize
+			},
+			xlabel style={
+				at={
+					(ticklabel* cs:1)
+				},
+				anchor=west,
+				font=\footnotesize,
+			},
+			ylabel style={
+				at={
+					(ticklabel* cs:1)
+				},
+				anchor=west,
+				font=\footnotesize,
+			},
+			xlabel=$t$,
+			ylabel=$\vec v (\m \tx{[East]})$
+		},
+	}
+	\tikzset{
+		>=stealth
+	}
+
+
+    \pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$t$}, axis equal }}
+
+%%% Tables and figures packages
+
+\usepackage{float}
+\usepackage{caption}
+	\captionsetup{
+		format=plain,
+		labelfont=bf,
+		font=small,
+		justification=centering
+	}
+	
+%%% Numbers and sets
+
+\newcommand{\E}{\mathrm{e}}
+\newcommand{\tx}[1]{\text{#1}}
+
+
+% floor, ceiling, set
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\set}{\lbrace}{\rbrace}
+\DeclarePairedDelimiter{\iprod}{\langle}{\rangle}
+
+\DeclareMathOperator{\Int}{int}
+\DeclareMathOperator{\mean}{mean}
+
+% commonly used sets
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Nat}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\renewcommand{\P}{\mathbb{P}}
+
+\newcommand{\sset}{\subseteq}
+
+
+\theoremstyle{break}
+\theorembodyfont{\upshape}
+
+\newtheorem*{thm}{Theorem}[subsection]
+\tcolorboxenvironment{thm}{
+enhanced jigsaw,
+colframe=Dandelion,
+colback=White!90!Dandelion,
+drop fuzzy shadow east,
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem*{cor}{Corollary}[thm]
+\tcolorboxenvironment{cor}{
+boxrule=0pt,
+boxsep=0pt,
+colback={White!90!RoyalPurple},
+enhanced jigsaw,
+borderline west={2pt}{0pt}{RoyalPurple},
+sharp corners,
+before skip=10pt,
+after skip=10pt,
+breakable
+}
+
+\newtheorem{algo}[thm]{Algorithm}
+\tcolorboxenvironment{algo}{
+enhanced jigsaw,
+colframe=Red,
+colback={White!95!Red},
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{ex}[thm]{Example}
+\tcolorboxenvironment{ex}{% from ntheorem
+blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{Green}
+}
+
+\newtheorem*{pf}{Proof}
+\tcolorboxenvironment{pf}{% from ntheorem
+breakable,blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{NavyBlue!80!white}
+}
+
+
+\newtheorem*{soln}{Solution}
+\tcolorboxenvironment{soln}{% from ntheorem
+breakable,blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{NavyBlue!80!white}
+}
+
+\newtheorem*{defn}{Definition}[subsection]
+\tcolorboxenvironment{defn}{
+enhanced jigsaw,
+colframe=Cerulean,
+colback=White!90!Cerulean,
+drop fuzzy shadow east,
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem*{prop}[thm]{Proposition}
+\tcolorboxenvironment{prop}{
+boxrule=0pt,
+boxsep=0pt,
+colback={White!90!Green},
+enhanced jigsaw,
+borderline west={2pt}{0pt}{Green},
+sharp corners,
+before skip=10pt,
+after skip=10pt,
+breakable
+}
+
+\setlength\parindent{0pt}
+\setlength{\parskip}{2pt}
+
+
+\begin{document}
+\let\ref\Cref
+
+\begin{center}
+	\LARGE{\textbf{Reference Sheet for Test 1}}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{S2:}
+
+\begin{defn}
+	\textbf{Kinematics} is the study of the motion of an object.
+\end{defn}
+
+\begin{defn}
+The \textbf{distance} traveled by an object is the total length of the path it traversed.
+\end{defn}
+
+
+\begin{defn}
+The \textbf{direction} of an object is an indication of its location according to some system.
+\end{defn}
+
+\begin{defn}
+	A \textbf{scalar} is a quantity that has a magnitude (size) \emph{only}.
+	\end{defn}
+
+\begin{defn}
+	A \textbf{vector} is a quantity that has a magnitude as well an associated direction. We denote a variable who represents a vector with an arrow, $\rightarrow$.
+\end{defn}
+
+\begin{defn}
+	\textbf{Position}, $\vec d$, is the distance and direction of an object from a particular \emph{reference point}.
+\end{defn}
+
+\begin{defn}
+    The \textbf{displacement} of an object is the change in its position. $$\Delta \vec d = \vec d_{f} - \vec d_{i}$$
+\end{defn}
+
+\begin{cor}
+    If an object changes its position more than once, the \emph{net} or \emph{total}  displacement of the
+    object is computed as, $$\Delta \vec d_T = \vec d_F - \vec d_I$$
+    Where $\vec d_F$, $\vec d_I$ are the final and initial position vectors respectively.
+\end{cor}
+
+
+\begin{thm}
+	The \textbf{distance} covered by an object is the sum of all displacements along its path
+	$$ d = \sum_i |\overrightarrow{\Delta d_i}|$$
+\end{thm}
+
+\begin{defn}
+		To add two vectors, $\vec A + \vec B$, \emph{Geometrically}, we place the \emph{tail} of $\vec B$ to the
+		\emph{tip} of $\vec A$.
+\end{defn}	
+
+\begin{defn}
+    For a vector $\vec A$, we define $\overrightarrow {-A}$ to be the vector such that $\vec A +
+    (\overrightarrow{-A}) = \vec 0$.
+\end{defn}
+
+\begin{prop}
+	For reference points $A,B,C$, $$\vec d_{AC} = \vec d_{AB} + \vec d_{BA}$$ 
+ \end{prop}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{S3:}
+
+\begin{defn}
+The \textbf{average speed} of an object is the ratio of the total distance traveled to the time elapsed. 
+$$v_{av} = \frac{d}{\Delta t}$$
+Here $\Delta t = t_f - t_i$, or in other words the elapsed time.
+\end{defn}
+
+
+\begin{defn}
+    The \textbf{average velocity} of an object is the ratio of the displacement to the time elapsed
+    $$\vec v_{av} = \frac{\overrightarrow{\Delta d}}{\Delta t}$$
+\end{defn}
+
+\begin{defn}
+    A \textbf{position-time graph} is a graph of position versus time. We plot a set of position vectors on the vertical axes with their corresponding time on the horizontal axes. 
+\end{defn}
+
+\begin{defn}
+	\textbf{Uniform motion} (Or constant velocity) is motion where the velocity is fixed.
+\end{defn}
+
+\begin{defn}
+	\textbf{Non-uniform motion} (Or accelerated motion) is motion where the velocity is \emph{not} fixed.
+\end{defn}
+
+\begin{prop}
+	Given a $\textbf{Linear}$ Position v. Time plot of a moving body, the slope $m$ represents the average velocity of the body.
+\end{prop}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+	
+
+
+\end{document}
