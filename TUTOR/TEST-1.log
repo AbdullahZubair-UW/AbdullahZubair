@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  29 AUG 2021 06:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  29 AUG 2021 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1588,16 +1588,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 126.
+(Font)              <14.4> on input line 127.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 126.
+(Font)              <10> on input line 127.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 126.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 131.
+(Font)              <7> on input line 127.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 132.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
@@ -1615,37 +1615,10 @@ Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2] 
+[2] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 243.
+ [3] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [4] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [5] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [6] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [7] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 170.
-\c@pagesLTS.arabic.1.local.count=\count447
-
-AED: pageslts setting VeryLastPage via AfterLastShipout 
-
-AED: pageslts setting LastPages via AfterLastShipout 
-
-
-Package pageslts Info: Total number of pages is even.
-
-
-(/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
- ) 
-Here is how much of TeX's memory you used:
- 53219 strings out of 480608
- 1156668 string characters out of 5903631
- 1693394 words of memory out of 5000000
- 67943 multiletter control sequences out of 15000+600000
- 610743 words of font info for 135 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 74i,11n,127p,1232b,2452s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
-Output written on /Users/abdullah/AbdullahZubair/TUTOR/TEST-1.pdf (2 pages, 114749 bytes).
-PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 30869 words of extra memory for PDF output out of 35830 (max. 10000000)
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 33
