@@ -1621,4 +1621,34 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [3] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [4] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [5] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [6] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [7] 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 33
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 335.
+\c@pagesLTS.arabic.1.local.count=\count447
+
+AED: pageslts setting VeryLastPage via AfterLastShipout 
+
+AED: pageslts setting LastPages via AfterLastShipout 
+
+
+Package pageslts Info: Total number of pages is odd.
+
+
+(/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
+ ) 
+Here is how much of TeX's memory you used:
+ 53791 strings out of 480608
+ 1170850 string characters out of 5903631
+ 1815554 words of memory out of 5000000
+ 68433 multiletter control sequences out of 15000+600000
+ 635030 words of font info for 163 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 74i,11n,127p,1232b,2452s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/TEST-1.pdf (7 pages, 200988 bytes).
+PDF statistics:
+ 216 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 37053 words of extra memory for PDF output out of 42996 (max. 10000000)
+
