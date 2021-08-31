@@ -281,7 +281,7 @@ Suppose that vehicle has an average velocity of $\vec v_{av} = -3 \m / \s$. Supp
 \begin{soln}
 	\textbf{Answer : e)}
 \begin{proof}
-Proposition relates to average velocity, the fact that the slope of a Position on V. Time graph represents the average velocity of the body in motion, gran    ted! that the graph is linear. The second piece of information is the initial position vector, but that always corresponds to the y-intercept.In general if we have some linear equation, x = mt + b, the b-value corresponds to the initial positing vector.
+The proposition from S2 relates Position v. Time plots to average velocity, that being the fact that the slope of a Position on V. Time graph represents the average velocity of the body in motion, granted! that the graph is linear, and of course $x = -3t + 5$ is a linear equation. The second piece of information is the initial position vector, but that always corresponds to the y-intercept.In general if we have some linear equation, $x = mt + b$, the b-value corresponds to the initial positing vector.
 \end{proof}
 \end{soln}
 
@@ -357,6 +357,26 @@ Suppose that I kick a soccer ball across a $150\m$ wide field and that by the en
 
 \begin{qstn}[12]
 Suppose that a train coasting at an average speed of $250 \m / \s$ is headed for a mis-aligned track at a distance $2000\m$ ahead. A man on the train quickly grabs his scooter (which he had hidden away in his luggage) descends the train and attempts to switch the tracks alignment before the train reaches it. The scooter can ride at a maximum average speed of $300 \m / \s$. The train itself needs at least $3$ seconds in order to come to a complete stop. Can the man successfully switch the track in time? Prove that your answer is correct
+
+\begin{soln}
+\begin{proof}
+	For this problem, we know that the the time the train needs is at least 3 seconds. Lets say that the time that the train takes to reach the mis-aligned track is t seconds. Since we need at least 3 seconds to come to a complete stop, the man on the scooter must reach the track in (t - 3) seconds at the latest.
+
+	For ex : If the time it will take for the train to reach the track is t = 12 seconds, then the man has to reach the track at t = 9 seconds at the latest, anything after that is too late!
+	
+	Now we have the setup, all we need to do is compute the time that the man on the scooter will reach the track if he travels at his maximum speed and compare that to the time it takes for the train to reach the track.
+	
+	Time it takes for the train to reach the track : (2000) / 250 = 8 s
+	
+	Time it takes for the man on the scooter to reach the track 
+	  = (2000) / 300 = 6.67
+	
+	We mentioned that the man on the scooter must reach the track at (t - 3) seconds at the latest, where t = time it takes for the train to reach the track. So (8 - 3) = 5 seconds is the latest time where he is allowed to reach the track, However the time where he reaches the track is 6.67 seconds, and this is beyond the latest time where he is allowed to reach the track. Therefore, the man cannot successfully switch the track in time. 
+
+\end{proof}
+
+\end{soln}
+
 \end{qstn}
 
 \end{document}
