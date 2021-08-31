@@ -159,20 +159,20 @@
 		\item Suppose that relative to the center of a field, a batsmen stands at $\vec d_i = 50\m$[East]. The batsmen bats a baseball at an average velocity of $\vec v_{av} = 350 \m / \s$[West]. The time elapsed was $\Delta t = 15\s$.
 			\begin{enumerate}[label = (\alph*)]
 				\item $\vec d_f = 5200 \m$[East] is the final position vector. (T / F)
-				\item The magnitude of the average velocity is equal to the average speed. (T / F)
+				\item The \emph{magnitude} of the average velocity is equal to the average speed. (T / F)
 			\end{enumerate}
 
 
 		\item Consider the Moon orbiting the Earth
 			\begin{enumerate}[label = (\alph*)]
-				\item The average velocity of the Moon is \emph{always non-zero}. (T / F)
-				\item The average speed of the Moon is \emph{always non-zero}. (T / F)
+				\item The average velocity of the Moon is \emph{always non-zero} after $t = 0$. (T / F)
+				\item The average speed of the Moon is \emph{always non-zero} after $t = 0$. (T / F)
 			\end{enumerate}
 		
 		
-		\item Consider the equation of motion of \textcolor{blue}{Car A :} \textcolor{blue}{$x = -\frac{3}{2}t  + 12$} and \textcolor{red}{Car B :} \textcolor{red}{$x = \frac{7}{2}t - 7$}
+		\item Consider the equation of motion of \textcolor{brown}{Car A :} \textcolor{brown}{$x = -\frac{3}{2}t  + 12$} and \textcolor{red}{Car B :} \textcolor{red}{$x = \frac{7}{2}t - 7$}
 			\begin{enumerate}[label = (\alph*)]
-				\item Car $A$ has a greater average velocity than Car $B$. (T / F)
+				\item Car $A$ has a greater average \emph{speed} than Car $B$. (T / F)
 				\item Car $B$ is initially [East] relative to the reference point. (T / F)
 				\item Car $A$ is initially [West] relative to the reference point. (T / F) 
 				\item Both drivers experienced uniform motion. (T / F)
@@ -267,7 +267,7 @@ Answer the following multiple choice questions. \emph{Refer to the plot below fo
 				\item $\vec d_{FG} = \vec d_{GF} + \vec d_{GH}$
 				\item $\vec d_{HF} = (-\vec d_{FG}) + (-\vec d_{HG})$
 				\item $\vec d_{FH} = (-\vec d_{GF}) + (-\vec d_{HG})$
-				\item $-\vec d_{FG} = \vec d_{GH} + \vec d_{HG}$
+				\item $-\vec d_{FG} = \vec d_{GH} + \vec d_{HF}$
 			\end{enumerate}
 	\end{enumerate}
 	
@@ -279,10 +279,10 @@ Covert the following units to $\km / \h$.
 	\item $44200 \m / \s$
 	\vspace*{5cm}
 
-	\item $66 \km / \s$
+	\item $5512 \times 10^4 \inch / \Min$ \hspace*{6cm} (\textbf{1 inch = 2.54cm}, \textbf{1 m = 100 cm})
 	\vspace*{5cm}
 
-	\item $5512 \inch / \Min$
+	\item $336 \frac{\km}{\text{week}}$
 \end{enumerate}
 
 
@@ -328,7 +328,7 @@ Covert the following units to $\km / \h$.
 \end{qstn}
 
 \begin{qstn}[8]
-	Two tourists, \textcolor{blue}{Tourist A}, \textcolor{red}{Tourist B}, decide to tour a city, below we depict their Position V. Time plots, \emph{however}, we were only able . Your task is to determine the equations of motion for both Tourists using the plots given.
+	Two tourists, \textcolor{blue}{Tourist A}, \textcolor{red}{Tourist B}, decide to tour a city, below we depict their Position V. Time plots, \emph{however}, we were only able to record information of \textcolor{blue}{Tourist A} after $t = 1$, and information about \textcolor{red}{Tourist B} after $t = 3$. Your task is to determine the equations of motion for both Tourists using the plots given.
 	\begin{center}
 		\begin{tikzpicture}
 		\begin{axis}[
@@ -339,18 +339,25 @@ Covert the following units to $\km / \h$.
 		]
 		
 		\addplot[
-			domain=0:6,
+			domain=1:6,
 			thick,
-			purple,
+			blue,
 			-
 		]
 		{0.5*x};
 
+		\addplot[
+			domain=0:1,
+			thick,
+			black,
+			-
+		]
+		{0};
 
 		\addplot[
 			domain=3:6,
 			thick,
-			purple,
+			red,
 			-
 		]
 		{2*x - 6};
@@ -366,21 +373,18 @@ Covert the following units to $\km / \h$.
 \end{qstn}
 
 
-
 \begin{qstn}[9]
-(Half circle problem)
-
+A bunny takes a tour around his neighborhood starting at his shelter. He travels $600\m$[East] to House $A$, then from House $A$ he travels $754\m$[West] to House $B$, then from House $B$ he travels $550 \m$[West] to House $C$, and then finally from House $C$ he travels $2\km$[East] to House $D$. Compute his average velocity as well as his average speed if the elapsed time was $\Delta t = 2\Min$. (Assume that the shelter is the reference point)
 \end{qstn}
 
 \begin{qstn}[10]
-(Bunny hopping relative vetcor problem)
+Suppose that I fire an arrow straight up into the air from a cliff at a position $\vec d_{CG} = 56\m$[North] relative to the ground. Suppose that a wooden box $14\m$ high is lying on the ground, and that the arrow lands directly on top of it. Compute the average velocity as well as the average speed of the arrow if the duration of the flight was $\Delta t = 45\s$. (Hint : The reference point is your choice)
 \end{qstn}
 
 \begin{qstn}[11]
-(Cliff problem)
+	\textcolor{blue}{Runner $A$} and \textcolor{orange}{Runner $B$} run back and forth across a $50\m$ track initially starting at position $(0,0)$ and facing [East] (Assume that [East] is the positive direction of motion). \textcolor{blue}{Runner $A$} has an average speed \textcolor{blue}{$v_{av} = 15 \m / \s$} and \textcolor{orange}{Runner $B$} has an average speed of \textcolor{orange}{$v_{av} = 20 \m / \s$}. After an elapsed time of $\Delta t = 1\Min$, what was the position vector of \textcolor{blue}{Runner $A$} relative to \textcolor{orange}{Runner $B$} (i.e $\vec d_{\textcolor{blue}{A}\textcolor{orange}{B}}$) 
+
 \end{qstn}
-
-
 
 \end{document}
 
