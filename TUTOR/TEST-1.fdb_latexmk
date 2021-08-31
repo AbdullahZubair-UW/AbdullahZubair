@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1630373343 "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.tex" "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.pdf" "TEST-1" 1630373380
-  "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.aux" 1630373346 6571 ae61eebba4cd8575aab90695e8d0828b ""
-  "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.tex" 1630373342 11481 0e63414971e2e979334f25e86a685ec8 ""
+["pdflatex"] 1630412328 "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.tex" "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.pdf" "TEST-1" 1630412331
+  "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.aux" 1630412331 6571 ae61eebba4cd8575aab90695e8d0828b ""
+  "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.tex" 1630412328 11511 f31d7a2b53bb68a47cf0d9d37f274f3b ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -435,11 +435,11 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "CKassignment.sty" 1626955440 10134 0f8b756b71f2dc1f4d3fc61532a0e002 ""
   "CKpreamble.sty" 1629150557 29705 b7f2e429fed000f08618f59385cb95f5 ""
-  "TEST-1.aux" 1630373346 6571 ae61eebba4cd8575aab90695e8d0828b "pdflatex"
-  "TEST-1.tex" 1630373342 11481 0e63414971e2e979334f25e86a685ec8 ""
+  "TEST-1.aux" 1630412331 6571 ae61eebba4cd8575aab90695e8d0828b "pdflatex"
+  "TEST-1.tex" 1630412328 11511 f31d7a2b53bb68a47cf0d9d37f274f3b ""
   (generated)
-  "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.log"
-  "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.pdf"
+  "TEST-1.pdf"
   "TEST-1.aux"
   "TEST-1.log"
-  "TEST-1.pdf"
+  "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.log"
+  "/Users/abdullah/AbdullahZubair/TUTOR/TEST-1.pdf"
