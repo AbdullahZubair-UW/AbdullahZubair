@@ -108,6 +108,20 @@
     % https://github.com/CalvinKent/My-LaTeX
     %%%
     % Crowdmark assignment start
+
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%                  PROBLEM IDEAS                  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%                   ----------------------------------------                                %%%%%%%%
+
+    % --> Do a hard tangent line problem
+
+
+
+
+
+
+
 \begin{qstn}[1] % qnumber, qname, qpoints
     Answer the following True/False questions (\textbf{Assume [East] is positive})
     \begin{enumerate}
@@ -150,13 +164,92 @@
 
  \end{qstn}
 
+ \begin{qstn}[2]
+    Answer the following multiple choice questions.
+    \begin{enumerate}
+        \item Which of the following statements are correct about the plot below? (Assume that the motion lasted for $4$ seconds)
+    \begin{center}
+        \begin{tikzpicture}
+        \begin{axis}[
+            my axis style,
+            width=\textwidth,
+            height=.5\textwidth,
+            ylabel=$\vec v (\m / \s \tx{[North]})$,
+            grid
+        ]
+        
+        \addplot[
+            domain=0:1,
+            thick,
+            purple,
+            -
+        ]
+        {4*x};
+    
+        \addplot[
+            domain=1:2,
+            thick,
+            purple,
+            -
+        ]
+        {-4*x + 8};
 
-\begin{qstn}[2]
+        \addplot[
+            domain=2:3,
+            thick,
+            purple,
+            -
+        ]
+        {4*x - 8};
+    
+        \addplot[
+            domain=3:4,
+            thick,
+            purple,
+            -
+        ]
+        {-4*x + 16};
+        
+        \fill[
+            black
+        ];
+        
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+    
+    
+            \begin{enumerate}[label = (\alph*)]
+                \item The body experienced uniform acceleration throughout the entire trip.
+                \item Within the time interval $[0,2]$ the average acceleration was $\vec a_{av} = +0 \m / \s^2$
+                \item Within the time interval $[3,4]$ the average acceleration was $\vec a_{av} = -4 \m / \s^2$
+                \item Within the time interval $[1,4]$ the average acceleration was $\vec a_{av} = -1.333 \m / \s^2$
+                \item At $t = 2\s$, the instantaneous acceleration was $\vec a_{av} = +4 \m / \s^2$
+                \item At $t = 3.4\s$, the instantaneous acceleration was $\vec a_{av} = -4 \m / \s^2$
+                \item The average acceleration is \emph{not} the same as the instantaneous acceleration for each point in time.
+            \end{enumerate}
+
+        \item Which of the following statements are correct about the plot below? (Assume that the motion lasted for $4$ seconds)
+            \begin{enumerate}[label = (\alph*)]
+                \item d
+            \end{enumerate}
+
+
+    \end{enumerate}
+
+
+
+ \end{qstn}
+
+
+
+
+\begin{qstn}[3]
     A car is initially traveling at an initial velocity $\vec v_i = 412 \m / \s$[\tx{East}]. The car then de-accelerates at an average acceleration of $\vec a_{av}$ to come to a rest at a red light over a duration of $\Delta t$. When the light turns green, the car accelerates at an average acceleration $-\vec a_{av}$ over a time period $2\Delta t$, to reach a final velocity of $\vec v_f = 240 \m / \s$ \tx{[East]} . Determine the the average acceleration $\vec a_{av}$. \\(Hint: Setup the correct equations to get rid of $\Delta t$)
  \end{qstn}
 
 
-\begin{qstn}[3]
+\begin{qstn}[4]
     Given below is the Velocity V. Time graph for an object in motion, %sin x
 
 

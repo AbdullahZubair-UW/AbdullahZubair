@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  1 SEP 2021 07:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  1 SEP 2021 11:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**HW4.tex
-(./HW4.tex
+**/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex
+(/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -22,7 +22,7 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-) (./CKpreamble.sty
+) (/Users/abdullah/AbdullahZubair/TUTOR/CKpreamble.sty
 Package: CKpreamble 2019/02/18 v19.02 LaTeX compilation of packages for preamble
  (/usr/local/texlive/2020/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
@@ -300,8 +300,7 @@ Package: fp-basic 1996/05/13
 \FP@times=\count281
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-snap.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-snap.sty
 Package: fp-snap 1995/04/05
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-exp.sty
 Package: fp-exp 1995/04/03
@@ -542,8 +541,7 @@ Package: scrextend 2020/01/24 v3.29 KOMA-Script package (extend other classes wi
 Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrbase.sty
 Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
 )))) (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -686,8 +684,7 @@ File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfsyssoftpath@bigbuffer@items=\count362
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen266
@@ -736,8 +733,7 @@ File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@pt@x=\dimen286
 \pgf@pt@y=\dimen287
 \pgf@pt@temp=\dimen288
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -815,8 +811,7 @@ Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 155.
 Package: thm-autoref 2019/12/22 v68
  (/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/aliasctr.sty
 Package: aliasctr 2019/12/22 v68
-))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thm-listof.sty
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thm-listof.sty
 Package: thm-listof 2019/12/22 v68
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thm-restate.sty
 Package: thm-restate 2019/12/22 v68
@@ -962,16 +957,14 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfplots@tmpa=\dimen314
 \c@pgfplots@coordindex=\count386
 \c@pgfplots@scanlineindex=\count387
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count388
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count389
 \t@pgfplotstable@a=\toks59
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count390
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen315
 \pgfdecoratedremainingdistance=\dimen316
 \pgfdecoratedinputsegmentcompleteddistance=\dimen317
@@ -1023,8 +1016,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count395
@@ -1108,7 +1100,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \c@circenumiii=\count409
 \c@circenumiv=\count410
 \enitdp@circenum=\count411
-) (./CKassignment.sty
+) (/Users/abdullah/AbdullahZubair/TUTOR/CKassignment.sty
 Package: CKassignment 2019/02/20 v19.2 LaTeX package for Crowdmark assignments
 \c@qendpage=\count412
 \c@accumqpages=\count413
@@ -1154,8 +1146,7 @@ File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
 File: tikzlibraryquotes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -1365,7 +1356,7 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count435
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-) (./HW4.aux
+) (/Users/abdullah/AbdullahZubair/TUTOR/HW4.aux
 \c@pagesLTS.arabic.1.local.cnt=\count436
 )
 \openout1 = `HW4.aux'.
@@ -1610,10 +1601,22 @@ This may cause the page layout to be inconsistent, however.
 [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [2] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [3] 
+] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 217.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 217.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 217.
+
+Overfull \hbox (18.9622pt too wide) in paragraph at lines 218--219
+ [] 
+ []
+
+[2] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [3] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [4] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 262.
 \c@pagesLTS.arabic.1.local.count=\count447
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -1621,26 +1624,26 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is odd.
+Package pageslts Info: Total number of pages is even.
 
 
-(./HW4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+(/Users/abdullah/AbdullahZubair/TUTOR/HW4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
- 53084 strings out of 480608
- 1153377 string characters out of 5903631
- 1698343 words of memory out of 5000000
- 67816 multiletter control sequences out of 15000+600000
- 569384 words of font info for 85 fonts, out of 8000000 for 9000
+ 53663 strings out of 480608
+ 1168522 string characters out of 5903631
+ 1814242 words of memory out of 5000000
+ 68342 multiletter control sequences out of 15000+600000
+ 604487 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,11n,127p,1192b,2450s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on HW4.pdf (3 pages, 118225 bytes).
+ 74i,11n,127p,1229b,2450s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/HW4.pdf (4 pages, 158617 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
- 31 named destinations out of 1000 (max. 500000)
- 13957 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 26253 words of extra memory for PDF output out of 29859 (max. 10000000)
 
