@@ -229,25 +229,96 @@
                 \item The average acceleration is \emph{not} the same as the instantaneous acceleration for each point in time.
             \end{enumerate}
 
-        \item Which of the following statements are correct about the plot below? (Assume that the motion lasted for $4$ seconds)
+        \item The Velocity V. Time plot for a body in motion is similar to $y = 4x + 7$.
             \begin{enumerate}[label = (\alph*)]
-                \item d
+                \item The displacement over the first $t = 4\s$ was $\Delta \vec d = +23\m$.
+                \item The object experienced uniform motion.
+                \item The object experienced uniform acceleration.
+                \item The object was speeding up in the positive direction
             \end{enumerate}
+        
+        \end{enumerate}
 
+    \end{qstn}
 
-    \end{enumerate}
+    \begin{qstn}[3]
+        Answer the following inquires about the plot below,
+        
 
+        \begin{center}
+            \begin{tikzpicture}
+            \begin{axis}[
+                my axis style,
+                width=\textwidth,
+                height=.7\textwidth,
+                ylabel=$\vec v (\m / \s \tx{[North]})$,
+                grid
+            ]
+            
+            \addplot[
+                domain=0:1,
+                thick,
+                purple,
+                -
+            ]
+            {3*x};
+        
+            \addplot[
+                domain=1:3,
+                thick,
+                purple,
+                -
+            ]
+            {3};
+    
+            \addplot[
+                domain=3:4,
+                thick,
+                purple,
+                -
+            ]
+            {x};
+        
+            \addplot[
+                domain=4:8,
+                thick,
+                purple,
+                -
+            ]
+            {-2*x + 12};
+
+            \addplot[
+                domain=8:10,
+                thick,
+                purple,
+                -
+            ]
+            {-4};
+
+            \addplot[
+                domain=10 : 12,
+                thick,
+                purple,
+                -
+            ]
+            {2*x - 24};
+            
+            \fill[
+                black
+            ];
+            
+            \end{axis}
+            \end{tikzpicture}
+        \end{center}
+
+        \begin{enumerate}[label = (\alph*)]
+            \item The displacement over the time interval $[1,3]$.
+            \item The displacement over the time interval $[3,8]$.
+            \item The displacement by the end of the trip ($\Delta t = 12\s$)
+        \end{enumerate}
 
 
  \end{qstn}
-
-
-
-
-\begin{qstn}[3]
-    A car is initially traveling at an initial velocity $\vec v_i = 412 \m / \s$[\tx{East}]. The car then de-accelerates at an average acceleration of $\vec a_{av}$ to come to a rest at a red light over a duration of $\Delta t$. When the light turns green, the car accelerates at an average acceleration $-\vec a_{av}$ over a time period $2\Delta t$, to reach a final velocity of $\vec v_f = 240 \m / \s$ \tx{[East]} . Determine the the average acceleration $\vec a_{av}$. \\(Hint: Setup the correct equations to get rid of $\Delta t$)
- \end{qstn}
-
 
 \begin{qstn}[4]
     Answer the following inquires about the Velocity V. Time plot below,
@@ -367,7 +438,33 @@
         \item The slope of the tangent line in green is $m = +12$. Determine the equation of the line ($y = mx + b$).
     \end{enumerate}
 
+ \end{qstn}
 
+\begin{qstn}[6]
+ A ball kicked with an initial velocity of $\vec v_i = 80 \m / \s \tx{[South]}$. It experiences a drag force and de-accelerates at $\vec a_{av} = 5 \m / \s^2 \tx{[North]}$.
+            \begin{enumerate}[label = (\alph*)]
+                \item Determine the final velocity of the ball after $\Delta t = 40\s$
+                \item At what time $t$ did ball start to travel in the Northward direction.
+            \end{enumerate}
+\end{qstn}
+        
+
+ \begin{qstn}[7]
+    Patrick has decided to embark on a journey throughout the sea on a boat. The boat has a relative velocity of $\vec v_{PG} = 400 \m / \s\tx{[East]}$ relative to the ground (G). On the boat, Patrick is walking with a relative velocity of $\vec v_{PB} = +50 \m / \s$ relative to the boat. Determine the average acceleration of patrick relative to the ground. Determine,
+    \begin{enumerate}[label = (\alph*)]
+        \item The velocity of patrick relative to the ground ($\vec v_{PG}$)\\
+        (\textbf{Hint: }Use the exact same technique from when we were working with position vectors, i.e $\vec v_{AC} = \vec v_{AB} + \vec v_{BC}$)
+        \item The average acceleration of Patrick relative to the ground over a time period of $\Delta t = 40\s$ if everything was \emph{initially} at rest.
+
+    \end{enumerate}
+
+ \end{qstn}
+
+
+
+
+\begin{qstn}[8]
+    A car is initially traveling at an initial velocity $\vec v_i = 412 \m / \s$[\tx{East}]. The car then de-accelerates at an average acceleration of $\vec a_{av}$ to come to a rest at a red light over a duration of $\Delta t$. When the light turns green, the car accelerates at an average acceleration $-\vec a_{av}$ over a time period $2\Delta t$, to reach a final velocity of $\vec v_f = 240 \m / \s$ \tx{[East]} . Determine the the average acceleration $\vec a_{av}$. \\(\textbf{Hint :} Setup the correct equations to get rid of $\Delta t$)
  \end{qstn}
 
 
@@ -376,33 +473,6 @@
 
 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

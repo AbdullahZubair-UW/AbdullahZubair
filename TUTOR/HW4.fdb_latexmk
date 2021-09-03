@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1630679456 "/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex" "/Users/abdullah/AbdullahZubair/TUTOR/HW4.pdf" "HW4" 1630679460
-  "/Users/abdullah/AbdullahZubair/TUTOR/HW4.aux" 1630679459 3281 5385c52460fabd7884a71cfa0b76fd52 ""
-  "/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex" 1630679454 12165 5bd73188aaae96d005b5a88fcebd130d ""
+["pdflatex"] 1630685064 "/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex" "/Users/abdullah/AbdullahZubair/TUTOR/HW4.pdf" "HW4" 1630685113
+  "/Users/abdullah/AbdullahZubair/TUTOR/HW4.aux" 1630685068 4368 b658d7bb49830106b3d3e2534f8b4507 ""
+  "/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex" 1630685061 15455 049e13532f77ecd532305824f8eaf85d ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -41,7 +41,9 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm" 1254269338 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm" 1254269338 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm" 1254269338 12020 46464c854bf317de2a7a0bbe4a1160ca ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm" 1254269338 12048 c1068d0f4772be9b0ec447692e1d6d82 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm" 1254269338 12064 09aa3eeac96bf141d673bb1b0385ce55 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm" 1254269338 12064 a35db870f0b76c338d749c56dc030ef5 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/lmex10.tfm" 1148093231 992 ce925c9346c7613270a79afbee98c070 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm" 1148093231 1528 6d36b2385e0ca062a654de6ac59cb34f ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm" 1148093231 1524 753b192b18f2991794f9d41a8228510b ""
@@ -427,11 +429,11 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "CKassignment.sty" 1626955440 10134 0f8b756b71f2dc1f4d3fc61532a0e002 ""
   "CKpreamble.sty" 1629150557 29705 b7f2e429fed000f08618f59385cb95f5 ""
-  "HW4.aux" 1630679459 3281 5385c52460fabd7884a71cfa0b76fd52 "pdflatex"
-  "HW4.tex" 1630679454 12165 5bd73188aaae96d005b5a88fcebd130d ""
+  "HW4.aux" 1630685068 4368 b658d7bb49830106b3d3e2534f8b4507 "pdflatex"
+  "HW4.tex" 1630685061 15455 049e13532f77ecd532305824f8eaf85d ""
   (generated)
+  "HW4.log"
   "HW4.pdf"
   "HW4.aux"
   "/Users/abdullah/AbdullahZubair/TUTOR/HW4.pdf"
   "/Users/abdullah/AbdullahZubair/TUTOR/HW4.log"
-  "HW4.log"
