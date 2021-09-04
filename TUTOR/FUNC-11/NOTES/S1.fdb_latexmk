@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1630765322 "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.tex" "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.pdf" "S1" 1630765324
-  "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.aux" 1630765323 1591 f95e20dc45f96bf474ddd03a4f3354bc ""
-  "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.tex" 1630765321 8013 0ad54220f699f7fe54277e7d0a1e88db ""
+["pdflatex"] 1630765823 "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.tex" "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.pdf" "S1" 1630765824
+  "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.aux" 1630765824 1688 d67878579eb1a4d6253a6eeb322fa888 ""
+  "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.tex" 1630765820 8286 bc7314aa0fa73388bac30f48a9c1f804 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -303,12 +303,12 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "S1.aux" 1630765323 1591 f95e20dc45f96bf474ddd03a4f3354bc "pdflatex"
-  "S1.tex" 1630765321 8013 0ad54220f699f7fe54277e7d0a1e88db ""
+  "S1.aux" 1630765824 1688 d67878579eb1a4d6253a6eeb322fa888 "pdflatex"
+  "S1.tex" 1630765820 8286 bc7314aa0fa73388bac30f48a9c1f804 ""
   (generated)
-  "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.log"
-  "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.pdf"
-  "S1.aux"
-  "S1.thm"
-  "S1.pdf"
   "S1.log"
+  "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.log"
+  "S1.aux"
+  "S1.pdf"
+  "S1.thm"
+  "/Users/abdullah/AbdullahZubair/TUTOR/FUNC-11/NOTES/S1.pdf"
