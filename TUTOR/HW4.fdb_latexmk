@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1630685064 "/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex" "/Users/abdullah/AbdullahZubair/TUTOR/HW4.pdf" "HW4" 1630685113
-  "/Users/abdullah/AbdullahZubair/TUTOR/HW4.aux" 1630685068 4368 b658d7bb49830106b3d3e2534f8b4507 ""
-  "/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex" 1630685061 15455 049e13532f77ecd532305824f8eaf85d ""
+["pdflatex"] 1630759922 "/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex" "/Users/abdullah/AbdullahZubair/TUTOR/HW4.pdf" "HW4" 1630759926
+  "/Users/abdullah/AbdullahZubair/TUTOR/HW4.aux" 1630759925 4368 b658d7bb49830106b3d3e2534f8b4507 ""
+  "/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex" 1630759921 15459 70ddc0681ee5665970cb51f4657ba659 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -429,11 +429,11 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "CKassignment.sty" 1626955440 10134 0f8b756b71f2dc1f4d3fc61532a0e002 ""
   "CKpreamble.sty" 1629150557 29705 b7f2e429fed000f08618f59385cb95f5 ""
-  "HW4.aux" 1630685068 4368 b658d7bb49830106b3d3e2534f8b4507 "pdflatex"
-  "HW4.tex" 1630685061 15455 049e13532f77ecd532305824f8eaf85d ""
+  "HW4.aux" 1630759925 4368 b658d7bb49830106b3d3e2534f8b4507 "pdflatex"
+  "HW4.tex" 1630759921 15459 70ddc0681ee5665970cb51f4657ba659 ""
   (generated)
-  "HW4.log"
-  "HW4.pdf"
-  "HW4.aux"
   "/Users/abdullah/AbdullahZubair/TUTOR/HW4.pdf"
   "/Users/abdullah/AbdullahZubair/TUTOR/HW4.log"
+  "HW4.pdf"
+  "HW4.log"
+  "HW4.aux"
