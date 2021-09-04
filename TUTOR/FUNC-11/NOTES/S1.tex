@@ -1,0 +1,267 @@
+\documentclass[12pt]{article} 
+
+\usepackage{fullpage}
+\usepackage{bookmark}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref} % for the URL
+\usepackage[shortlabels]{enumitem}
+\usepackage{mathtools}
+\usepackage[most]{tcolorbox}
+\usepackage[amsmath,standard,thmmarks]{ntheorem} 
+\usepackage{physics}
+\usepackage{pst-tree} % for the trees
+\usepackage{verbatim} % for comments, for version control
+\usepackage{tabu}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{physunits}
+\usepackage{pgfplots}
+
+% From the Plot video
+
+\usepackage[LGR,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{upgreek}
+\usepackage[misc]{ifsym}
+
+\usepackage{pgfplots}
+	\usetikzlibrary{
+		calc,
+		patterns,
+		positioning
+	}
+	\pgfplotsset{
+		compat=1.16,
+		samples=200,
+		clip=false,
+		my axis style/.style={
+			axis x line=middle,
+			axis y line=middle,
+			legend pos=outer north east,
+			axis line style={
+				->,
+			},
+			legend style={
+				font=\footnotesize
+			},
+			label style={
+				font=\footnotesize
+			},
+			tick label style={
+				font=\footnotesize
+			},
+			xlabel style={
+				at={
+					(ticklabel* cs:1)
+				},
+				anchor=west,
+				font=\footnotesize,
+			},
+			ylabel style={
+				at={
+					(ticklabel* cs:1)
+				},
+				anchor=west,
+				font=\footnotesize,
+			},
+			xlabel=$t$,
+			ylabel=$\vec v (\m \tx{[East]})$
+		},
+	}
+	\tikzset{
+		>=stealth
+	}
+
+
+    \pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+           middle, xlabel={$t$}, axis equal }}
+
+%%% Tables and figures packages
+
+\usepackage{float}
+\usepackage{caption}
+	\captionsetup{
+		format=plain,
+		labelfont=bf,
+		font=small,
+		justification=centering
+	}
+	
+%%% Numbers and sets
+
+\newcommand{\E}{\mathrm{e}}
+\newcommand{\tx}[1]{\text{#1}}
+
+
+% floor, ceiling, set
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\set}{\lbrace}{\rbrace}
+\DeclarePairedDelimiter{\iprod}{\langle}{\rangle}
+
+\DeclareMathOperator{\Int}{int}
+\DeclareMathOperator{\mean}{mean}
+
+% commonly used sets
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Nat}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\renewcommand{\P}{\mathbb{P}}
+
+\newcommand{\sset}{\subseteq}
+
+
+\theoremstyle{break}
+\theorembodyfont{\upshape}
+
+\newtheorem{thm}{Theorem}[subsection]
+\tcolorboxenvironment{thm}{
+enhanced jigsaw,
+colframe=Dandelion,
+colback=White!90!Dandelion,
+drop fuzzy shadow east,
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{cor}{Corollary}[thm]
+\tcolorboxenvironment{cor}{
+boxrule=0pt,
+boxsep=0pt,
+colback={White!90!RoyalPurple},
+enhanced jigsaw,
+borderline west={2pt}{0pt}{RoyalPurple},
+sharp corners,
+before skip=10pt,
+after skip=10pt,
+breakable
+}
+
+\newtheorem{algo}[thm]{Algorithm}
+\tcolorboxenvironment{algo}{
+enhanced jigsaw,
+colframe=Red,
+colback={White!95!Red},
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{ex}[thm]{Example}
+\tcolorboxenvironment{ex}{% from ntheorem
+blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{Green}
+}
+
+\newtheorem*{pf}{Proof}
+\tcolorboxenvironment{pf}{% from ntheorem
+breakable,blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{NavyBlue!80!white}
+}
+
+
+\newtheorem*{soln}{Solution}
+\tcolorboxenvironment{soln}{% from ntheorem
+breakable,blanker,left=5mm,
+sharp corners,
+before skip=10pt,after skip=10pt,
+borderline west={2pt}{0pt}{NavyBlue!80!white}
+}
+
+\newtheorem{defn}{Definition}[subsection]
+\tcolorboxenvironment{defn}{
+enhanced jigsaw,
+colframe=Cerulean,
+colback=White!90!Cerulean,
+drop fuzzy shadow east,
+rightrule=2mm,
+sharp corners,
+before skip=10pt,after skip=10pt
+}
+
+\newtheorem{prop}[thm]{Proposition}
+\tcolorboxenvironment{prop}{
+boxrule=0pt,
+boxsep=0pt,
+colback={White!90!Green},
+enhanced jigsaw,
+borderline west={2pt}{0pt}{Green},
+sharp corners,
+before skip=10pt,
+after skip=10pt,
+breakable
+}
+
+\setlength\parindent{0pt}
+\setlength{\parskip}{2pt}
+
+
+\begin{document}
+\let\ref\Cref
+\section{Sets}
+\subsection{Introduction}
+\begin{defn}
+\textbf{Sets} are defined to be a collection of \emph{objects} composed inside a pair of braces {}.
+\end{defn}
+To define what we mean by an $\emph{object}$ can be complicated, and hence I will refer to objects as anything that has been previously defined or "tangible" (although even this can get a little philosophical). For example if the object is an integer, then we can build a set with some integers, take $\{2,3,44,5\}$ as an example or take the following tangible objects $\clubsuit, \heartsuit, \triangle$ and build a set with them $\{\clubsuit, \heartsuit, \triangle \}$. There are some key properties of sets to note. $\textbf{Order does not matter}$, meaning any rearrangement of the objects in a set yields the same set, for example we say that $\{1,2,3,4,5\} = \{2,3,4,5,1\} = \{1,2,3,5,4\}$, etc. Also, $\textbf{duplicates are not allowed}$ so whenever we observe a duplicate object, we immediately remove it and yield an equivalent set, so $\{1,2,2,3,4\} = \{1,2,3,4\}$. We say that the $\textbf{cardinality}$ of a set $\mathcal{S}$ is the number of elements (or objects) in the set, and denote the quantity as $|\mathcal{S}|$, for example if $\mathcal{S} = \{1,2,3,4,5\}$ then $|\mathcal{S}| = 5$.
+
+\begin{defn}
+    We denote $\emptyset$ as the set with no elements, and call it the $\textbf{empty set}$. This implies $|\emptyset| = 0$.
+  \end{defn}
+  
+  
+\textbf{Notation:} If some element $x$ is contained within a set $\mathcal{S}$, then we say that $x$ is an element of $\mathcal{S}$ and write $x\in S$. Consequently, if some element $y$ is \textbf{not} an element of $\mathcal{S}$, then we say that $y$ is not an element of $\mathcal{S}$ and write $y\not\in \mathcal{S}$.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+
+\subsection{Common Sets}
+There are a few common recurring sets that are the building blocks for the objects we will manipulate throughout this book. We list them here, (note that the $\dots$ notation indicates a continuation following the logical pattern)
+
+
+
+
+\begin{enumerate}
+\item $\mathbb Z$ denotes the set of all integers $\mathbb Z = \{\dots,-2,-1,0,1,2,\dots \}$.
+\item $\mathbb N$ denotes the set of all \emph{positive} integers $\mathbb N = \{1,2,3,\dots \}$.
+\item $\mathbb R$ denotes the set of all real numbers (rational or irrational). 
+\item $\mathbb Q$ denotes the set of all rational numbers.
+\item $\mathbb Z^+$ denotes the set of all non-negative integers $\mathbb Z^+ = \{0,1,2,3,\dots\}$\\
+\textbf{Remark:} Some texts will not allow $0$ to be apart of $\mathbb Z^+$.
+\item $\mathbb R^+$ denotes the set of all non-negative positive real numbers.
+\item $\mathbb Z^-$ denotes the set of all negative integers $\mathbb Z^+ = \{-1,-2,-3,\dots\}$
+\item $\mathbb R^-$ denotes the set of all negative real numbers.
+\end{enumerate}
+
+
+
+\textbf{Remark: }In some very specific math subjects we like to say that $\N$ includes $0$ as well, this can be particularly useful whenever there is some sort of correspondence to Computer Science. 
+
+The \textbf{universe of discourse} denoted $\mathcal{U}$, is the set of all objects we may be interested in a given scenario. In this book, we are mostly always working with the set $\R$, and hence the universe of discourse will almost always be $\mathcal{U} = \R$. (There may be a few special cases were we explicitly differentiate). 
+
+
+
+
+
+\begin{defn}
+We say that the set $\{x\in \mathcal{U} \colon \textbf{statement} \}$ is the set of all elements $x$ in $\mathcal{U}$ such that the \textbf{statement} is true for $x$. (The semicolon means "such that", some texts will use a $|$ instead)
+\end{defn}
+
+
+
+
+
+\end{document}
