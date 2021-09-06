@@ -208,75 +208,99 @@ breakable
 
 \begin{document}
 \let\ref\Cref
-\section{Sets}
+\section{Functions}
 \subsection{Introduction}
+
+
 \begin{defn}
-\textbf{Sets} are defined to be a collection of \emph{objects} composed inside a pair of braces {}.
+Let $X,Y$ be sets. A function $f$ is a rule which assigns to each element $x\in X$ an \emph{unique} element $y \in Y$. Formally, we say that $f \colon X\rightarrow Y$, and $f(x) = y$.
 \end{defn}
-To define what we mean by an $\emph{object}$ can be complicated, and hence I will refer to objects as anything that has been previously defined or "tangible" (although even this can get a little philosophical). For example if the object is an integer, then we can build a set with some integers, take $\{2,3,44,5\}$ as an example or take the following tangible objects $\clubsuit, \heartsuit, \triangle$ and build a set with them $\{\clubsuit, \heartsuit, \triangle \}$. There are some key properties of sets to note. $\textbf{Order does not matter}$, meaning any rearrangement of the objects in a set yields the same set, for example we say that $\{1,2,3,4,5\} = \{2,3,4,5,1\} = \{1,2,3,5,4\}$, etc. Also, $\textbf{duplicates are not allowed}$ so whenever we observe a duplicate object, we immediately remove it and yield an equivalent set, so $\{1,2,2,3,4\} = \{1,2,3,4\}$. We say that the $\textbf{cardinality}$ of a set $\mathcal{S}$ is the number of elements (or objects) in the set, and denote the quantity as $|\mathcal{S}|$, for example if $\mathcal{S} = \{1,2,3,4,5\}$ then $|\mathcal{S}| = 5$.
+
+A function $f$ is an abstract mapping operation, it takes elements from set a $A$ for which the function is well defined, called the \textbf{domain}, and maps it to elements in a set $B$, called the \textbf{co-domain} (I will formalize these definitions below). This mapping operation is more concisely written as $f \colon A \rightarrow B$, where if $x\in A$, then $f(x) = y \in B$, where we call $y$ the \textbf{image point} and $x$ the \textbf{preimage}. You may refer to the example below to help illustrate the concept, here we let $f(x) = x^2$, $A = \{-2,-1,1,2\}$ and $B = \{1,2,4,6\}$
+
+
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}
+    % draw the sets
+    \filldraw[fill=blue!20, draw=blue!60] (-1.5,0) circle (1cm);
+    \filldraw[fill=red!20, draw=red!60] (1.5,0) circle (1cm);
+
+
+    % the texts
+    \node at (-1.5,1.5) {$A$};
+    \node at (1.5,1.5) {$B$};
+
+    % the points in the sets (here I just create nodes to use them later on to position
+    % the circles and the arrows
+    \node (x1) at (-1.5,0.7) {$-1$};
+    \node (x2) at (-1.5,0.3) {$-2$};
+    \node (x3) at (-1.5,-0.2) {$1$};
+    \node (x4) at (-1.5,-0.7) {$2$};
+    \node (y1) at (1.5,0.7) {$1$};
+    \node (y2) at (1.5,0.3) {$2$};
+    \node (y3) at (1.5,-0.2) {$4$};
+    \node (y4) at (1.5,-0.7) {$6$};
+
+    % draw the arrows
+    \draw[->] (x1) -- (y1);
+    \draw[->] (x2) -- (y3);
+    \draw[->] (x3) -- (y1);
+    \draw[->] (x4) -- (y3);
+
+\end{tikzpicture}
+\caption{Mapping diagram of $f$}
+\end{figure}
+
+
+
+Notice that we require the rule $f(a) = b$ to map each element $a$ to \emph{unique} elements $b$. This would of course imply that if a rule $f(a) = b$ assigns some $a$ more than one element in the co-domain, then we say that this rule $f(a) = b$ is $\textbf{not}$ a function.
+
 
 \begin{defn}
-    We denote $\emptyset$ as the set with no elements, and call it the $\textbf{empty set}$. This implies $|\emptyset| = 0$.
-  \end{defn}
-  
-  
-\textbf{Notation:} If some element $x$ is contained within a set $\mathcal{S}$, then we say that $x$ is an element of $\mathcal{S}$ and write $x\in S$. Consequently, if some element $y$ is \textbf{not} an element of $\mathcal{S}$, then we say that $y$ is not an element of $\mathcal{S}$ and write $y\not\in \mathcal{S}$.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newpage
-
-
-\subsection{Common Sets}
-There are a few common recurring sets that are the building blocks for the objects we will manipulate throughout this book. We list them here, (note that the $\dots$ notation indicates a continuation following the logical pattern)
-
-
-
+Let $f$ be a function,
 
 \begin{enumerate}
-\item $\mathbb Z$ denotes the set of all integers $\mathbb Z = \{\dots,-2,-1,0,1,2,\dots \}$.
-\item $\mathbb N$ denotes the set of all \emph{positive} integers $\mathbb N = \{1,2,3,\dots \}$.
-\item $\mathbb R$ denotes the set of all real numbers (rational or irrational). 
-\item $\mathbb Q$ denotes the set of all rational numbers.
-\item $\mathbb Z^+$ denotes the set of all non-negative integers $\mathbb Z^+ = \{0,1,2,3,\dots\}$\\
-\textbf{Remark:} Some texts will not allow $0$ to be apart of $\mathbb Z^+$.
-\item $\mathbb R^+$ denotes the set of all non-negative positive real numbers.
-\item $\mathbb Z^-$ denotes the set of all negative integers $\mathbb Z^+ = \{-1,-2,-3,\dots\}$
-\item $\mathbb R^-$ denotes the set of all negative real numbers.
+\item The \textbf{domain} $D$ of $f$ is the set of all $x$ such that $f(x)$ is well defined.
+\item The \textbf{range} (or image) $R$ of $f$ is defined as $$R = \{f(x) \colon x\in D \}$$
 \end{enumerate}
 
-
-
-\textbf{Remark: }In some very specific math subjects we like to say that $\N$ includes $0$ as well, this can be particularly useful whenever there is some sort of correspondence to Computer Science. 
-
-The \textbf{universe of discourse} denoted $\mathcal{U}$, is the set of all objects we may be interested in a given scenario. In this book, we are mostly always working with the set $\R$, and hence the universe of discourse will almost always be $\mathcal{U} = \R$. (There may be a few special cases were we explicitly differentiate). 
-
-
-
-
-
-\begin{defn}
-We say that the set $\{x\in \mathcal{U} \colon \textbf{statement} \}$ is the set of all elements $x$ in $\mathcal{U}$ such that the \textbf{statement} is true for $x$. (The semicolon means "such that", some texts will use a $|$ instead)
 \end{defn}
+
 \newpage
 
-\begin{ex}
-	Write out all of the elements of the following sets,
-	\begin{enumerate}[label = (\alph*)]
-		\item $S = \{n\in \mathbb Z \colon 0 \leq n \leq 4 \}$.
-		\item $F =\{y\in \mathbb N \colon  y \geq 4 \}$
-		\item $H = \{x \in \mathbb Z \colon -x > 0 \}$
-	\end{enumerate}
 
+\begin{ex}
+State the domain and range of $f$ in Figure 1.1
 \end{ex}
 
 
 \begin{soln}
-	$\implies$
-	\vspace*{10cm}
+Clearly the domain $D = A$, the range can be computed by determining all image points of $f$. We list them, $f(-1) = (-1)^2 = 1, f(-2) = (-2)^2 = 4, f(1) = 1^2 = 1, f(2) = 2^2 = 4$. Hence, $R = \{1,4\}$
 \end{soln}
 
+\vspace*{0.5cm}
+
+
+\begin{ex}
+State the domain for $f(x) = \sqrt{-3x - 9}$
+\end{ex}
+
+
+\begin{soln}
+ We determine the set $D$ of all possible values of $x$ such that $f(x)$ is well defined. This occurs precisely when $-3x-9$ is a non-negative value, hence we require $-3x-9 \geq 0$ which would imply that $x \leq -3$. Hence the domain is any real number $x$ such that $x\leq -3$, or to put more concisely using set-builder notation $D = \{x\in R \colon x\leq -3 \}$ (Try to determine what the universe of discourse was here and the \textbf{statement} used).
+\end{soln}
+
+
+\vspace*{0.5cm}
+
+\begin{ex}
+State the domain and range for $f(x) = \frac{-3}{4}(x+3)^2 - 5$.
+\end{ex}
+
+\begin{soln}
+Clearly $f$ is well defined for any $x\in \R$, hence $D = \{x\in \R\}$. Determining the range of $f$ can be tricky, I find the best way to determine the range is to quickly sketch the function, this is a parabola that has $y-$intercept = $-5$ and points \emph{downwards}, hence $R = \{y\in \R \colon y \leq -5 \}$.
+\end{soln}
 
 
 \end{document}
