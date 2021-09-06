@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 SEP 2021 08:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 SEP 2021 07:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex
-(/Users/abdullah/AbdullahZubair/TUTOR/HW4.tex
+**/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4.tex
+(/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -22,7 +22,7 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-) (/Users/abdullah/AbdullahZubair/TUTOR/CKpreamble.sty
+) (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/CKpreamble.sty
 Package: CKpreamble 2019/02/18 v19.02 LaTeX compilation of packages for preamble
  (/usr/local/texlive/2020/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
@@ -1100,7 +1100,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \c@circenumiii=\count409
 \c@circenumiv=\count410
 \enitdp@circenum=\count411
-) (/Users/abdullah/AbdullahZubair/TUTOR/CKassignment.sty
+) (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/CKassignment.sty
 Package: CKassignment 2019/02/20 v19.2 LaTeX package for Crowdmark assignments
 \c@qendpage=\count412
 \c@accumqpages=\count413
@@ -1356,7 +1356,7 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count435
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-) (/Users/abdullah/AbdullahZubair/TUTOR/HW4.aux
+) (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4.aux
 \c@pagesLTS.arabic.1.local.cnt=\count436
 )
 \openout1 = `HW4.aux'.
@@ -1627,20 +1627,20 @@ AED: pageslts setting LastPages via AfterLastShipout
 Package pageslts Info: Total number of pages is even.
 
 
-(/Users/abdullah/AbdullahZubair/TUTOR/HW4.aux)
+(/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 475.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 475.
  ) 
 Here is how much of TeX's memory you used:
  53844 strings out of 480608
- 1171667 string characters out of 5903631
- 1853312 words of memory out of 5000000
+ 1171771 string characters out of 5903631
+ 1853311 words of memory out of 5000000
  68489 multiletter control sequences out of 15000+600000
  610736 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,11n,127p,1229b,2450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,11n,127p,1237b,2450s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on /Users/abdullah/AbdullahZubair/TUTOR/HW4.pdf (8 pages, 197184 bytes).
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4.pdf (8 pages, 197347 bytes).
 PDF statistics:
  214 PDF objects out of 1000 (max. 8388607)
  177 compressed objects within 2 object streams
