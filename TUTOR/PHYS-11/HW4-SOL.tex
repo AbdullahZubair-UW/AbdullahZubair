@@ -449,7 +449,7 @@
         {-2*x + 5};
 
         \addplot[
-            domain=2.2:4,
+            domain=2.2:3.7,
             thick,
             green,
             -
@@ -463,7 +463,6 @@
         \node[label={20:{(2,1)}},circle,fill,inner sep=2pt] at (axis cs:2,1) {};
         \node[label={0:{(1,3)}},circle,fill,inner sep=2pt] at (axis cs:1,3) {};
         \node[label={0:{(3,1)}},circle,fill,inner sep=2pt] at (axis cs:3,1) {}; 
-        \node[label={90:{(5/2, 0)}},circle,fill,inner sep=2pt] at (axis cs:2.5,0) {}; 
         
         \end{axis}
         \end{tikzpicture}
@@ -475,7 +474,7 @@
         \item Determine the instantaneous velocity at $t = 1$.\\
         (\textbf{Hint:} The line in blue is a tangent line to the plot at $t = 2$)
         \item Describe the motion of the plot after $t = 2$ seconds.
-        \item The slope of the tangent line in green is $m = +12$. Determine the equation of the line ($y = mx + b$).
+        \item Determine the equation of the \textcolor{green}{tangent line} at $t = 3$ ($y = mx + b$).
     \end{enumerate}
 
     \begin{soln}
@@ -488,7 +487,20 @@
         \item The object is slowing down in the positive direction. 
         \item To determine the instantaneous velocity at some time $t$ we need to compute the slope of the tangent line to the graph at time $t$. The question already gives us the tangent line in blue at time $t = 1$. All that is left is to compute the slope of the tangent line, to do so we can choose any two points on the tangent line, I will choose $P1 \colon (2,1)$, $P2 \colon (1,3)$. (We denote the velocity at $t = 1$ as $\vec v(1)$)f
         $$\vec v(1) = \textcolor{blue}{m_T} = \frac{y_2 - y_1}{x_2 - x_1}= \frac{3 - 1}{1 - 2} = -2 \m / \s$$
-        \item d
+        \item We first determine the slope of the tangent line, to do this we choose any two points on the tangent line. We observe that the first point is given at $P1 \colon (3,1)$, the second point can be obtained by using the point of intersection between the blue tangent line and the green tangent line. To obtain this point, we observe that this is precisley the $x-$intercept of the blue tangent line, hence we can first construct the equation of the blue tangent line and then proceed to determine the $x-$intercept. From b) we know that the slope of the blue tangent line is $\textcolor{blue}{m_T = -2}$, also the plot depicts the $y-$intercept of the tangent line which is $\textcolor{blue}{b = 5}$, hence,
+        $$\textcolor{blue}{y = -2x + 5}$$
+        The $x-$intercept must therefore be $\textcolor{blue}{x = 5 /2 = 2.5}$, hence the second point is $P2 \colon (2.5,0)$. We proceed by determining the slope of the green tangent line as well as the y-intercept,
+
+        \begin{align*}
+        \textcolor{green}{m_T} &= \frac{y_2 - y_1}{x_2 - x_1} = \frac{0 - 1}{2.5 - 3} = \frac{1}{.5} = +2\\
+        y &= 2x + b\\
+        1 &= 2(3) + b \tag{Inserted point $(3,1)$}\\
+        b &= -5\\
+        \end{align*}
+        Hence the equation of the green tangent line is $y = 2x - 5$
+
+
+
 
      \end{enumerate}
 
@@ -502,17 +514,63 @@
                 \item Determine the final velocity of the ball after $\Delta t = 40\s$
                 \item At what time $t$ did ball start to travel in the Northward direction.
             \end{enumerate}
+
+
+    \begin{soln}
+        \begin{enumerate}[label = (\alph*)]
+            \item We proceed by using the average acceleration equation, I will choose [South] as the positive direction of motion. 
+            \begin{align*}
+                \vec a_{av} &= \frac{\vec v_f - \vec v_i}{\Delta t}\\
+                \vec a_{av}(\Delta t) &= \vec v_f - \vec v_i \\
+                \vec v_f &= \vec v_i + (\vec a_{av})\Delta t \\
+                &= +80 + (-5)(40)\\
+                &= -120 \m / \s
+            \end{align*}
+            Hence the final velocity of the ball was $\vec v_f = 120 \m / s$[North]
+
+
+            \item We observe that since acceleration is in the opposite direction of motion, at some point in time the velocity must have been $\vec v_f = +0 \m / \s$. The time $\Delta t$ when $\vec v_f = +0 \m / \s$ precisely corresponds to the time at which the ball switched its direction of motion and started traveling [North].
+
+            \begin{align*}
+                \vec a_{av} &= \frac{\vec v_f - \vec v_i}{\Delta t}\\
+                \Delta t &= \frac{\vec v_f - \vec v_i}{\vec a_{av}}\\
+                &= \frac{0 - 80}{-5}\\
+                &= 16\s
+            \end{align*}
+            Therefore at $t = 16\s$, the ball changes its direction of motion.
+
+        \end{enumerate}
+
+    \end{soln}
+
+
 \end{qstn}
         
 
  \begin{qstn}[7]
-    Patrick has decided to embark on a journey throughout the sea on a boat. The boat has a relative velocity of $\vec v_{PG} = 400 \m / \s\tx{[East]}$ relative to the ground (G). On the boat, Patrick is walking with a relative velocity of $\vec v_{PB} = +50 \m / \s$ relative to the boat. Determine the average acceleration of patrick relative to the ground. Determine,
+    Patrick has decided to embark on a journey throughout the sea on a boat. The boat has a relative velocity of $\vec v_{BG} = 400 \m / \s\tx{[East]}$ relative to the ground (G). On the boat, Patrick is walking with a relative velocity of $\vec v_{PB} = 50 \m / \s$[East] relative to the boat. Determine,
     \begin{enumerate}[label = (\alph*)]
         \item The velocity of patrick relative to the ground ($\vec v_{PG}$)\\
         (\textbf{Hint: }Use the exact same technique from when we were working with position vectors, i.e $\vec v_{AC} = \vec v_{AB} + \vec v_{BC}$)
         \item The average acceleration of Patrick relative to the ground over a time period of $\Delta t = 40\s$ if everything was \emph{initially} at rest.
 
     \end{enumerate}
+
+    \begin{soln}
+
+    \begin{enumerate}[label = (\alph*)]
+        \item Let us assign [East] as the positive direction of motion. We use the statement from the hint, in other words for reference points $A,B,C$, $\vec v_{AC} = \vec v_{AB} + \vec v_{BC}$. Hence,
+        $$\vec v_{PG} = \vec v_{PB} + \vec v_{BG} = 50 + 400 = +450 \m / \s$$
+        Hence the velocity of patrick relative to the ground is $\vec v_{PG} = 450\m / \s$[East].
+        \item We proceed with the equation for average acceleration,
+
+        $$\vec a_{av} = \frac{\vec v_f - \vec v_i}{\Delta t} = \frac{450 - 0}{40} = +11.25 \m / \s^2$$
+        Hence the average acceleration after $\Delta t  = 40\s$, was $\vec a_{av} = 11.25 \m / \s^2$[East].
+
+    \end{enumerate}
+
+
+    \end{soln}
 
  \end{qstn}
 
@@ -521,6 +579,21 @@
 
 \begin{qstn}[8]
     A car is initially traveling at an initial velocity $\vec v_i = 412 \m / \s$[\tx{East}]. The car then de-accelerates at an average acceleration of $\vec a_{av}$ to come to a rest at a red light over a duration of $\Delta t$. When the light turns green, the car accelerates at an average acceleration $-\vec a_{av}$ over a time period $2\Delta t$, to reach a final velocity of $\vec v_f = 240 \m / \s$ \tx{[East]} . Determine the the average acceleration $\vec a_{av}$. \\(\textbf{Hint :} Setup the correct equations to get rid of $\Delta t$) 
+
+    \begin{soln}
+        Let us assign [East] as the positive direction of motion. We first setup the equation for the motion of the car until it reaches the red light by using the average acceleration equation,
+        $$\vec a_{av} = \frac{\vec v_f - \vec v_i}{\Delta t} = \frac{0 - 412}{\Delta t} = \frac{-412}{\Delta t}$$
+        \begin{equation}
+            \vec a_{av} = \frac{-412}{\Delta t} \:\:\: \implies \:\:\: \vec a_{av}\Delta t = -412
+        \end{equation}
+        We now setup the second equation of motion of the car from the moment the light turns green until he reaches his final speed of $\vec v_f = 240\m / \s$[East].
+        $$-\vec a_{av} = \frac{\vec v_f - \vec v_i}{2\Delta t} = \frac{240 - 0}{2\Delta t} = \frac{120}{\Delta t}$$
+        \begin{equation}
+            -\vec a_{av} = \frac{120}{\Delta t}\:\:\: \implies \:\:\: -\vec a_{av}\Delta t = 120
+        \end{equation}
+
+
+    \end{soln}
  \end{qstn}
 
 

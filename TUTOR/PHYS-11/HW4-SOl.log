@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 SEP 2021 10:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  7 SEP 2021 07:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1614,14 +1614,19 @@ Overfull \hbox (18.9622pt too wide) in paragraph at lines 217--218
  []
 
 [2] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [3] [4] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [5] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
 
  []
 
-[6] [7] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [8] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [9] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [10] 
+[6] [7] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [8] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) )
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
+
+ []
+
+[9] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [10] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 531.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 531.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 604.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 604.
 \c@pagesLTS.arabic.1.local.count=\count447
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -1633,22 +1638,22 @@ Package pageslts Info: Total number of pages is even.
 
 
 (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 531.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 531.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 604.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 604.
  ) 
 Here is how much of TeX's memory you used:
- 53896 strings out of 480608
- 1172405 string characters out of 5903631
- 1857434 words of memory out of 5000000
- 68499 multiletter control sequences out of 15000+600000
- 616423 words of font info for 156 fonts, out of 8000000 for 9000
+ 53900 strings out of 480608
+ 1172350 string characters out of 5903631
+ 1857433 words of memory out of 5000000
+ 68490 multiletter control sequences out of 15000+600000
+ 616696 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,12n,127p,1241b,2644s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.pdf (10 pages, 224471 bytes).
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.pdf (10 pages, 230396 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 87 named destinations out of 1000 (max. 500000)
  29357 words of extra memory for PDF output out of 29859 (max. 10000000)
 
