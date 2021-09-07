@@ -2,8 +2,8 @@ PWD /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOl.tex
-OUTPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOl.log
+INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.tex
+OUTPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.log
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo
@@ -482,7 +482,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libr
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOl.pdf
+OUTPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
@@ -553,9 +553,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
-INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOl.aux
-INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOl.aux
-OUTPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOl.aux
+INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.aux
+INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.aux
+OUTPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.aux
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
@@ -692,7 +692,8 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
-INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOl.aux
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
+INPUT /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.aux
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
@@ -705,4 +706,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb

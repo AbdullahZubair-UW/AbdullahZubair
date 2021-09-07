@@ -788,10 +788,27 @@ $\implies$
 \subsection{Going from Velocity to displacement}
 If I give you a Velocity v. Time plot, could you reconstruct the Position V. Time plot for that corresponding body in motion? The answer is yes you can, the way we do so is by taking the area under of the Velocity V. Time plot at different instances in time. Suppose I wanted to know by displacement from time $[t_1,t_2]$, then I would compute the are of the Velocity V. Time graph from $[t_1,t_2]$ and then result would give me the corresponding displacement. We state this in a theorem,
 \begin{thm}
-Given a Velocity V. Time graph, the area under the graph from $[t_1,t_2]$ is the displacement of the body from $[t_1,t_2]$.
+Given a Velocity V. Time graph, the area under the graph from $[t_1,t_2]$ is the displacement of the body from $[t_1,t_2]$. Or in other words,
+$$ \Delta \vec d = \tx{Area}[t_1,t_2]$$
 \end{thm}
 \textbf{Remark :} Any portion of the graph below the vertical axes has $\textbf{NEGATIVE AREA}$. (This makes sense due to the definition of displacement).\\
-Now using this theorem we can construct an accurate reconstruction of the corresponding Position V. Time plot by taking the area of each consecutive interval $[0,1]$, $[1,2]$, $\cdots$. 
+
+
+Now using this theorem we can construct an accurate reconstruction of the corresponding Position V. Time plot by taking the area over some interval $[a,b]$. Now in the case where taking the are over the interval $[a,b]$ is not so trivial, then we may break up the interval and take the area form $a$ to some simpler end point $c$, and then take the area of $c$ to $b$, and finally sum the two pieces. This is just a simplification of a more general theorem,
+
+\begin{thm}
+    Let $a,b,c$ $x-$coordinates, then
+    $$\tx{Area}[a,b]  =  \tx{Area}[a,c] + \tx{Area}[c,b]$$
+\end{thm}
+This theorem could be redefined recursively to extend the idea to multiple "bridge points" instead of just one,
+\begin{thm}
+    Let $a,b, c_1,c_2,\dots,c_n$ be $x-$coordinates, then 
+
+    $$\tx{Area}[a,b]  =  \tx{Area}[a,c_1] + \tx{Area}[c_1,c_2] + \tx{Area}[c_2,c_3] + \dots + \tx{Area}[c_{n},b]$$ 
+\end{thm}
+
+
+
 \begin{ex}
 	Given the Velocity V. Time graph below, determine the following,
 	\begin{enumerate}[label = (\alph*)]
@@ -838,7 +855,7 @@ Now using this theorem we can construct an accurate reconstruction of the corres
 
 \begin{soln}
 $\implies$
-\vspace*{15cm}
+\vspace*{8cm}
 \end{soln}
 
 

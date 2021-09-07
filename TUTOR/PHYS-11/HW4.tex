@@ -133,7 +133,7 @@
         \item De-acceleration is just acceleration in the same direction of motion (T / F)
         \item Suppose that a bullet accelerates at $\vec a_{av} = +1.068 \km / \s^2$ from rest to a final velocity of $\vec v_f = +356 \m / \s$. Then,
             \begin{enumerate}[label = (\alph*)]
-                \item The time elapsed was $\Delta t = 3\s$
+                \item The time elapsed was $\Delta t = 3\s$ (T / F)
                 \item If I double the acceleration of the bullet, then $\Delta t$ doubles as well. (T / F)
             \end{enumerate}
         \item Suppose a Velocity V. Time plot is represented by $y = 2x + 4$,
@@ -149,16 +149,15 @@
                 \item The object is slowing down in the positive direction. (T / F)
                 \item The object is experiencing uniform motion. (T / F)
                 \item The object \emph{may} be experiencing uniform acceleration (T / F).
-                \item The initial position vector of the object at $t = 0$ is $\vec d_i = 2 \m$
+                \item The initial position vector of the object at $t = 0$ is $\vec d_i = +2 \m$ (T / F)
             \end{enumerate}
         \item Suppose that the tangent line to a Position V. Time plot at $t = 4$ was represented by the equation $y = -3x + 7$. Then,
             \begin{enumerate}[label = (\alph*)]
-                \item The instantaneous velocity of the object at $t = 4$ was $\vec v = +3 \m / \s$
-                \item The instantaneous velocity of the object at $t = 5$ was $\vec v = -3 \m / \s$
-                \item Suppose that the Velocity V. Time plot for the object happened to be linear, then the average velocity of the object must have been $\vec v_{av} = -3\m / \s$. (T / F)
+                \item The instantaneous velocity of the object at $t = 4$ was $\vec v = +3 \m / \s$ (T / F)
+                \item Suppose that the Position V. Time plot happened to be linear, then the average velocity of the object must have been $\vec v_{av} = -3\m / \s$. (T / F)
             \end{enumerate}
-        \item Suppose a Velocity V. Time plot is represented by $y = -x + 3$, then the displacement over the time interval $[0,8]$ is $\Delta \vec d = +0 \m$. (T / F)
-        \item Suppose that the average acceleration of an object in motion differs at two distinct points in time, then the Velocity V. Time graph must have been linear. (T / F)
+        \item Suppose a Velocity V. Time plot is represented by $y = -x + 3$, then the displacement over the time interval $[0,6]$ is $\Delta \vec d = +0 \m$. (T / F)
+        \item Suppose that the average acceleration of an object in motion differs at two distinct points in time, then the Velocity V. Time plot must have been non-uniform. (T / F)
 
     \end{enumerate}
 
@@ -341,7 +340,7 @@
         {sin(deg(x))};
 
         \addplot[
-            domain=1.5:4.4,
+            domain=0.5:4.4,
             thick,
             blue,
             -
@@ -352,9 +351,9 @@
             black
         ];
 
-        \node[label={45:{($\pi$,1)}},circle,fill,inner sep=2pt] at (axis cs:3.141592689,0) {};
+        \node[label={45:{($\pi$,0)}},circle,fill,inner sep=2pt] at (axis cs:3.141592689,0) {};
         \node[label={175:{($\pi / 2$,1)}},circle,fill,inner sep=2pt] at (axis cs:1.570796,1) {};
-        \node[label={0:{($\pi - 2$,1)}},circle,fill,inner sep=2pt] at (axis cs:2,1.1415926) {};
+        \node[label={45:{($\pi - 2$,2)}},circle,fill,inner sep=2pt] at (axis cs:1.1415926, 2) {};
         
         \end{axis}
         \end{tikzpicture}

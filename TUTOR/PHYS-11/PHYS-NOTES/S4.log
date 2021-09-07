@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  26 AUG 2021 09:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 SEP 2021 10:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S4.tex
-(/Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S4.tex
+**/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/PHYS-NOTES/S4.tex
+(/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/PHYS-NOTES/S4.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -1402,7 +1402,7 @@ Package caption Info: listings package is loaded.
 \c@defn=\count488
 \c@currpropctr=\count489
 \c@endpropctr=\count490
- (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S4.aux)
+ (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/PHYS-NOTES/S4.aux)
 \openout1 = `S4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 209.
@@ -1641,31 +1641,36 @@ Overfull \hbox (18.96094pt too wide) in paragraph at lines 776--777
 [][] 
  []
 
-[11] [12]
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 794--795
+
+ []
+
+[12]
 \tf@thm=\write6
 \openout6 = `S4.thm'.
 
  [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 850.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 850.
- (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 850.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 850.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 850.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 867.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 867.
+ (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/PHYS-NOTES/S4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 867.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 867.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 867.
  ) 
 Here is how much of TeX's memory you used:
- 47577 strings out of 480608
- 1076318 string characters out of 5903631
+ 47585 strings out of 480608
+ 1076484 string characters out of 5903631
  1617829 words of memory out of 5000000
- 62487 multiletter control sequences out of 15000+600000
- 635443 words of font info for 152 fonts, out of 8000000 for 9000
+ 62489 multiletter control sequences out of 15000+600000
+ 635621 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,19n,127p,1017b,2669s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,19n,127p,1025b,2669s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on /Users/abdullah/AbdullahZubair/TUTOR/PHYS-NOTES/S4.pdf (13 pages, 239020 bytes).
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/PHYS-NOTES/S4.pdf (13 pages, 241499 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
- 56 named destinations out of 1000 (max. 500000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 58 named destinations out of 1000 (max. 500000)
  30413 words of extra memory for PDF output out of 35830 (max. 10000000)
 
