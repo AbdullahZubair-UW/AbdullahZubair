@@ -1,0 +1,73 @@
+% Prepared by Calvin Kent
+%
+% Lecture Template v19.02
+%
+%%% 201901/MATHxxx/Notes
+%
+\documentclass[11pt,oneside]{book} %
+\usepackage{CKpreamble}
+\usepackage{CKlecture}
+%
+\renewcommand*{\doctitle}{Chapter Based Lecture Notes}
+%\makeatletter\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}\makeatother % only used in class based
+\begin{document}
+	% Start of Class settings
+	\renewcommand*{\term}{Term 2000} % Term
+	\renewcommand*{\coursecode}{MATH 000} % Course code
+	\renewcommand*{\coursename}{Course Name} % Full course name
+	\renewcommand*{\profname}{Prof Name} % Prof Name
+	\renewcommand*{\colink}{http://www.student.math.uwaterloo.ca/~c2kent} % Course outline link
+	% End of Class settings
+	\setfigpath
+	\pagenumbering{roman}
+	\pagestyle{plain}
+	\clearpage
+	\pagenumbering{arabic}
+	\pagestyle{chapterlecture}
+	%%% Note to user: CTRL + F <CHANGE ME:> (without the angular brackets) in CKpreamble to specify graphics paths accordingly.
+	%%% If a new chapter was started in the middle of a lecture, %\fixchap{Second Chapter} must be used immediately above the next lecture.
+	% Course notes start
+	\setchap{1}{Formulations}[1][x]
+	% Start of lecture % {00 January 2019}
+		\chapter{\chapname\chaplec}
+		\section{Introduction}
+		\begin{defn*}
+			An \emph{Abstract optimization problem (P)} is a problem where we are given,
+			\begin{itemize}
+				\item \textbf{Goal: }A set $A\subseteq \R^n$ and a function $f \colon A \rightarrow \R$
+				\item \textbf{Goal: }Find $x\in A$ that min/max $f$.
+			\end{itemize}
+		\end{defn*}
+		\begin{defn*}
+			We define different optimization problems;
+			\begin{itemize}
+				\item \textbf{Linear Programming (LP): } $A$ is implicitly given by linear constraints, and $f$ is a linear function.
+				\item \textbf{Integer Programming (IP): } Similar to LP however now we optimize over integer points in $A$.
+				\item \textbf{Nonlinear Programming (NLP): } $A$ is given by non-linear constraints, and $f$ is a non-linear function.
+			\end{itemize}
+		\end{defn*}
+
+
+		\section{Components of a Math Model}
+		\begin{defn*}
+			Components;
+			\begin{itemize}
+				\item \textbf{Decision Variables: } Capture unknown info.
+				\item \textbf{Constraints:} Describe which assignments to variables are \emph{feasible}
+				\item \textbf{Objective function: }A function of the variables that we are minimizing/maximizing.
+			\end{itemize}
+
+		\end{defn*}
+		
+
+
+
+
+	% End of lecture % 
+\end{document}
+%\fixchap{Second Chapter}
+%	\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.75\linewidth]{p}
+%	\caption{caption.\label{fig:}}
+%	\end{figure}
