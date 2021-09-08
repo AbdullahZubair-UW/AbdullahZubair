@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1631109216 "/Users/abdullah/AbdullahZubair/MATH 235/C3.tex" "/Users/abdullah/AbdullahZubair/MATH 235/C3.pdf" "C3" 1631109218
-  "/Users/abdullah/AbdullahZubair/MATH 235/C3.aux" 1631109218 471 87228883acdaaf9048e4cb4bb4109db6 ""
-  "/Users/abdullah/AbdullahZubair/MATH 235/C3.tex" 1631109216 6182 4829d91e488ea849cfa3d0d6fa4296a4 ""
+["pdflatex"] 1631109668 "/Users/abdullah/AbdullahZubair/MATH 235/C3.tex" "/Users/abdullah/AbdullahZubair/MATH 235/C3.pdf" "C3" 1631109670
+  "/Users/abdullah/AbdullahZubair/MATH 235/C3.aux" 1631109670 597 d10dd8020611f0ce920f09b9df73659c ""
+  "/Users/abdullah/AbdullahZubair/MATH 235/C3.tex" 1631109666 6643 163cc3a1f8c5e89852b14fa97a6d6e9a ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -287,11 +287,11 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "C3.aux" 1631109218 471 87228883acdaaf9048e4cb4bb4109db6 "pdflatex"
-  "C3.tex" 1631109216 6182 4829d91e488ea849cfa3d0d6fa4296a4 ""
+  "C3.aux" 1631109670 597 d10dd8020611f0ce920f09b9df73659c "pdflatex"
+  "C3.tex" 1631109666 6643 163cc3a1f8c5e89852b14fa97a6d6e9a ""
   (generated)
-  "C3.log"
-  "C3.aux"
   "C3.pdf"
-  "/Users/abdullah/AbdullahZubair/MATH 235/C3.pdf"
   "/Users/abdullah/AbdullahZubair/MATH 235/C3.log"
+  "C3.aux"
+  "/Users/abdullah/AbdullahZubair/MATH 235/C3.pdf"
+  "C3.log"
