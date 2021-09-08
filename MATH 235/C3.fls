@@ -2,8 +2,8 @@ PWD /Users/abdullah/AbdullahZubair/MATH 235
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/abdullah/AbdullahZubair/MATH 235/C2.tex
-OUTPUT /Users/abdullah/AbdullahZubair/MATH 235/C2.log
+INPUT /Users/abdullah/AbdullahZubair/MATH 235/C3.tex
+OUTPUT /Users/abdullah/AbdullahZubair/MATH 235/C3.log
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo
@@ -353,7 +353,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libr
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT /Users/abdullah/AbdullahZubair/MATH 235/C2.pdf
+OUTPUT /Users/abdullah/AbdullahZubair/MATH 235/C3.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
@@ -369,9 +369,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype-pdftex.de
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
-INPUT /Users/abdullah/AbdullahZubair/MATH 235/C2.aux
-INPUT /Users/abdullah/AbdullahZubair/MATH 235/C2.aux
-OUTPUT /Users/abdullah/AbdullahZubair/MATH 235/C2.aux
+INPUT /Users/abdullah/AbdullahZubair/MATH 235/C3.aux
+INPUT /Users/abdullah/AbdullahZubair/MATH 235/C3.aux
+OUTPUT /Users/abdullah/AbdullahZubair/MATH 235/C3.aux
 INPUT /usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -430,21 +430,12 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/abdullah/AbdullahZubair/MATH 235/C2.aux
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
+INPUT /Users/abdullah/AbdullahZubair/MATH 235/C3.aux
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb

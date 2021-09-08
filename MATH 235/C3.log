@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 SEP 2021 09:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 SEP 2021 09:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/abdullah/AbdullahZubair/MATH 235/C2.tex"
-(/Users/abdullah/AbdullahZubair/MATH 235/C2.tex
+**"/Users/abdullah/AbdullahZubair/MATH 235/C3.tex"
+(/Users/abdullah/AbdullahZubair/MATH 235/C3.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -912,30 +912,12 @@ File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 \c@tcb@cnt@example=\count376
 \c@tcb@cnt@algorithm=\count377
 \c@tcb@cnt@properties=\count378
- (/Users/abdullah/AbdullahZubair/MATH 235/C2.aux
-
-LaTeX Warning: Label `thm:label' multiply defined.
-
-
-LaTeX Warning: Label `lem:label' multiply defined.
-
-
-LaTeX Warning: Label `def:label' multiply defined.
-
-
-LaTeX Warning: Label `lem:label' multiply defined.
-
-
-LaTeX Warning: Label `def:label' multiply defined.
-
-
-LaTeX Warning: Label `def:label' multiply defined.
-
+ (/Users/abdullah/AbdullahZubair/MATH 235/C3.aux
 
 LaTeX Warning: Label `def:label' multiply defined.
 
 )
-\openout1 = `C2.aux'.
+\openout1 = `C3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 199.
 LaTeX Font Info:    ... okay on input line 199.
@@ -1069,28 +1051,28 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1
-
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] 
+ 
 AED: lastpage setting LastPage
-[3] (/Users/abdullah/AbdullahZubair/MATH 235/C2.aux)
+[1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/abdullah/AbdullahZubair/MATH 235/C3.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 50903 strings out of 480608
- 1313725 string characters out of 5903631
- 1886235 words of memory out of 5000000
- 66001 multiletter control sequences out of 15000+600000
- 544276 words of font info for 81 fonts, out of 8000000 for 9000
+ 50849 strings out of 480608
+ 1313039 string characters out of 5903631
+ 1882219 words of memory out of 5000000
+ 65971 multiletter control sequences out of 15000+600000
+ 541302 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,103p,866b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "/Users/abdullah/AbdullahZubair/MATH 235/C2.pdf" (3 pages, 110441 bytes).
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "/Users/abdullah/AbdullahZubair/MATH 235/C3.pdf" (1 page, 94656 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 15005 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 13981 words of extra memory for PDF output out of 14400 (max. 10000000)
 
