@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 SEP 2021 08:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 SEP 2021 09:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -919,6 +919,21 @@ LaTeX Warning: Label `thm:label' multiply defined.
 
 LaTeX Warning: Label `lem:label' multiply defined.
 
+
+LaTeX Warning: Label `def:label' multiply defined.
+
+
+LaTeX Warning: Label `lem:label' multiply defined.
+
+
+LaTeX Warning: Label `def:label' multiply defined.
+
+
+LaTeX Warning: Label `def:label' multiply defined.
+
+
+LaTeX Warning: Label `def:label' multiply defined.
+
 )
 \openout1 = `C2.aux'.
 
@@ -1054,28 +1069,28 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- 
-AED: lastpage setting LastPage
-[1
+ [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/abdullah/AbdullahZubair/MATH 235/C2.aux)
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] 
+AED: lastpage setting LastPage
+[3] (/Users/abdullah/AbdullahZubair/MATH 235/C2.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 50869 strings out of 480608
- 1313309 string characters out of 5903631
- 1882226 words of memory out of 5000000
- 65985 multiletter control sequences out of 15000+600000
- 543110 words of font info for 70 fonts, out of 8000000 for 9000
+ 50903 strings out of 480608
+ 1313725 string characters out of 5903631
+ 1886235 words of memory out of 5000000
+ 66001 multiletter control sequences out of 15000+600000
+ 544276 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,8n,103p,866b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "/Users/abdullah/AbdullahZubair/MATH 235/C2.pdf" (1 page, 68091 bytes).
+ 64i,12n,103p,866b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "/Users/abdullah/AbdullahZubair/MATH 235/C2.pdf" (3 pages, 110441 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 12445 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 15005 words of extra memory for PDF output out of 17280 (max. 10000000)
 
