@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 SEP 2021 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 SEP 2021 14:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/abdullah/AbdullahZubair/CO 250/Notes/M1.tex"
-(/Users/abdullah/AbdullahZubair/CO 250/Notes/M1.tex
+**"/Users/abdullah/AbdullahZubair/CO 250/Notes/M1-2.tex"
+(/Users/abdullah/AbdullahZubair/CO 250/Notes/M1-2.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
 \c@chapter=\count168
@@ -1126,15 +1126,15 @@ Package thmtools Info: Key `qed' (with value `\qedsymbol ')
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-\M1@idxfile=\write7
-\openout7 = `M1.idx'.
+\M1-2@idxfile=\write7
+\openout7 = `M1-2.idx'.
 
 
-Writing index file M1.idx
-) (/Users/abdullah/AbdullahZubair/CO 250/Notes/M1.aux
+Writing index file M1-2.idx
+) (/Users/abdullah/AbdullahZubair/CO 250/Notes/M1-2.aux
 \c@pagesLTS.arabic.1.local.cnt=\count416
 )
-\openout1 = `M1.aux'.
+\openout1 = `M1-2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -1235,12 +1235,12 @@ LaTeX Info: Redefining \nameref on input line 13.
 * \topmargin=-31.8738pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=62.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=47.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1273,13 +1273,21 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \c@pagesLTS.double.arabic=\count428
 \c@pagesLTS.current.local.arabic=\count429
 
-Chapter 1.
-Package hyperref Info: bookmark level for unknown defn* defaults to 0 on input line 35.
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 37.
+Chapter 2.
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 35.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-) 
+)
+Package hyperref Info: bookmark level for unknown defn* defaults to 0 on input line 43.
+Package hyperref Info: bookmark level for unknown rem defaults to 0 on input line 50.
+ 
 AED: pageslts setting LastPage 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
 [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -1287,8 +1295,8 @@ AED: pageslts setting LastPage
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 67.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 66.
 \c@pagesLTS.arabic.1.local.count=\count430
  
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -1299,23 +1307,23 @@ AED: pageslts setting LastPages via AfterLastShipout
 Package pageslts Info: Total number of pages is odd.
 
 
-(/Users/abdullah/AbdullahZubair/CO 250/Notes/M1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+(/Users/abdullah/AbdullahZubair/CO 250/Notes/M1-2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 45753 strings out of 480608
- 985405 string characters out of 5903631
- 1492650 words of memory out of 5000000
- 60787 multiletter control sequences out of 15000+600000
- 547924 words of font info for 75 fonts, out of 8000000 for 9000
+ 45758 strings out of 480608
+ 985426 string characters out of 5903631
+ 1492641 words of memory out of 5000000
+ 60788 multiletter control sequences out of 15000+600000
+ 549439 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,107p,1237b,2324s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on "/Users/abdullah/AbdullahZubair/CO 250/Notes/M1.pdf" (1 page, 125535 bytes).
+ 72i,11n,107p,1239b,2324s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on "/Users/abdullah/AbdullahZubair/CO 250/Notes/M1-2.pdf" (1 page, 130223 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
