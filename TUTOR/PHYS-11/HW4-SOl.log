@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 SEP 2021 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 SEP 2021 12:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1623,10 +1623,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 561--561
 
  []
 
-[9] ( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-SUB ) ( FP-CLIP ) ) ) [10] 
+[9] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 605.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 605.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 586.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 586.
 \c@pagesLTS.arabic.1.local.count=\count447
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -1634,26 +1634,26 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is even.
+Package pageslts Info: Total number of pages is odd.
 
 
 (/Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 605.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 605.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 586.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 586.
  ) 
 Here is how much of TeX's memory you used:
- 53901 strings out of 480608
- 1172357 string characters out of 5903631
- 1857434 words of memory out of 5000000
- 68490 multiletter control sequences out of 15000+600000
- 616696 words of font info for 159 fonts, out of 8000000 for 9000
+ 53891 strings out of 480608
+ 1172238 string characters out of 5903631
+ 1857346 words of memory out of 5000000
+ 68486 multiletter control sequences out of 15000+600000
+ 616605 words of font info for 158 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,12n,127p,1241b,2644s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.pdf (10 pages, 230457 bytes).
+Output written on /Users/abdullah/AbdullahZubair/TUTOR/PHYS-11/HW4-SOL.pdf (9 pages, 227457 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 210 compressed objects within 3 object streams
- 88 named destinations out of 1000 (max. 500000)
- 29357 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 29349 words of extra memory for PDF output out of 29859 (max. 10000000)
 
