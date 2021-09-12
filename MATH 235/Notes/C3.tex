@@ -197,8 +197,8 @@
 
 
 \begin{document}
-\setcounter{section}{1}
-\section{Matrix Multiplication and Systems of Linear Equations}
+\setcounter{section}{2}
+\section{Matrix Multiplication, Systems of Linear Equations}
 \subsection{Matrix Multiplication}
 
 \begin{definition}{Matrix Multiplication}{label}
@@ -228,7 +228,7 @@
         \begin{align*}
             A(B + C) = AB + AC \tag{Left distributivity}
         \end{align*}
-        \item FOr $A,B \in M_{m\times n}(\F)$, $C\in M_{n\times p}$
+        \item For $A,B \in M_{m\times n}(\F)$, $C\in M_{n\times p}$
         \begin{align*}
             (A + B)C = AC + BC \tag{Right distributivity}
         \end{align*}
@@ -249,6 +249,55 @@
 \end{properties}
 
 \subsection{Solving Systems of Linear Equations}
+\begin{definition}{Systems of Linear Equations, Homogenous and Inhomogenousand}{label}
+  A \emph{system of linear equations} is a simultaneous set of equations of the form
+  $$\begin{cases}
+    a_{11}x_1 + a_{12}x_2 + \dots + x_{1n}x_n = b_1\\
+    a_{21}x_1 + a_{22}x_2 + \dots + x_{2n}x_n = b_2\\
+    \vdots\\
+    a_{m1}x_1 + a_{m2}x_2 + \dots + x_{mn}x_n = b_m\\
+  \end{cases}$$
+  Where the quantities $x_1,\dots,x_n$ are the \emph{unknowns} and the numbers $a_{ij}$ and $b_i \in \mathbb F$. We would like to determine which values $x_1,\dots,x_n \in  \mathbb F$ satisfy all $m$ equations. Such an assignment is known as a \emph{solution} to the system.\\
+
+  If $b_1 = \dots = b_n = 0$ then the system is refereed to as a \emph{homogenous}. Otherwise, the system is called \emph{inhomogeneous}
+  
+\end{definition}
+\begin{definition}{Elementary Row Operations}{label}
+  Suppose $A\in M_{m\times n}(\F)$. An \emph{elementary row operation} is an operation preformed on the entries of $A$. The three types of operations are;
+  \begin{enumerate}
+    \item Swap two distinct rows of $A$, $\text{Row}_i \leftrightarrow \text{Row}_j$
+    \item Multiply all entires of a row $\text{Row}_i$ by a \emph{non-zero} scalar $c\in \mathbb F$,  $\text{Row}_i \rightarrow c\text{Row}_i$
+    \item Add a multiple of some row $\text{Row}_j$ to row $\text{Row}_i$ $(i \neq j)$, $\text{Row}_i \rightarrow \text{Row}_i + c\text{Row}_j$
+  \end{enumerate}
+Note that all of the operations are \emph{invertible}. For example, if $A_1$ was obtained from $A$ by preforming one of the three operations, then there exists an operation of the same type to reobtain $A$. 
+\end{definition}
+
+\begin{definition}{Row equiavalence}{label}
+  If $B$ is a matrix obtained from $A$ by preforming some finite number of operations, then we say that $A$ and $B$ are \emph{row equivalent}. 
+\end{definition}
+The importance of row equivalency is the fact that the solutions to $A\vb x = \vb 0$ is preserved in $B\vb x = \vb 0$, this is primarily due to the fact that row operations are reversible and that $A$ can be obtained from $B$ by preforming some finite number of row operations.
+\begin{definition}{REF, RREF}{label}
+  Suppose $R\ in M_{m\times n}(\F)$. We say that $R$ is in \emph{row echelon form}(REF) if:
+  \begin{enumerate}
+    \item All zero rows are below all non-zero rows
+    \item In any non-zero row, the \emph{pivot} (first non-zero entry in the row) has only zero entires below in the same column.
+  \end{enumerate}
+  We say that $R$ is in \emph{reduced row echelon form}(RREF) if:
+  \begin{enumerate}
+    \item All zero rows are below all non-zero rows
+    \item In any non-zero row, the \emph{pivot}(first non-zero entry in the row) is $1$ and it is the only non-zero entry in the corresponding column. 
+  \end{enumerate}
+  
+\end{definition}
+
+
+\begin{theorem}{}{label}
+  Suppose $A \in M_{m\times n}(\F)$, and let $\vb b$ be a non-zero vector in $\F^m$.
+  \begin{enumerate}
+    \item The set of solutions $\vb x\in F^n$ to the homogenous system $A\vb x = \vb 0$ forms a subspace of $\F^n$.
+    \item If $\vb x_p$ is some particular solution to the inhomogeneous system $A\vb x = \vb b$, then every solution to the inhomogeneous system has the form $\vb y + \vb x_p$, where $A\vb y = \vb 0$. Conversely, every vector of the form $\vb y + \vb x_p$, where $A\vb y = \vb 0$, a solution to $A\vb x = \vb b$ 
+  \end{enumerate}
+\end{theorem}
 
 \end{document}
 
