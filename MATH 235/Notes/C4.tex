@@ -197,38 +197,77 @@
 
 
 \begin{document}
-\section{Definition and Examples of Vector Spaces}
-
-\begin{definition}{Vector space}{label}
-A vector space over $\F$ is a set $V$ equipped with two operations, \emph{addition} and \emph{scalar multiplication}. The elements of $V$ are usually called \emph{vectors}\\
-
-
-The addition operation takes two elements $v,w\in V$ and produces a new element $v + w\in v$, called the sum of the vectors. Addition is defined with of vectors obeys four key properties:
-\begin{enumerate}
-\item For all $v,w,x\in V$, $(v + w) + x = v + (w + x)$. (Associativity of addition)
-\item There is a vector $0\in V$, called a \emph{zero vector}, such that $v + 0 = v$ for all $v\in V$. (Existence of a zero vector)
-\item For all $v\in V$, there is a vector $-v\in V$ such that $v + (-v) = 0$. (Existence of an \emph{additive inverse}).
-\item For all $v,w \in V$, $v + w = w + v$. (Commutativity of addition)
-
-\end{enumerate}
-
-The scalar multiplication takes an element $c \in \F$ (called the scalar) along with a vector $v\in V$, and produces $cv\in V$. Scalar multiplication of vectors obey four properties:
-\begin{enumerate}
-\item $\forall c_1,c_2 \in F$, $\forall v\in V$, $c_1(c_2v) = (c_1c_2)v$
-\item $\forall v\in v$, $1 \cdot v = v$
-\item $\forall c_1,c_2 \in F$, $\forall v\in v$, $(c_1 + c_2)v = c_1v + c_2v$
-\item $\forall c\in \F$, $\forall v,w\in V$, $c(v + w) = cv + cw$
-\end{enumerate}
+\setcounter{section}{2}
+\section{Linear Independence, Span, Basis, Dimension}
+\subsection{Linear Independence}
+\begin{definition}{Linear Independence}{label}
+    Let $V$ be a vector space and let $S\subseteq V$ (Possibly infinite). We say that $S$ is \emph{linearly independent} if the only solution to a finite linear combination of vectors that result in the zero vector is when all coefficients are zero. Or,
+    $$\forall v_1,\dots,v_n\in S, c_i\in \F, c_1v_1 + \dots + c_nv_n = 0 \implies c_1 = c_2 = \dots = c_n = 0$$
 
 \end{definition}
 
-In general, a \emph{field} is a set where you can add, subtract, multiply, and divide elements from the set in "familiar" ways, as you would see in vector spaces for example.
+
+\subsection{The Span of a Set}
+\begin{definition}{The Subspace Spanned by a Set}{label}
+Let $V$ be a vector space over $\F$, and let $S$ be a subset of $V$. The subspace spanned by $S$, $\Span S$,
+is the smallest subspace of $V$ containing $S$ (Set containment). $\Span S$ is determined by the following
+properties:
+\begin{enumerate}
+    \item $\Span S$ is a subspace of $V$, and $S\subseteq \Span S$.
+    \item If $W$ is a subspace of $V$ such that $S\subseteq W$, then $\Span S \subseteq W$.
+\end{enumerate}
+\end{definition}
 
 
+\begin{theorem}{}{label}
+Let $V$ be a vector space, and let $S$ be a subset of $V$. Then:
+\begin{enumerate}
+  \item If $\Span S$ exists, then it is unique.
+  \item $\Span S$ exists.
+  \item If $S = \{v_1,\dots ,v_n\}$, for some vectors $v_1,\dots,v_n \in \F$, then
+        $$\Span S = \{c_1v_1 + c_2v_2 + \dots + c_nv_n \colon c_1,\dots, c_n \in \F\}$$
+  \item We like to think that $\Span S$ is the set of all linear combinations of $S$. Therefore we conclude that every vector of the form $c_1v_1 + \dots c_nv_n$, $c_1,\dots, c_n \in \F$ is in $\Span S$.
+\end{enumerate}
+\end{theorem}
+The course notes mention that if $S$ is already a subspace of $V$, then $\Span S = S$.
 
+
+\subsection{Basis of a Vector Space}
+\begin{definition}{Basis of a Vector Space}{}{label}
+  Let $V$ be a vector space. A subset $B$ of $V$ is called a \emph{basis} for $V$ if:
+  \begin{enumerate}
+    \item $B$ is linearly independent.
+    \item $\Span B = V$.
+  \end{enumerate}
+\end{definition}
+\textbf{Remark: }Let $V = M_{m\times n}(\F)$, we say that $S = \{E_{ij} \colon 1 \leq n \leq m, 1 \leq j \leq n\}$ is a basis for $V$, called the \emph{standard basis of} $M_{m\times n}(\F)$.
+
+\begin{theorem}{}{label}
+  
+\end{theorem}
 
 
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
