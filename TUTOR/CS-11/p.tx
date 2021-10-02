@@ -1,0 +1,4 @@
+while counter <= 3 AND I == T
+
+    => What if on the first try the user fails to give the correct the string,
+    then the whole while loop breaks and the user :
