@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1632151078 "/Users/abdullah/AbdullahZubair/Resume.tex" "/Users/abdullah/AbdullahZubair/Resume.pdf" "Resume" 1632151079
-  "/Users/abdullah/AbdullahZubair/Resume.aux" 1632151079 1047 fa0e7a926285d214a2112d9a36ae778d ""
-  "/Users/abdullah/AbdullahZubair/Resume.tex" 1632151077 6154 33315907cabb09b02b06ca4f0ee65f74 ""
+["pdflatex"] 1636642386 "/Users/abdullah/AbdullahZubair/Resume.tex" "/Users/abdullah/AbdullahZubair/Resume.pdf" "Resume" 1636642387
+  "/Users/abdullah/AbdullahZubair/Resume.aux" 1636642387 1047 fa0e7a926285d214a2112d9a36ae778d ""
+  "/Users/abdullah/AbdullahZubair/Resume.tex" 1636642386 6169 630b1d6d60de3d5576f3996e27c24ef6 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -82,13 +82,13 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "Resume.aux" 1632151079 1047 fa0e7a926285d214a2112d9a36ae778d "pdflatex"
-  "Resume.out" 1632151079 156 23584bef6c7c286f6a47399827587294 "pdflatex"
-  "Resume.tex" 1632151077 6154 33315907cabb09b02b06ca4f0ee65f74 ""
+  "Resume.aux" 1636642387 1047 fa0e7a926285d214a2112d9a36ae778d "pdflatex"
+  "Resume.out" 1636642387 156 23584bef6c7c286f6a47399827587294 "pdflatex"
+  "Resume.tex" 1636642386 6169 630b1d6d60de3d5576f3996e27c24ef6 ""
   (generated)
-  "Resume.pdf"
-  "/Users/abdullah/AbdullahZubair/Resume.pdf"
-  "Resume.out"
-  "/Users/abdullah/AbdullahZubair/Resume.log"
   "Resume.log"
+  "/Users/abdullah/AbdullahZubair/Resume.log"
+  "/Users/abdullah/AbdullahZubair/Resume.pdf"
   "Resume.aux"
+  "Resume.pdf"
+  "Resume.out"

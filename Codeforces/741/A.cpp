@@ -43,6 +43,8 @@ long long gcd(long long a, long long b)
      
 }
 
+
+
 long long query(int L, int R){
     ll len = R - L + 1;
     ll k = bin_log[len];
